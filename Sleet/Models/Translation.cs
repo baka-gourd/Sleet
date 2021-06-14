@@ -11,7 +11,7 @@ namespace Sleet.Models {
         public string Content { get => GetContent(); set => Content = value; }
 
         public bool IsOriginalLanguage() => OriginalLanguage;
-
+        [Obsolete]
         public void SetOriginalLanguage(bool boolean) => OriginalLanguage = boolean;
 
         public LanguageCode GetLanguageCode() => Language;
