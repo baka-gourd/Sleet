@@ -16,9 +16,8 @@ namespace Sleet.Data
             base.OnConfiguring(optionsBuilder);
         }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Translation>().HasData()
+        protected override void OnModelCreating(ModelBuilder modelBuilder) {
+            modelBuilder.Entity<Translation>().HasData(Translations); //不知道怎么整先不报错再说
             base.OnModelCreating(modelBuilder);
         }
 
