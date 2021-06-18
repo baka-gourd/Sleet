@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Sleet.Models
 {
+    /// <summary>
+    /// Translation是单条翻译，需要成组使用
+    /// </summary>
     public class Translation
     {
         public Guid Id { get; set; }
@@ -14,6 +17,5 @@ namespace Sleet.Models
         public CultureInfo CultureInfo { get; set; }
         public string Content { get; set; }
         public List<Suggestion> Suggestions { get; set; }
-
     }
 }
