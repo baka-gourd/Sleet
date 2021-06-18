@@ -8249,11 +8249,6 @@ typescript@4.2.4:
   resolved "https://registry.nlark.com/typescript/download/typescript-4.2.4.tgz#8610b59747de028fda898a8aef0e103f156d0961"
   integrity sha1-hhC1l0feAo/aiYqK7w4QPxVtCWE=
 
-typescript@4.3.4:
-  version "4.3.4"
-  resolved "https://registry.nlark.com/typescript/download/typescript-4.3.4.tgz#3f85b986945bcf31071decdd96cf8bfa65f9dcbc"
-  integrity sha1-P4W5hpRbzzEHHezdls+L+mX53Lw=
-
 ua-parser-js@^0.7.28:
   version "0.7.28"
   resolved "https://registry.nlark.com/ua-parser-js/download/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
