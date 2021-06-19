@@ -1,14 +1,15 @@
-import { PureComponent } from "react";
 import * as ProjectCardStore from "../store/ProjectCard"
 import { RouteComponentProps } from 'react-router';
-import React from "react";
+import * as React from "react";
 import { connect } from "react-redux";
+import { ApplicationState } from '../store/index';
 
-type ProjectCardProps = ProjectCardStore.ProjectCardState &
-    typeof ProjectCardStore.ProjectCardActionCreators &
+type ProjectCardProps =
+    ProjectCardStore.ProjectCardState &
+    typeof ProjectCardStore.actionCreators &
     RouteComponentProps<{}>;
 
-export class ProjectCard extends PureComponent<ProjectCardProps>{
+export class ProjectCard extends React.PureComponent<ProjectCardProps>{
     public render() {
         return (
             <React.Fragment>
@@ -26,6 +27,6 @@ export class ProjectCard extends PureComponent<ProjectCardProps>{
 }
 
 export default connect(
-    (state: ProjectCardStore.ProjectCardState) => state,
-    ProjectCardStore.ProjectCardActionCreators
+    (state: ApplicationState) => state.projectcard,
+    ProjectCardStore.actionCreators
 )(ProjectCard);
