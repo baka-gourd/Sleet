@@ -4,11 +4,11 @@ export interface ProjectCardState{
     imageUrl: string,
     projectName: string,
     projectDescription: string,
-    isLock:boolean
+    isLock:boolean,
 }
 
-export interface LockProjectAction { type: 'LOCK_PROJECT' }
-export interface UnlockProjectAction { type: 'UNLOCK_PROJECT' }
+export interface LockProjectAction { type: 'LOCK_PROJECT' };
+export interface UnlockProjectAction { type: 'UNLOCK_PROJECT' };
 
 export type KnownAction = LockProjectAction | UnlockProjectAction;
 
@@ -25,11 +25,9 @@ export const reducer: Reducer<ProjectCardState> = (state: ProjectCardState | und
     const action = incomingAction as KnownAction;
     switch (action.type) {
         case 'LOCK_PROJECT':
-            state.isLock = true;
-            return state;
+            return { imageUrl: state.imageUrl, projectName: "114", projectDescription: state.projectDescription, isLock: true };
         case 'UNLOCK_PROJECT':
-            state.isLock = false;
-            return state;
+            return { imageUrl: state.imageUrl, projectName: "514", projectDescription: state.projectDescription, isLock: false };
         default:
             return state;
     }

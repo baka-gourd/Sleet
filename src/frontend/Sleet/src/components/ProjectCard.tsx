@@ -9,7 +9,7 @@ type ProjectCardProps =
     typeof ProjectCardStore.actionCreators &
     RouteComponentProps<{}>;
 
-export class ProjectCard extends React.PureComponent<ProjectCardProps>{
+class ProjectCard extends React.PureComponent<ProjectCardProps>{
     public render() {
         return (
             <React.Fragment>
@@ -17,8 +17,12 @@ export class ProjectCard extends React.PureComponent<ProjectCardProps>{
                     <img className="card-img-top" src={this.props.imageUrl } alt="Card image cap"/>
                     <div className="card-body">
                         <h5 className="card-title">{ this.props.projectName }</h5>
-                        <p className="card-text">{ this.props.projectDescription }</p>
-                        <button type="button" className="btn btn-success" onClick={() => this.props.lock() }>Lock!</button>
+                        <p className="card-text">
+                            {this.props.projectDescription}
+                            { this.props.isLock }
+                        </p>
+                        <button type="button" className="btn btn-danger" onClick={() => this.props.lock() }>Lock!</button>
+                        <button type="button" className="btn btn-success" onClick={() => this.props.unlock() }>Unlock!</button>
                     </div>
                 </div>
             </React.Fragment>
