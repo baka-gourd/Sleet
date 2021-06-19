@@ -6,7 +6,7 @@ import Counter from './components/Counter';
 import FetchData from './components/FetchData';
 
 import './custom.css'
-import { ProjectCard } from './components/ProjectCard';
+import ProjectCard from './components/ProjectCard';
 
 export default () => (
     <Layout>
