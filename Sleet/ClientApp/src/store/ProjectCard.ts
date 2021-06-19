@@ -25,12 +25,9 @@ export const reducer: Reducer<ProjectCardState> = (state: ProjectCardState | und
     const action = incomingAction as KnownAction;
     switch (action.type) {
         case 'LOCK_PROJECT':
-            let s = state;
-            s.projectDescription = "114";
-            return s;
+            return { imageUrl: state.imageUrl, projectName: "114", projectDescription: state.projectDescription, isLock: true };
         case 'UNLOCK_PROJECT':
-            state.projectDescription = "false";
-            return state;
+            return { imageUrl: state.imageUrl, projectName: "514", projectDescription: state.projectDescription, isLock: false };
         default:
             return state;
     }
