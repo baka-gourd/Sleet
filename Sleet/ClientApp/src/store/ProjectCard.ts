@@ -1,5 +1,4 @@
-import { Action } from "redux";
-import { Reducer } from "redux";
+import { Action,Reducer } from "redux";
 
 export interface ProjectCardState{
     imageUrl: string,
@@ -13,7 +12,7 @@ export interface UnlockProjectAction { type: 'UNLOCK_PROJECT' }
 
 export type ProjectCardAction = LockProjectAction | UnlockProjectAction;
 
-export const ProjectCardActionCreator = {
+export const ProjectCardActionCreators = {
     lock: () => ({ type: 'LOCK_PROJECT' } as LockProjectAction),
     unlock: () => ({ type: 'UNLOCK_PROJECT' } as UnlockProjectAction)
 }
