@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { ProjectCard } from './ProjectCard';
 
 const Home = () => (
   <div>
