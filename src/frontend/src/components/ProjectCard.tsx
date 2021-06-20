@@ -14,7 +14,7 @@ class ProjectCard extends React.PureComponent<ProjectCardProps>{
         return (
             <React.Fragment>
                 <div className="card" style={{ width: "18rem" }}>
-                    <img className="card-img-top" src={this.props.imageUrl } alt="Card image cap"/>
+                    <img className="card-img-top" src={this.props.imageUrl } alt="Card cap"/>
                     <div className="card-body">
                         <h5 className="card-title">{ this.props.projectName }</h5>
                         <p className="card-text">
