@@ -38,6 +38,8 @@ jobs:
           node-version: 16.30
     - name: Install yarn
       run: npm install -g yarn
+    - name: Run yarn install
+      run: yarn install
     - name: Run yarn build
       run: yarn build
     - name: Run yarn test
