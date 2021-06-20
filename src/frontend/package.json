@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@popperjs/core": "^2.9.2",
     "bootstrap": "^4.3.1",
     "connected-react-router": "6.5.2",
     "history": "4.10.1",
     "jquery": "^3.5.1",
     "merge": "1.2.1",
-    "popper.js": "^1.16.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-redux": "7.1.1",
@@ -38,14 +38,17 @@
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-react": "7.16.0",
     "nan": "^2.14.1",
-    "typescript": "3.6.4"
+    "openapi-typescript": "^4.0.1",
+    "openapi-typescript-codegen": "^0.9.3",
+    "typescript": "4.3.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "cross-env CI=true react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "eslint ./src/**/*.ts ./src/**/*.tsx"
+    "lint": "eslint ./src/**/*.ts ./src/**/*.tsx",
+    "api-gen": "openapi -i http://localhost:5000/swagger/v1/swagger.json -o src/services/openapi"
   },
   "eslintConfig": {
     "extends": "react-app"
