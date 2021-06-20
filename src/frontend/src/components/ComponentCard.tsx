@@ -33,7 +33,15 @@ export default class ComponentCard extends Component<ComponentCardProps> {
 
     render() {
         return (
-            <div className="card" style={{ width: "14rem" }}>
+            <div
+                className="card mr-2 ml-2 mt-2 mb-2"
+                style={{
+                    width: "12rem",
+                    display: "inline-block",
+                    cursor: "pointer",
+                }}
+                onClick={() => this.lock()}
+            >
                 <img
                     className="card-img-top"
                     src={this.props.imgUrl}
@@ -44,20 +52,6 @@ export default class ComponentCard extends Component<ComponentCardProps> {
                     <p className="card-text text-secondary">
                         {this.props.projectDescription}
                     </p>
-                    <button
-                        type="button"
-                        className="btn btn-danger"
-                        onClick={() => this.lock()}
-                    >
-                        Lock!
-                    </button>
-                    <button
-                        type="button"
-                        className="btn btn-success"
-                        onClick={() => this.unlock()}
-                    >
-                        Unlock!
-                    </button>
                 </div>
             </div>
         );
