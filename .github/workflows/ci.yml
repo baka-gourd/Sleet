@@ -39,7 +39,7 @@ jobs:
     - name: Run npm install
       run: npm install
     - name: Run npm build
-      run: npm build:prod
+      run: npm run build:prod
     - name: Run npm test
       run: npm test
      
