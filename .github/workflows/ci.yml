@@ -36,12 +36,10 @@ jobs:
       uses: actions/setup-node@v2.1.5
       with:
           node-version: 16.30
-    - name: Install yarn
-      run: npm install -g yarn
-    - name: Run yarn install
-      run: yarn install
-    - name: Run yarn build
-      run: yarn build
-    - name: Run yarn test
-      run: yarn test
+    - name: Install Angular Cli
+      run: npm install -g @angular/cli
+    - name: Run ng build
+      run: ng build
+    - name: Run ng test
+      run: ng test
      
