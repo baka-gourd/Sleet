@@ -36,12 +36,10 @@ jobs:
       uses: actions/setup-node@v2.1.5
       with:
           node-version: 16.30
-    - name: Install Angular Cli
-      run: npm install -g @angular/cli
     - name: Run npm install
       run: npm install
-    - name: Run ng build
-      run: ng build
-    - name: Run ng test
-      run: ng test
+    - name: Run npm build
+      run: npm build:prod
+    - name: Run npm test
+      run: npm test
      
