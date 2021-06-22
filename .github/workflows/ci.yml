@@ -38,6 +38,8 @@ jobs:
           node-version: 16.30
     - name: Install Angular Cli
       run: npm install -g @angular/cli
+    - name: Run npm install
+      run: npm install
     - name: Run ng build
       run: ng build
     - name: Run ng test
