@@ -32,9 +32,10 @@ export const reducer: Reducer<ProjectPageState> = (
   incomingAction: Action
 ): ProjectPageState => {
   if (state === undefined) {
+    const projectChildren = ["114", "214", "31919", "42345", "5"]
     return {
-      projects: ["114", "214", "31919", "42345", "5"],
-      displayProjects: ["114", "214", "31919", "42345", "5"],
+      projects: projectChildren,
+      displayProjects: projectChildren,
       word: "",
     };
   }
