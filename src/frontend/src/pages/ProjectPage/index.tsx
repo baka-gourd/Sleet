@@ -9,28 +9,38 @@ type ProjectPagesProps = ProjectPageStore.ProjectPageState &
     RouteComponentProps<{}>;
 
 class ProjectPage extends React.PureComponent<ProjectPagesProps> {
+    wordInput = React.createRef<HTMLInputElement>();
+    handleWord = () => {
+        if (this.wordInput.current?.value === undefined) return;
+        this.props.setWord(this.wordInput.current?.value);
+    };
     render() {
         return (
             <React.Fragment>
+                <div className="input-group mb-3">
+                    <div className="input-group-prepend">
+                        <span className="input-group-text" id="basic-addon1">
+                            项目名称
+                        </span>
+                    </div>
+                    <input
+                        type="text"
+                        className="form-control"
+                        placeholder="项目名称"
+                        aria-label="projectname"
+                        aria-describedby="basic-addon1"
+                        ref={this.wordInput}
+                        onBlur={() => {
+                            this.handleWord();
+                            this.props.filterList();
+                        }}
+                    />
+                </div>
                 <ul>
-                    {this.props.projects.map((num, index) => {
+                    {this.props.displayProjects.map((num, index) => {
                         return <li key={index}>{num}</li>;
                     })}
                 </ul>
-                <button
-                    type="button"
-                    className="btn btn-primary"
-                    onClick={() => this.props.prev()}
-                >
-                    Prev
-                </button>
-                <button
-                    type="button"
-                    className="btn btn-primary"
-                    onClick={() => this.props.next()}
-                >
-                    Next
-                </button>
             </React.Fragment>
         );
     }

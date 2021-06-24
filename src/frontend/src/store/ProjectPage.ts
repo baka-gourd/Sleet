@@ -1,26 +1,30 @@
 import { Reducer, Action } from "redux";
 
 export interface ProjectPageState {
-  page: number;
-  projects: number[];
-}
-
-export interface NextPageAction {
-  type: "NEXT_PAGE";
-}
-export interface PrevPageAction {
-  type: "PREV_PAGE";
+  word: string;
+  projects: string[];
+  displayProjects: string[];
 }
 export interface GetListAction {
   type: "GET_LIST";
 }
 
-export type KnownAction = NextPageAction | PrevPageAction | GetListAction;
+export interface FilterListAction {
+  type: "FILTER_LIST";
+}
+
+export interface SetWordAction {
+  type: "SET_WORD";
+  word: string;
+}
+
+export type KnownAction = GetListAction | FilterListAction | SetWordAction;
 
 export const actionCreators = {
-  next: () => ({ type: "NEXT_PAGE" } as NextPageAction),
-  prev: () => ({ type: "PREV_PAGE" } as PrevPageAction),
   getList: () => ({ type: "GET_LIST" } as GetListAction),
+  filterList: () => ({ type: "FILTER_LIST" } as FilterListAction),
+  setWord: (word: string) =>
+    ({ type: "SET_WORD", word: word } as SetWordAction),
 };
 
 export const reducer: Reducer<ProjectPageState> = (
@@ -28,20 +32,24 @@ export const reducer: Reducer<ProjectPageState> = (
   incomingAction: Action
 ): ProjectPageState => {
   if (state === undefined) {
-    return { page: 1, projects: [1, 2, 3, 4, 5] };
+    return {
+      projects: ["114", "214", "31919", "42345", "5"],
+      displayProjects: ["114", "214", "31919", "42345", "5"],
+      word: "",
+    };
   }
 
   const action = incomingAction as KnownAction;
   switch (action.type) {
-    case "NEXT_PAGE":
-      console.log(state.page);
-      return { ...state, page: state.page + 1 };
-    case "PREV_PAGE":
-      console.log(state.page);
-      if (state.page === 1) return state;
-      return { ...state, page: state.page - 1 };
     case "GET_LIST":
-      return { ...state, projects: [1, 2, 3, 4, 5, 6, 7] };
+      return { ...state, projects: ["114", "214", "31919", "42345", "5"] };
+    case "FILTER_LIST":
+      const filtered = state.projects.filter((str) => {
+        return str.indexOf(state.word) !== -1;
+      });
+      return { ...state, displayProjects: filtered };
+    case "SET_WORD":
+      return { ...state, word: action.word };
     default:
       return state;
   }
