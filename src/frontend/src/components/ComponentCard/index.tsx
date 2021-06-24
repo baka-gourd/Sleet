@@ -1,4 +1,3 @@
-import { type } from "os";
 import React, { Component } from "react";
 
 type ComponentCardProps = {
@@ -9,7 +8,7 @@ type ComponentCardProps = {
 
 export default class ComponentCard extends Component<ComponentCardProps> {
     static defaultProps = {
-        imgUrl: "112",
+        imgUrl: "./favicon.ico",
         projectName: "Default",
         projectDescription: "No description.",
         isLock: false,

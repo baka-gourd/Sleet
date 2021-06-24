@@ -1,6 +1,6 @@
 import * as React from "react";
 import { connect } from "react-redux";
-import ComponentCard from "./ComponentCard";
+import ComponentCard from "../ComponentCard";
 
 const Home = () => (
     <div>
