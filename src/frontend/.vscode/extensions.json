@@ -1,7 +1,6 @@
 {
     "recommendations": [
         "bradlc.vscode-tailwindcss",
-        "esbenp.prettier-vscode",
         "johnpapa.vscode-peacock",
         "eg2.vscode-npm-script",
         "dbaeumer.vscode-eslint",
