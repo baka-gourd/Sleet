@@ -14,7 +14,7 @@ const routes: Routes = [
       { path: 'translation-rules', component: TranslationRulesComponent }
     ]
   },
-  { path: '', component: HomeComponent, pathMatch: 'full' },
+  { path: '', redirectTo: '/home/welcome', pathMatch: 'full' },
   { path: '**', component: HomeComponent }
 ];
 
