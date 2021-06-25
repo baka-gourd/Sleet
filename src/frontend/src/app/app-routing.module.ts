@@ -4,8 +4,10 @@ import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 
 const routes: Routes = [
-  {path:'projects',component:ProjectsComponent},
-  {path:'',component:HomeComponent}
+  { path: 'projects', component: ProjectsComponent },
+  { path: 'home', component: HomeComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '**', component: HomeComponent }
 ];
 
 @NgModule({
