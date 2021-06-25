@@ -1,51 +1,33 @@
-<nav class="bg-white dark:bg-gray-800">
-  <div
-    class="
+<nav class="bg-gray-50 dark:bg-gray-800">
+  <div class="
       container
       px-6
       py-3
       mx-auto
       md:flex md:justify-between md:items-center
-    "
-  >
+    ">
     <div class="items-center md:flex">
       <div class="flex flex-col md:flex-row md:mx-6">
-        <div class="px-2 py-3">
-          <a href="/">
+        <div class="ml-2 mt-3">
+          <a [routerLink]="['/']" routerLinkActive="router-link-active">
             <img src="assets/brand.png" alt="CFPA" />
           </a>
         </div>
-        <div class="px-2 py-5 text-gray-800 relative">
+        <div class="ml-2 mt-5 text-gray-400">
           <p class="font-weight-bold">Cirno Fans Protection Association</p>
         </div>
       </div>
     </div>
     <div class="items-center md:flex">
       <div class="flex flex-col md:flex-row md:mx-6">
-        <a
-          class="px-2 py-3"
-          [routerLink]="['/']"
-          routerLinkActive="router-link-active"
-          >Home</a
-        >
-        <a
-          class="px-2 py-3"
-          [routerLink]="['/projects']"
-          routerLinkActive="router-link-active"
-          >Projects</a
-        >
-        <a
-          class="px-2 py-3"
-          [routerLink]="['/']"
-          routerLinkActive="router-link-active"
-          >Profile</a
-        >
-        <a
-          class="px-2 py-3"
-          [routerLink]="['/']"
-          routerLinkActive="router-link-active"
-          >About</a
-        >
+        <a class="bg-white text-black font-bold text-xs mt-4 py-3 px-3 rounded shadow-md hover:shadow-lg outline-none focus:outline-none mr-3 mb-1 ease-linear transition-all duration-150"
+          type="button" [routerLink]="['/']" routerLinkActive="text-white bg-blue-500">Home</a>
+        <a class="bg-white text-black font-bold text-xs mt-4 py-3 px-3 rounded shadow-md hover:shadow-lg outline-none focus:outline-none mr-3 mb-1 ease-linear transition-all duration-150"
+          type="button" [routerLink]="['/projects']" routerLinkActive="text-white bg-blue-500">Projects</a>
+        <a class="bg-white text-black font-bold text-xs mt-4 py-3 px-3 rounded shadow-md hover:shadow-lg outline-none focus:outline-none mr-3 mb-1 ease-linear transition-all duration-150"
+          type="button" [routerLink]="['/']" routerLinkActive="text-white bg-blue-500">Profile</a>
+        <a class="bg-white text-black font-bold text-xs mt-4 py-3 px-3 rounded shadow-md hover:shadow-lg outline-none focus:outline-none mr-3 mb-1 ease-linear transition-all duration-150"
+          type="button" [routerLink]="['/']" routerLinkActive="text-white bg-blue-500">About</a>
       </div>
     </div>
   </div>
