@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { Project } from 'src/services/openapi';
-import { ProjectService } from '../project.service';
+import { ProjectsService } from '../project.service';
 
 @Component({
   selector: 'app-projects',
@@ -9,22 +9,22 @@ import { ProjectService } from '../project.service';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-  projects:Project[] = []
-  filtered:Project[] = []
+  projects: Project[] = []
+  filtered: Project[] = []
   searchText = new FormControl('')
-  constructor(private projectService:ProjectService) { }
+  constructor(private projectService: ProjectsService) { }
 
   ngOnInit(): void {
     this.getProjects()
-    this.searchText.valueChanges.subscribe(()=>{
-      this.filtered =this.projects.filter(project=>{
+    this.searchText.valueChanges.subscribe(() => {
+      this.filtered = this.projects.filter(project => {
         return project.name?.indexOf(this.searchText.value) !== -1;
       });
     })
   }
 
-  getProjects():void{
-    this.projectService.getProjects().subscribe(projects=>{
+  getProjects(): void {
+    this.projectService.getProjects().subscribe(projects => {
       this.projects = projects;
       this.filtered = this.projects
     });
