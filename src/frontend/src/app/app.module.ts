@@ -7,9 +7,11 @@ import { ProjectComponent } from './project/project.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
+import { TranslationRulesComponent } from './home/translation-rules/translation-rules.component';
+import { WelcomeComponent } from './home/welcome/welcome.component';
 
 @NgModule({
-  declarations: [AppComponent, ProjectComponent, ProjectsComponent, HomeComponent, NavComponent],
+  declarations: [AppComponent, ProjectComponent, ProjectsComponent, HomeComponent, NavComponent, TranslationRulesComponent, WelcomeComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule,ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent,NavComponent],
