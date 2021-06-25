@@ -1,0 +1,8 @@
+<div class="container w-full">
+  <input class="w-full" type="text" [formControl]="searchText">
+    <ul>
+        <li *ngFor="let project of filtered">
+          {{project.name}}
+        </li>
+    </ul>
+</div>
