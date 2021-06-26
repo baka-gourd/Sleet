@@ -7,17 +7,12 @@ import { WelcomeComponent } from './components/welcome/welcome.component'
 import { ProjectPageComponent } from './pages/project-page/project-page.component';
 
 const routes: Routes = [
+  { path: 'projects', loadChildren: () => import('./routes/projects/projects.module').then(m => m.ProjectsModule) },
   {
-    path: 'projects', children: [
-      { path: 'project', component: ProjectPageComponent },
-      { path: '**', component: ProjectsComponent },
-    ]
-  },
-  {
-    path: 'home', component: HomeComponent, children: [
+    path: 'home', children: [
       { path: 'welcome', component: WelcomeComponent },
       { path: 'translation-rules', component: TranslationRulesComponent },
-      { path: '**', redirectTo: '/home/welcome' },
+      { path: '**', component: WelcomeComponent },
     ]
   },
   { path: '**', component: WelcomeComponent }
