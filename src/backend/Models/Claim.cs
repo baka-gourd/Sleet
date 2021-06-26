@@ -5,10 +5,8 @@ using System.Threading.Tasks;
 
 namespace Sleet.Models
 {
-    public class User
+    public class Claim
     {
         public Guid Id { get; set; }
-        public string Name { get; set; }
-        public List<Claim> Claims { get; set; }
     }
 }

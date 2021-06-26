@@ -11,6 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Sleet.Data;
 
 namespace Sleet
 {
@@ -32,6 +33,7 @@ namespace Sleet
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Sleet", Version = "v1" });
             });
+            services.AddDbContext<ApplicationDbContext>();
 
         }
 
