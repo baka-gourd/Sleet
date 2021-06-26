@@ -2,10 +2,12 @@
 /* tslint:disable */
 /* eslint-disable */
 
+import type { User } from './User';
+
 export type Suggestion = {
     id?: string;
-    user?: string | null;
+    user?: User;
     content?: string | null;
     approved?: boolean;
-    approveUser?: string | null;
+    approver?: User;
 }

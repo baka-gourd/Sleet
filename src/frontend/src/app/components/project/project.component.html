@@ -1,0 +1,18 @@
+<div class="p-3">
+  <!--Card 1-->
+  <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl duration-150 cursor-pointer transition-all"
+    [routerLink]="['project']" [queryParams]="{project:name}">
+    <img class="w-full" class="lazy"
+      data-src="{{imageUrl !== undefined ? imageUrl:'https://i.loli.net/2018/07/01/5b37af874b81c.jpg'}}" alt="ICON">
+    <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2">{{name !== undefined ? name : 'Empty'}}</div>
+      <p class="text-gray-700 text-base">
+        {{content !== undefined ? content : 'No description.'}}
+      </p>
+    </div>
+    <div class="px-6 pt-4 pb-2">
+      <span class="project-tag-translated">已翻译：{{translatedPersent}} %</span>
+      <span class="project-tag-suggestion">建议数：{{suggestionCount}}</span>
+    </div>
+  </div>
+</div>

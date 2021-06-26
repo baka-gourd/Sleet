@@ -10,7 +10,7 @@ namespace Sleet.Controllers
     public class ProjectController : ControllerBase
     {
         [HttpGet]
-        public List<Project> Get()
+        public List<Project> GetAsync()
         {
             throw new NotImplementedException();
         }
