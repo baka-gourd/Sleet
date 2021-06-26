@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { TranslationRulesComponent } from 'src/app/components/translation-rules/translation-rules.component';
-import { WelcomeComponent } from 'src/app/components/welcome/welcome.component';
+import { WelcomeComponent } from '../../components/welcome/welcome.component';
+import { HomeComponent } from '../../pages/home/home.component';
 
 const routes: Routes = [
   { path: 'welcome', component: WelcomeComponent },
   { path: 'translation-rules', component: TranslationRulesComponent },
-  { path: '**', component: WelcomeComponent },
+  { path: '**', component: HomeComponent },
 ];
 
 @NgModule({
