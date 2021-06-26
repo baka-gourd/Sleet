@@ -1,102 +1,85 @@
-<div class="container">
-  <div class="row">
-    <div class="col-lg-7">
-      <!-- 感谢菜鸟教程的案例 -->
-      <div id="demo" class="carousel slide" data-ride="carousel">
-        <!-- 指示符 -->
-        <ul class="carousel-indicators">
-          <li data-target="#demo" data-slide-to="0" class="active"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-        <!-- 轮播图片 -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://i.loli.net/2018/07/01/5b37af874b81c.jpg" class="img-fluid rounded">
-          </div>
-          <div class="carousel-item">
-            <img src="https://i.loli.net/2018/07/01/5b37af87500ec.jpg" class="img-fluid rounded">
-          </div>
-          <div class="carousel-item">
-            <img src="https://i.loli.net/2018/07/01/5b37af8751eec.jpg" class="img-fluid rounded">
-          </div>
-        </div>
-        <!-- 左右切换按钮 -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-      </div>
-    </div>
-    <div class="col-lg-5">
-      <h1 class="display-5 text-center main-title">想要加入翻译？</h1>
-      <p class="text-muted">不同于传统的方式，我们使用 Weblate 框架来进行模组翻译，让翻译变得简单明了。</p>
-      <p class="text-muted">不需要了解任何内部知识，只需要埋头翻译即可，其他都被包办了。</p>
-      <p class="text-muted">下方有一些跳转链接，也许能够帮到你。</p>
-      <p class="text-muted text-right">—— 酒石酸菌</p>
-      <button type="button" class="btn btn-lg btn-danger join-us" onclick="location.href='/joinus.html'">
-        <i class="fa fa-paper-plane"></i> 参与翻译</button>
+<div class="container mx-auto w-2/4">
+  <div>
+    <h1 class="text-center mt-5 text-5xl mb-5">请认真阅读如下说明</h1>
+  </div>
+
+  <div>
+    <h2 class="mt-5 text-3xl">翻译项目简介</h2>
+    <ul class="mt-2 list-inside list-disc text-lg text-gray-500 mb-5">
+      <li>Minecraft 模组汉化项目是开源、非盈利的项目，所做的汉化全都公开发行，供所有玩家使用。</li>
+      <li>本项目采用 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议（简体中文） 进行许可。</li>
+      <li>汉化项目目前是基于 CurseForge 网站，选取 1.12.2/1.16.5 版本，按照热度下载了近千模组，基本上能覆盖了绝大部分玩家的日常模组。</li>
+      <li>如果你有什么想要额外添加翻译的模组或者整合，请通过首页的 问题反馈中心 进行提交。</li>
+      <li>请在参与翻译前认真阅读了 翻译规范 与 Weblate 使用说明，如果部分内容难以理解，可以先跳过。</li>
+      <li>目前开放了两种群组，你可以选择加入 QQ 群（推荐）或者 Discord 群。</li>
+      <li>汉化完毕后，会被系统自动处理，打包做成资源包，上传到云服务器上。其他使用了汉化模组玩家，在启动游戏时就会自动下载最新版汉化。</li>
+    </ul>
+  </div>
+
+  <div>
+    <h2 class="mt-5 text-3xl">翻译项目规范</h2>
+    <ul class="mt-2 list-inside list-disc text-lg text-gray-500 mb-5">
+      <li>无论如何，翻译一定要结合游戏内实际情况进行二次验证，这能够提升自身的责任心。</li>
+      <li>遇到难以理解的问题，尝试利用搜索引擎、游戏内测试、甚至询问他人来获得帮助。这将会大大提升自身的学习能力！</li>
+      <li>无论用任何工具，翻译最终结果应当是读起来通顺易懂的，这能够提升自身的语文水平，同时理解中英文表达的不同。</li>
+      <li>翻译请注意标点符号问题！</li>
+      <li>遇到实在无法解决的翻译问题，不妨跳过不翻译它，做自己力所能及的才是最合适的。</li>
+      <li>请再次确认你认真阅读了 翻译规范 与 Weblate 使用说明。</li>
+      <li>很多作者的表达水平其实很差，因此部分翻译如果确实与实际不符，或者问题颇多，你完全可以用自己的话来表达出原意。但切勿过度发挥。</li>
+      <li>翻译过程可能很不顺心，也可能会被他人指责。但请记住——“你需要聆听别人的意见，但绝不要在意他人的眼光”。</li>
+    </ul>
+  </div>
+
+  <div>
+    <h2 class="mt-5 text-3xl">我如何参与翻译</h2>
+    <ul class="mt-2 list-inside list-disc text-lg text-gray-500 mb-5">
+      <li>对于不懂模组语言文件机制的人，我们搭建的 weblate 网站能够帮助小白快速上手参与翻译，你除了翻译本身不需要额外学习任何知识。</li>
+      <li>weblate 是一个网站，你需要加群以后才能获取账户进入网站参与翻译。</li>
+      <li>weblate 的界面非常简单，上面是英文，下面是中文。翻译好了直接保存，如此逐条翻译完毕整个模组。</li>
+      <li>加入群以后，请阅读群公告。</li>
+      <li>申请账户找群组管理员，说明自己是否认真阅读了 weblate 使用说明和翻译规范，同时提供一个邮箱号和你想要的用户名，审核通过后即可参与翻译。</li>
+      <li>当然，你也可以直接通过 问题反馈中心 提交你自己翻译的语言文件，我们也会将其放入仓库中。</li>
+      <li>如果你是一个翻译的老手，而且会用 GitHub，我们提供了汉化项目的仓库，提交 Pull Request 即可。</li>
+    </ul>
+  </div>
+
+  <div>
+    <h2 class="mt-5 text-3xl">鸣谢</h2>
+    <ul class="list-inside list-disc mt-2 text-lg text-gray-500 mb-5">
+      <li>感谢 phi 搭建出了 weblate 服务器，还实现了机翻功能；</li>
+      <li>感谢 Summpot，Nullpinter 制作了新版本的 C# 爬虫；</li>
+      <li>感谢 PeakXing 制作的 logo；</li>
+      <li>感谢 雪尼、FledgeXu、asdflj 等在内的诸多人的意见和建议；</li>
+      <li>感谢本项目的最初贡献者
+        Aemande123，DYColdWind，Snownee，yuanjie000，forestbat，3TUSK，SihenZhang，MoXiaoFreak，gloomy_banana，yuanjie000，exia00125，luckyu19
+        （排名不分先后）提供的汉化；</li>
+      <li>感谢玩家 R_liu 提供的拔刀剑本地化；</li>
+      <li>资源包中镶嵌了 3TUSK 提供的全角标点修复文件；</li>
+      <li>感谢在汉化更新模组制作过程中提供了大量帮助的 Jack，某昨P 和 Towdium；</li>
+      <li>最后感谢那些参与翻译，并致力于本地化推广的各位玩家，你们辛苦了。</li>
+    </ul>
+  </div>
+
+  <button type="button"
+    class="bg-indigo-500 shadow-lg hover:shadow-xl text-white text-center w-full text-lg rounded-md outline-none focus:outline-none py-1 mb-20 transition-all duration-150"
+    onclick="document.getElementById('info-row').style.display='flex'">我读完了，给我显示群号！</button>
+</div>
+
+<div class="row container mx-auto w-2/4" id="info-row" style="display: none;">
+  <div class="w-2/5 col-span-8 info-div mr-3">
+    <img src="https://i.loli.net/2018/07/01/5b38b7eeb750a.png" alt="qq" class="img-fluid float-left">
+    <div class="info-text">
+      <p class="text-white text-center font-bold info-title">通过 QQ 加入我们</p>
+      <button type="button" class="bg-gray-50 py-1 join-us rounded-lg px-1"
+        onclick="location.href='http://qm.qq.com/cgi-bin/qm/qr?k=YsUvyHx72I7b6KD6l3578PpGDvd86oE5'">点击加群<br>（群号：630943368）</button>
     </div>
   </div>
-  <div class="row text-center sub-info">
-    <div class="col-md-3 col-sm-6">
-      <a href="https://baka943.coding.me/WeblateUse/">
-        <i class="fa fa-book fa-4x"></i>
-        <br>
-        <br>
-        <h5 class="text-secondary">Weblate入门
-          <br>
-          <small>快速入门毫无困难</small>
-        </h5>
-      </a>
-    </div>
-    <div class="col-md-3 col-sm-6">
-      <a href="https://cfpa.team/TransRules/">
-        <i class="fa fa-legal fa-4x"></i>
-        <br>
-        <br>
-        <h5 class="text-secondary">翻译守则规范
-          <br>
-          <small>统一翻译不是难事</small>
-        </h5>
-      </a>
-    </div>
-    <div class="col-md-3 col-sm-6">
-      <a href="http://issues.cfpa.team">
-        <i class="fa fa-bug fa-4x"></i>
-        <br>
-        <br>
-        <h5 class="text-secondary">问题反馈中心
-          <br>
-          <small>有问题，我们来解决</small>
-        </h5>
-      </a>
-    </div>
-    <div class="col-md-3 col-sm-6">
-      <a href="http://dict.mcmod.cn/">
-        <i class="fa fa-table fa-4x"></i>
-        <br>
-        <br>
-        <h5 class="text-secondary">翻译词典查询
-          <br>
-          <small>不熟悉的词语？<br>先来这里搜一下试试</small>
-        </h5>
-      </a>
+  <div class="w-2/5 col-span-8 info-div ml-3">
+    <img src="https://i.loli.net/2018/07/01/5b38b7eed09ee.png" alt="discord" class="img-fluid float-right">
+    <div class="info-text">
+      <p class="text-white text-center font-bold info-title">通过 Discord 加入我们</p>
+      <button type="button" class="bg-gray-50 py-1 rounded-lg join-us px-2"
+        onclick="location.href='https://discord.gg/SGve5Fn'">点击加群</button>
     </div>
   </div>
 </div>
-<div class="container-fluid bg-light">
-  <div class="footer">
-    <p class="text-secondary text-center">But to be fascinated is also, sometime, to be blind.
-      <br> 但是，让人着迷的，有时，也会让人盲目。
-    </p>
-  </div>
-</div>
-<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-<!-- popper.min.js 用于弹窗、提示、下拉菜单 -->
-<script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
-<!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
-<script src="https://cdn.bootcss.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
