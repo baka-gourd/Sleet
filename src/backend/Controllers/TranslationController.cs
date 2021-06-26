@@ -4,6 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Sleet.Data;
 using Sleet.Models;
 
 namespace Sleet.Controllers
@@ -12,7 +14,13 @@ namespace Sleet.Controllers
     [Route("[controller]")]
     public class TranslationController : ControllerBase
     {
-        private readonly ILogger<TranslationController> _logger;
+        private ILogger<TranslationController> _logger;
+        private ApplicationDbContext _dbContext;
+
+        public TranslationController(ILogger<TranslationController> logger, ApplicationDbContext dbContext) {
+            _logger = logger;
+            _dbContext = dbContext;
+        }
 
         public TranslationController(ILogger<TranslationController> logger)
         {
@@ -23,6 +31,11 @@ namespace Sleet.Controllers
         public IEnumerable<Translation> Get()
         {
             throw new NotImplementedException();
+        }
+
+        [HttpGet("{id}")]
+        public async Task<Translation> GetAsync(Guid id) {
+            return await _dbContext.Translations.SingleAsync(_ => _.Id == id);
         }
     }
 }
