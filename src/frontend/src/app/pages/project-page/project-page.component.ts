@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router'
+import * as cp from 'src/services/openapi/models/Component';
+import { ComponentsService } from '../../contacts/components/components.service';
 
 @Component({
   selector: 'app-project-page',
@@ -7,23 +10,26 @@ import { ActivatedRoute } from '@angular/router'
   styleUrls: ['./project-page.component.css']
 })
 export class ProjectPageComponent implements OnInit {
-
-  constructor(private routerInfo: ActivatedRoute) { }
+  public projectName!: string;
+  components: cp.Component[] = [];
+  filtered: cp.Component[] = [];
+  searchText = new FormControl('')
+  constructor(private routerInfo: ActivatedRoute, private projectService: ComponentsService) { }
 
   ngOnInit(): void {
-    this.routerInfo.queryParams.subscribe((param) => {
-      this.projectName = param['project'];
-      console.log(this.projectName)
+    this.routerInfo.queryParams.subscribe(param => this.projectName = param['project']);
+    this.getComponents();
+    this.searchText.valueChanges.subscribe(() => {
+      this.filtered = this.components.filter(project => {
+        return project.name?.indexOf(this.searchText.value) !== -1;
+      });
     })
   }
 
-
-  private _projectName!: string;
-  public get projectName(): string {
-    return this._projectName;
+  getComponents(): void {
+    this.projectService.getComponents().subscribe((project) => {
+      this.components = project;
+      this.filtered = project;
+    })
   }
-  public set projectName(v: string) {
-    this._projectName = v;
-  }
-
 }
