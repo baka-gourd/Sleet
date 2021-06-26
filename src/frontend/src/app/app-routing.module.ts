@@ -1,21 +1,26 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { TranslationRulesComponent } from './home/translation-rules/translation-rules.component'
-import { WelcomeComponent } from './home/welcome/welcome.component'
+import { HomeComponent } from './pages/home/home.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
+import { TranslationRulesComponent } from './components/translation-rules/translation-rules.component'
+import { WelcomeComponent } from './components/welcome/welcome.component'
+import { ProjectPageComponent } from './pages/project-page/project-page.component';
 
 const routes: Routes = [
-  { path: 'projects', component: ProjectsComponent },
   {
-    path: 'home', component: HomeComponent, children: [
-      { path: '', redirectTo: '/home/welcome', pathMatch: 'full' },
-      { path: 'welcome', component: WelcomeComponent },
-      { path: 'translation-rules', component: TranslationRulesComponent }
+    path: 'projects', children: [
+      { path: 'project', component: ProjectPageComponent },
+      { path: '**', component: ProjectsComponent },
     ]
   },
-  { path: '', redirectTo: '/home/welcome', pathMatch: 'full' },
-  { path: '**', component: HomeComponent }
+  {
+    path: 'home', component: HomeComponent, children: [
+      { path: 'welcome', component: WelcomeComponent },
+      { path: 'translation-rules', component: TranslationRulesComponent },
+      { path: '**', redirectTo: '/home/welcome' },
+    ]
+  },
+  { path: '**', component: WelcomeComponent }
 ];
 
 @NgModule({
