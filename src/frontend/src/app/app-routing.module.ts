@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { TranslationRulesComponent } from './components/translation-rules/translation-rules.component'
-import { WelcomeComponent } from './components/welcome/welcome.component'
+import { HomeComponent } from './home/home.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 const routes: Routes = [
-  { path: 'projects', loadChildren: () => import('./routes/projects/projects.module').then(m => m.ProjectsModule) },
-  { path: 'home', loadChildren: () => import('./routes/home/home.module').then(m => m.HomeModule) },
-  { path: '**', component: WelcomeComponent }
+  { path: '', component: HomeComponent },
+  {path:'projects' ,component:ProjectsComponent},
+  { path: '**', component: HomeComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

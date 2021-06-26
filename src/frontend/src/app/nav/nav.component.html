@@ -3,19 +3,18 @@
     <div class="items-center md:flex">
       <div class="flex flex-col md:flex-row md:mx-6">
         <div class="ml-2 mt-3">
-          <a [routerLink]="['/']">
+          <a routerLink='/'>
             <img src="assets/brand.png" alt="CFPA" />
           </a>
         </div>
-        <div class="ml-2 mt-5 text-gray-400">
-          <p class="font-weight-bold">Cirno Fans Protection Association</p>
+        <div class="ml-2 mt-3 mb-3 text-gray-400">
+          <p class="font-thin px-3">Cirno Fans Protection Association</p>
         </div>
       </div>
     </div>
     <div class="items-center md:flex">
-      <div class="flex flex-col md:flex-row md:mx-6">
-        <a class="nav-link" type="button" routerLink="/home" routerLinkActive="">Home</a>
-        <a class="nav-link" type="button" routerLink="/projects" routerLinkActive="nav-link-active">Projects</a>
+      <div class="flex flex-row">
+        <a class="nav-link" type="button" routerLink='/projects' routerLinkActive="nav-link-active">Projects</a>
         <a class="nav-link" type="button" routerLink="/profile" routerLinkActive="nav-link-active">Profile</a>
         <a class="nav-link" type="button" routerLink="/about" routerLinkActive="nav-link-active">About</a>
       </div>

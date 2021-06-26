@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { Project } from 'src/services/openapi';
-import { ProjectsService } from '../../contacts/projects/projects.service';
+import { ProjectsService } from '../projects.service';
 
 @Component({
   selector: 'app-projects',
