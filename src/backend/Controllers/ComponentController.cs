@@ -13,7 +13,13 @@ namespace Sleet.Controllers
     public class ComponentController : ControllerBase
     {
         [HttpGet]
-        public List<Component> Get()
+        public async IAsyncEnumerable<Component> GetAsync()
+        {
+            yield return await Task.FromResult(new Component() {Id = new Guid(), Name = "Temp"});
+        }
+
+        [HttpPost]
+        public async Task PostAsync(Component component)
         {
             throw new NotImplementedException();
         }
