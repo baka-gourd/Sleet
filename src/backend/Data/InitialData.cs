@@ -13,6 +13,6 @@ namespace Sleet.Data
     public class InitialData
     {
         public static List<Language> Languages = CultureInfo.GetCultures(CultureTypes.AllCultures)
-            .Select(_ => new Language() {Id = new(), Code = _.Name, EnglishName = _.EnglishName}).ToList();
+            .Select(_ => new Language() {Id = Guid.NewGuid(), Code = _.Name, EnglishName = _.EnglishName}).ToList();
     }
 }
