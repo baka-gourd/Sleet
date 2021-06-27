@@ -8,6 +8,6 @@ namespace Sleet.Models
         public User User { get; set; }
         public string Content { get; set; }
         public bool Approved { get; set; }
-        public User Approver { get; set; }
+        public User Reviewer { get; set; }
     }
 }

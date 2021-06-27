@@ -1,16 +1,23 @@
 using System.Collections.Generic;
 using System;
-
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-
+using Sleet.Data;
 using Sleet.Models;
 
 namespace Sleet.Controllers {
     [ApiController]
     [Route("[controller]")]
     public class SuggestionController : ControllerBase {
-        private readonly ILogger<Controllers.SuggestionController> _logger;
+        private ILogger<SuggestionController> _logger;
+        private ApplicationDbContext _dbContext;
+
+        public SuggestionController(ILogger<SuggestionController> logger, ApplicationDbContext dbContext) {
+            _logger = logger;
+            _dbContext = dbContext;
+        }
 
         public SuggestionController(ILogger<Controllers.SuggestionController> logger) {
             _logger = logger;
@@ -19,6 +26,11 @@ namespace Sleet.Controllers {
         [HttpGet]
         public IEnumerable<Suggestion> Get() {
             throw new NotImplementedException();
+        }
+
+        [HttpGet("{id}")]
+        public async Task<Suggestion> GetAsync(Guid id) {
+            return await _dbContext.Suggestions.SingleAsync(_ => _.Id == id);
         }
     }
 }
