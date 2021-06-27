@@ -37,7 +37,9 @@ jobs:
       with:
           node-version: 16.30
     - name: Run npm install
-      run: npm install
+      run: |
+        npm install
+        npm install -g @angular/cli
     - name: Run npm build
-      run: npm build
+      run: npx @angular/cli build
      

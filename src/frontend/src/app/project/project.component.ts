@@ -13,14 +13,7 @@ export class ProjectComponent implements OnInit {
   }
 
 
-  @Input()
-  public get name(): string {
-    return this._name;
-  }
-  private _name!: string;
-  public set name(v: string) {
-    this._name = v;
-  }
+  @Input() name:string = "";
 
   @Input()
   public get content(): string {
