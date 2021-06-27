@@ -1,6 +1,7 @@
+const environment = require('./src/environments/environment.js').environment;
 module.exports = {
   purge: {
-    enabled: process.env.NODE_ENV === 'production',
+    enabled: environment.production,
     content: [
       './src/**/*.{html,ts}',
     ]
