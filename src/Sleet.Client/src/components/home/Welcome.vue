@@ -116,7 +116,7 @@
   </div>
 
   <div class="row container mx-auto md:w-2/4 w-11/12 md:flex justify-center" v-show="isShow">
-    <div class="w-2/5 col-span-8 info-div mr-3">
+    <div class="md:w-2/5 w-full col-span-8 info-div mr-3">
       <img
         src="https://i.loli.net/2018/07/01/5b38b7eeb750a.png"
         alt="qq"
@@ -134,7 +134,7 @@
         </button>
       </div>
     </div>
-    <div class="w-2/5 col-span-8 info-div ml-3">
+    <div class="md:w-2/5 w-full col-span-8 info-div ml-3">
       <img
         src="https://i.loli.net/2018/07/01/5b38b7eed09ee.png"
         alt="discord"
