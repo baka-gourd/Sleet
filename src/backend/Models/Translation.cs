@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Sleet.Shared.Models
+namespace Sleet.Models
 {
     /// <summary>
     /// Translation是单条翻译，需要成组使用

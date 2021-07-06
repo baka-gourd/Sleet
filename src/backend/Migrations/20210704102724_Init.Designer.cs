@@ -5,13 +5,13 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Sleet.Server.Data;
+using Sleet.Data;
 
 namespace Sleet.Server.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210705024521_ChangeInitializer")]
-    partial class ChangeInitializer
+    [Migration("20210704102724_Init")]
+    partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -81,4879 +81,4879 @@ namespace Sleet.Server.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("735832ad-abe3-4185-bac7-fc2f6da57406"),
+                            Id = new Guid("83e3920a-9152-416e-a41d-2db821f2f1d4"),
                             Code = "",
                             EnglishName = "Invariant Language (Invariant Country)"
                         },
                         new
                         {
-                            Id = new Guid("10542956-1b32-4e71-ba68-fe95eda9c27b"),
+                            Id = new Guid("79c30b64-3996-403d-b297-6c80d83f3101"),
                             Code = "aa",
                             EnglishName = "Afar"
                         },
                         new
                         {
-                            Id = new Guid("e610a743-5e4e-41f0-8356-8d38323c242c"),
+                            Id = new Guid("3ebd5209-e714-4d8b-b7b2-14681fb077f5"),
                             Code = "aa-DJ",
                             EnglishName = "Afar (Djibouti)"
                         },
                         new
                         {
-                            Id = new Guid("6f9b129c-b65c-4683-90d9-3d009f4a2ca5"),
+                            Id = new Guid("7df07e1c-5072-497e-ad84-c1b5e5222c87"),
                             Code = "aa-ER",
                             EnglishName = "Afar (Eritrea)"
                         },
                         new
                         {
-                            Id = new Guid("c351280b-00d1-4ee4-8cfe-0aefb2d6518e"),
+                            Id = new Guid("6b7ce150-1855-4bd1-a0ff-c0c4de1658cd"),
                             Code = "aa-ET",
                             EnglishName = "Afar (Ethiopia)"
                         },
                         new
                         {
-                            Id = new Guid("59c2641c-d7f9-4f76-b07e-a82dea9acfd9"),
+                            Id = new Guid("e3b147c4-b1c1-4629-a3ce-73fa80ef3ebd"),
                             Code = "af",
                             EnglishName = "Afrikaans"
                         },
                         new
                         {
-                            Id = new Guid("9211bfaf-5723-4ec3-b088-c700010963d5"),
+                            Id = new Guid("3f44a10b-0d36-479e-9090-aa1a9f433f58"),
                             Code = "af-NA",
                             EnglishName = "Afrikaans (Namibia)"
                         },
                         new
                         {
-                            Id = new Guid("06db418e-5996-4af4-baa6-66a1d7e495be"),
+                            Id = new Guid("a6d20d43-5531-45f7-b963-417f6c867496"),
                             Code = "af-ZA",
                             EnglishName = "Afrikaans (South Africa)"
                         },
                         new
                         {
-                            Id = new Guid("7272b985-f670-4c03-9b31-f5a7c3d9cfc1"),
+                            Id = new Guid("35131890-3ddd-478b-a1bc-f0fb674f08d2"),
                             Code = "agq",
                             EnglishName = "Aghem"
                         },
                         new
                         {
-                            Id = new Guid("04466c20-5b78-437a-8e78-1326335e16f5"),
+                            Id = new Guid("134dadb3-903f-4ff3-ad77-6f1e18361cfc"),
                             Code = "agq-CM",
                             EnglishName = "Aghem (Cameroon)"
                         },
                         new
                         {
-                            Id = new Guid("651f8606-19b2-4e63-9a71-7dd1eb725c55"),
+                            Id = new Guid("3b2fddc6-1f6a-4012-88d3-479cd1cd20a3"),
                             Code = "ak",
                             EnglishName = "Akan"
                         },
                         new
                         {
-                            Id = new Guid("6a43f0b2-530d-4d6a-9366-c4ec84e80ec8"),
+                            Id = new Guid("00aefd0b-150a-4315-add8-63fcf03b5786"),
                             Code = "ak-GH",
                             EnglishName = "Akan (Ghana)"
                         },
                         new
                         {
-                            Id = new Guid("b265d619-2568-4f0b-90c3-8adbd4365556"),
+                            Id = new Guid("e30c580d-bc18-452a-8871-ecd55198b384"),
                             Code = "am",
                             EnglishName = "Amharic"
                         },
                         new
                         {
-                            Id = new Guid("5fb41a0a-dbba-4249-a2bc-96fb92465321"),
+                            Id = new Guid("fb127676-f112-49b1-b429-558b02943f13"),
                             Code = "am-ET",
                             EnglishName = "Amharic (Ethiopia)"
                         },
                         new
                         {
-                            Id = new Guid("b2e2842a-e01b-4f16-964a-25f77d457d6d"),
+                            Id = new Guid("949f090c-3e66-44ab-a14b-9c765771c83e"),
                             Code = "ar",
                             EnglishName = "Arabic"
                         },
                         new
                         {
-                            Id = new Guid("197b4fe8-5a71-4e57-83d5-a38e42f901c6"),
+                            Id = new Guid("09f5cb27-895b-4f1d-93e9-73ef809a1c2c"),
                             Code = "ar-001",
                             EnglishName = "Arabic (World)"
                         },
                         new
                         {
-                            Id = new Guid("1130933a-3be3-4e75-ab2f-1773646e8d3a"),
+                            Id = new Guid("af31e63e-2a35-49de-923f-67c4879582d8"),
                             Code = "ar-AE",
                             EnglishName = "Arabic (United Arab Emirates)"
                         },
                         new
                         {
-                            Id = new Guid("7e21f0f3-3fda-458f-a55e-bdc7e63d77b1"),
+                            Id = new Guid("ad47b3e6-d32f-440c-9c44-e762c2f72ac7"),
                             Code = "ar-BH",
                             EnglishName = "Arabic (Bahrain)"
                         },
                         new
                         {
-                            Id = new Guid("c477371c-e27e-4491-bde2-4393b5a7f8f4"),
+                            Id = new Guid("c0aa97c1-9f1c-45d6-8b38-d3d5b509edd3"),
                             Code = "ar-DJ",
                             EnglishName = "Arabic (Djibouti)"
                         },
                         new
                         {
-                            Id = new Guid("eeed6600-12b7-46ee-b3f4-a4209782b32f"),
+                            Id = new Guid("fccc8971-ff25-4e42-b7c9-cebe4fc8c7f6"),
                             Code = "ar-DZ",
                             EnglishName = "Arabic (Algeria)"
                         },
                         new
                         {
-                            Id = new Guid("836826ac-ddc5-42da-9e5c-6f32b86dd2b6"),
+                            Id = new Guid("aba2914b-61c7-4d5e-90a9-47990c7b9073"),
                             Code = "ar-EG",
                             EnglishName = "Arabic (Egypt)"
                         },
                         new
                         {
-                            Id = new Guid("f3dfd0b6-0dc5-4fc5-8639-560da8bbeb81"),
+                            Id = new Guid("263a3200-1efa-4709-a6ca-8e657518c1b8"),
                             Code = "ar-ER",
                             EnglishName = "Arabic (Eritrea)"
                         },
                         new
                         {
-                            Id = new Guid("119c7901-3254-45fe-b5f3-118044288dcd"),
+                            Id = new Guid("b35bd5bb-01ac-4b65-8f92-38dcc5405dd2"),
                             Code = "ar-IL",
                             EnglishName = "Arabic (Israel)"
                         },
                         new
                         {
-                            Id = new Guid("858376c4-e04a-4cfb-b7ab-4aa32e7b52f4"),
+                            Id = new Guid("dd2a90d3-0df4-4d24-8722-4ca1dba4d6c1"),
                             Code = "ar-IQ",
                             EnglishName = "Arabic (Iraq)"
                         },
                         new
                         {
-                            Id = new Guid("25690133-6a0b-4265-b6d9-63a3a514e82a"),
+                            Id = new Guid("7a5bff46-2d8f-4552-a932-f3d2839992c7"),
                             Code = "ar-JO",
                             EnglishName = "Arabic (Jordan)"
                         },
                         new
                         {
-                            Id = new Guid("f5b8f806-3df9-43df-b0cf-5d44d8327f81"),
+                            Id = new Guid("5cd65695-84a2-42f4-898f-4599d4e11926"),
                             Code = "ar-KM",
                             EnglishName = "Arabic (Comoros)"
                         },
                         new
                         {
-                            Id = new Guid("828becff-8634-44e3-b303-b920a3fb0193"),
+                            Id = new Guid("7b7d42fd-8ea7-4e4c-a395-af00cbaa453b"),
                             Code = "ar-KW",
                             EnglishName = "Arabic (Kuwait)"
                         },
                         new
                         {
-                            Id = new Guid("ffcbd4a1-15e2-4c0b-88a3-03c17ba68cfb"),
+                            Id = new Guid("77a23fa3-0754-4fb6-a122-e502b635df90"),
                             Code = "ar-LB",
                             EnglishName = "Arabic (Lebanon)"
                         },
                         new
                         {
-                            Id = new Guid("9a3bef4f-a3a0-4a50-971a-32017bfdc474"),
+                            Id = new Guid("6f4d3069-5e40-4b6b-bd04-0a31a5919862"),
                             Code = "ar-LY",
                             EnglishName = "Arabic (Libya)"
                         },
                         new
                         {
-                            Id = new Guid("b2dbf66f-2ba6-45b8-8353-f775b35356d7"),
+                            Id = new Guid("b9d64bd8-59c2-4292-83f2-8671dfe0f721"),
                             Code = "ar-MA",
                             EnglishName = "Arabic (Morocco)"
                         },
                         new
                         {
-                            Id = new Guid("b42d9f52-6ee5-4910-ac06-d62288724ac0"),
+                            Id = new Guid("7fc3ec7d-ddea-4646-8d04-f82c667446b1"),
                             Code = "ar-MR",
                             EnglishName = "Arabic (Mauritania)"
                         },
                         new
                         {
-                            Id = new Guid("a1a2c8db-9f3e-4519-b4c4-6598c3f3e6ab"),
+                            Id = new Guid("0598db9b-dde9-471a-9289-0a98337ca0a0"),
                             Code = "ar-OM",
                             EnglishName = "Arabic (Oman)"
                         },
                         new
                         {
-                            Id = new Guid("21fe7df7-f13a-48f0-bf82-62c9077d3f10"),
+                            Id = new Guid("4a41e487-0764-46e9-956d-ffa4ea4a43ed"),
                             Code = "ar-PS",
                             EnglishName = "Arabic (Palestinian Authority)"
                         },
                         new
                         {
-                            Id = new Guid("8b866c2c-b055-4704-9a96-e67cdea3d307"),
+                            Id = new Guid("8473e60d-4491-4c89-8168-a03566458fca"),
                             Code = "ar-QA",
                             EnglishName = "Arabic (Qatar)"
                         },
                         new
                         {
-                            Id = new Guid("ea1a31d2-733f-4408-bcae-5a07da3f2e91"),
+                            Id = new Guid("a6eff6f3-e5c0-4693-889f-3f800a3e86ae"),
                             Code = "ar-SA",
                             EnglishName = "Arabic (Saudi Arabia)"
                         },
                         new
                         {
-                            Id = new Guid("bd6344a9-a19a-4d10-ad9a-068b01352259"),
+                            Id = new Guid("9a7a569a-2357-474b-86ab-8398ba7255c6"),
                             Code = "ar-SD",
                             EnglishName = "Arabic (Sudan)"
                         },
                         new
                         {
-                            Id = new Guid("c5a86664-9017-4365-8e23-b5d0fbaa53e9"),
+                            Id = new Guid("bf0067eb-bd6b-479e-8b4d-0f2f4c1ebd25"),
                             Code = "ar-SO",
                             EnglishName = "Arabic (Somalia)"
                         },
                         new
                         {
-                            Id = new Guid("b32f5def-197c-4c85-bec5-ed8a5f5854da"),
+                            Id = new Guid("8340c17f-d52b-4799-a073-94ff0d51b85b"),
                             Code = "ar-SS",
                             EnglishName = "Arabic (South Sudan)"
                         },
                         new
                         {
-                            Id = new Guid("5a12e98d-0c36-4e98-82a7-e2d7349b5c4c"),
+                            Id = new Guid("9278ba00-4da8-4024-8e2c-790daccea751"),
                             Code = "ar-SY",
                             EnglishName = "Arabic (Syria)"
                         },
                         new
                         {
-                            Id = new Guid("c5e1420e-f671-43c5-afef-b3bf04c56938"),
+                            Id = new Guid("1cd86e3d-f832-4594-90fc-0d20cfc3b5d1"),
                             Code = "ar-TD",
                             EnglishName = "Arabic (Chad)"
                         },
                         new
                         {
-                            Id = new Guid("d5f6e9e7-ef0d-4c32-83a8-8b19ad718996"),
+                            Id = new Guid("b782cbdf-d9ed-4b96-9cf1-271634c6778c"),
                             Code = "ar-TN",
                             EnglishName = "Arabic (Tunisia)"
                         },
                         new
                         {
-                            Id = new Guid("74d0b4ed-5e41-485a-b4a9-67d607cf32df"),
+                            Id = new Guid("16e98477-ad03-4948-a7b8-30ffef334a5a"),
                             Code = "ar-YE",
                             EnglishName = "Arabic (Yemen)"
                         },
                         new
                         {
-                            Id = new Guid("7b390308-2cf2-4f65-90a3-00935a4d1670"),
+                            Id = new Guid("2b217699-2844-4cd5-91ab-09a1fd9392ca"),
                             Code = "arn",
                             EnglishName = "Mapuche"
                         },
                         new
                         {
-                            Id = new Guid("29f6580b-d595-407d-adca-bd96e2a5dff6"),
+                            Id = new Guid("6ccdef7d-bcc9-435d-b640-e889b9c134f4"),
                             Code = "arn-CL",
                             EnglishName = "Mapuche (Chile)"
                         },
                         new
                         {
-                            Id = new Guid("31638669-b3b0-4d30-8011-abf059dcedb2"),
+                            Id = new Guid("0ee752a5-951a-4deb-a110-ee58c896afd1"),
                             Code = "as",
                             EnglishName = "Assamese"
                         },
                         new
                         {
-                            Id = new Guid("23b9e62e-c411-4292-801e-1c097a86f0d7"),
+                            Id = new Guid("bba7dabe-cf22-4464-b19e-637617a1974b"),
                             Code = "as-IN",
                             EnglishName = "Assamese (India)"
                         },
                         new
                         {
-                            Id = new Guid("6b49b4ab-7a44-45b4-bd12-2bcf6298f041"),
+                            Id = new Guid("0bb0c526-e762-407b-bb65-2711768741ba"),
                             Code = "asa",
                             EnglishName = "Asu"
                         },
                         new
                         {
-                            Id = new Guid("afe47f6f-d47e-423a-a1e6-a42615590815"),
+                            Id = new Guid("b8a492ff-d623-4132-a403-e051a8a5375b"),
                             Code = "asa-TZ",
                             EnglishName = "Asu (Tanzania)"
                         },
                         new
                         {
-                            Id = new Guid("070abd50-4b0c-419c-b7fa-31c3a6bfd0df"),
+                            Id = new Guid("b8a24d7e-2b57-4649-8a18-dc04a6b75ef7"),
                             Code = "ast",
                             EnglishName = "Asturian"
                         },
                         new
                         {
-                            Id = new Guid("9ca8ec47-1e55-4b00-a1bd-a78647aba5ed"),
+                            Id = new Guid("40719db2-3538-4cb2-9af8-e6cae1dfc80b"),
                             Code = "ast-ES",
                             EnglishName = "Asturian (Spain)"
                         },
                         new
                         {
-                            Id = new Guid("854ff679-bca0-46dc-8168-b774f1ae720d"),
+                            Id = new Guid("a427522a-4619-4f5a-b033-c20805d91cce"),
                             Code = "az",
                             EnglishName = "Azerbaijani"
                         },
                         new
                         {
-                            Id = new Guid("5c11c62d-29c8-4fa0-97f1-a007b2808691"),
+                            Id = new Guid("67f8451f-a807-42c3-8a6c-9f0ad2bdd693"),
                             Code = "az-Cyrl",
                             EnglishName = "Azerbaijani"
                         },
                         new
                         {
-                            Id = new Guid("34870bd2-96a9-4792-8968-f1e3c4866834"),
+                            Id = new Guid("90e5f13d-e3a1-44b0-89e4-453990ebce2d"),
                             Code = "az-Cyrl-AZ",
                             EnglishName = "Azerbaijani (Cyrillic, Azerbaijan)"
                         },
                         new
                         {
-                            Id = new Guid("5151ee58-6f46-4d18-8b43-7851e6eac328"),
+                            Id = new Guid("e6ad0296-fbd5-4178-9f4b-71c983a03569"),
                             Code = "az-Latn",
                             EnglishName = "Azerbaijani"
                         },
                         new
                         {
-                            Id = new Guid("e26fe398-8ad3-43dc-b8a0-8ccf15761aaf"),
+                            Id = new Guid("30ab2bf8-64f2-4b5c-bc0b-e13e536d6570"),
                             Code = "az-Latn-AZ",
                             EnglishName = "Azerbaijani (Latin, Azerbaijan)"
                         },
                         new
                         {
-                            Id = new Guid("33633a37-a274-4cac-866e-f90363aecc38"),
+                            Id = new Guid("92b5b6d2-9033-40da-8e80-0279f1980d36"),
                             Code = "ba",
                             EnglishName = "Bashkir"
                         },
                         new
                         {
-                            Id = new Guid("70fcc000-d45e-4ea3-820f-e1ebeedd4739"),
+                            Id = new Guid("21b5fe9f-fd34-434a-a4c0-63d6ef59abfc"),
                             Code = "ba-RU",
                             EnglishName = "Bashkir (Russia)"
                         },
                         new
                         {
-                            Id = new Guid("21468c3b-ce2e-420c-a279-8770982ace8a"),
+                            Id = new Guid("02dc8285-884a-42ff-b26f-9be392276976"),
                             Code = "bas",
                             EnglishName = "Basaa"
                         },
                         new
                         {
-                            Id = new Guid("67c58104-93f0-40a3-bcd6-eddbd8de1267"),
+                            Id = new Guid("02a961df-fb6a-4885-a9d2-5598a21fa1e3"),
                             Code = "bas-CM",
                             EnglishName = "Basaa (Cameroon)"
                         },
                         new
                         {
-                            Id = new Guid("930d531f-67bb-44cd-b5eb-1eb580522cc8"),
+                            Id = new Guid("d1e188a4-1749-4417-b918-856e46e93483"),
                             Code = "be",
                             EnglishName = "Belarusian"
                         },
                         new
                         {
-                            Id = new Guid("a1d1039e-20cb-4615-89d9-287421a855bb"),
+                            Id = new Guid("4465b1dd-42a8-42b9-996c-fad170e1ce84"),
                             Code = "be-BY",
                             EnglishName = "Belarusian (Belarus)"
                         },
                         new
                         {
-                            Id = new Guid("e5656af5-6bb0-4d5a-8f61-590126ec2d58"),
+                            Id = new Guid("115a626c-d575-47b8-bd01-a542c50d2d67"),
                             Code = "bem",
                             EnglishName = "Bemba"
                         },
                         new
                         {
-                            Id = new Guid("f54a3b98-b6d2-4e67-a859-9db326d71729"),
+                            Id = new Guid("b8b032c9-4ed0-42ab-b457-85de1db45b2f"),
                             Code = "bem-ZM",
                             EnglishName = "Bemba (Zambia)"
                         },
                         new
                         {
-                            Id = new Guid("ff3d7dfe-7b37-4043-b2ee-828e1241370a"),
+                            Id = new Guid("47778022-0493-45b9-84d2-6f234effc929"),
                             Code = "bez",
                             EnglishName = "Bena"
                         },
                         new
                         {
-                            Id = new Guid("c07551ca-abe9-4892-8e44-f7ca4882e8e8"),
+                            Id = new Guid("1f57d310-0cd7-4ecb-b342-ae9bb31abb1c"),
                             Code = "bez-TZ",
                             EnglishName = "Bena (Tanzania)"
                         },
                         new
                         {
-                            Id = new Guid("d13f6bc7-6bdc-4d58-98be-26d321a98123"),
+                            Id = new Guid("322ed054-c6c8-4e4a-aed8-ddecec5e154a"),
                             Code = "bg",
                             EnglishName = "Bulgarian"
                         },
                         new
                         {
-                            Id = new Guid("6c586fa7-9100-4bd5-bfbb-e10597530dfd"),
+                            Id = new Guid("b1b49608-9dc7-4055-a639-3d8e911a6cf2"),
                             Code = "bg-BG",
                             EnglishName = "Bulgarian (Bulgaria)"
                         },
                         new
                         {
-                            Id = new Guid("79a6ce98-4638-4071-b82f-edc4117bfe37"),
+                            Id = new Guid("10ef87e9-9236-4c66-928e-37685ed40bf9"),
                             Code = "bm",
                             EnglishName = "Bamanankan"
                         },
                         new
                         {
-                            Id = new Guid("9949df39-d36a-44c2-9766-aa14004fd11b"),
+                            Id = new Guid("2422d57e-081b-45e4-834f-8212ac4b48b1"),
                             Code = "bm-ML",
                             EnglishName = "Bamanankan (Mali)"
                         },
                         new
                         {
-                            Id = new Guid("ed28f251-4038-4203-b013-402b7ce60740"),
+                            Id = new Guid("e6102705-0e70-4418-ac7a-bab3706585f7"),
                             Code = "bn",
                             EnglishName = "Bangla"
                         },
                         new
                         {
-                            Id = new Guid("a1249ee0-ca60-4e23-935d-6b31428a30c6"),
+                            Id = new Guid("2907b423-c238-42c0-9b91-8baf8f4ab039"),
                             Code = "bn-BD",
                             EnglishName = "Bangla (Bangladesh)"
                         },
                         new
                         {
-                            Id = new Guid("d1c132ef-a95d-405f-bd4f-00792d59f85b"),
+                            Id = new Guid("4daed3a2-7ac7-4cc8-ac8c-c5dbebf8b669"),
                             Code = "bn-IN",
                             EnglishName = "Bangla (India)"
                         },
                         new
                         {
-                            Id = new Guid("ae7eeb31-8f99-47d8-9f73-08d4d67878bf"),
+                            Id = new Guid("524d8d4e-f772-480d-9704-b977c3c94e96"),
                             Code = "bo",
                             EnglishName = "Tibetan"
                         },
                         new
                         {
-                            Id = new Guid("c0587151-30d7-4cc8-af9a-4df9ab8d3d49"),
+                            Id = new Guid("81b26cdb-3c88-403f-ac27-0f538f284a92"),
                             Code = "bo-CN",
                             EnglishName = "Tibetan (China)"
                         },
                         new
                         {
-                            Id = new Guid("e49e29bd-82a2-4dbb-9a07-5d05d7ced57e"),
+                            Id = new Guid("9a69b388-8cf0-42e8-96ee-e194e73075f1"),
                             Code = "bo-IN",
                             EnglishName = "Tibetan (India)"
                         },
                         new
                         {
-                            Id = new Guid("f6a762c2-4a3b-4dd8-a468-a2051dcea382"),
+                            Id = new Guid("72132c7a-c650-4408-bc0a-d7201ba79406"),
                             Code = "br",
                             EnglishName = "Breton"
                         },
                         new
                         {
-                            Id = new Guid("538c4041-aadc-4236-a7d8-1c24fa7875fa"),
+                            Id = new Guid("d40ba2e7-847a-46ee-aaff-898862abd544"),
                             Code = "br-FR",
                             EnglishName = "Breton (France)"
                         },
                         new
                         {
-                            Id = new Guid("ca1a0bd7-0d38-40e3-b5ff-858b32af31a8"),
+                            Id = new Guid("5a9aed4e-7133-4f57-bde6-e3ff52069b47"),
                             Code = "brx",
                             EnglishName = "Bodo"
                         },
                         new
                         {
-                            Id = new Guid("77f162ee-d9b1-4d4a-8253-56bdddb58f18"),
+                            Id = new Guid("cd2f9baa-af50-44db-89a6-19d31766403c"),
                             Code = "brx-IN",
                             EnglishName = "Bodo (India)"
                         },
                         new
                         {
-                            Id = new Guid("3a637a6a-b154-42ea-8bc6-a0876ce62961"),
+                            Id = new Guid("1fba4548-b03d-4909-95b5-18ff497323b3"),
                             Code = "bs",
                             EnglishName = "Bosnian"
                         },
                         new
                         {
-                            Id = new Guid("d443ae1c-0e60-41f9-a183-7f2c2c6347e0"),
+                            Id = new Guid("a864ce7a-5490-4817-8b28-2f05f9b666f3"),
                             Code = "bs-Cyrl",
                             EnglishName = "Bosnian"
                         },
                         new
                         {
-                            Id = new Guid("a0130a70-b536-4dff-949f-44665bf70906"),
+                            Id = new Guid("bc86fa93-1d2f-453c-9ade-4f510b422d4b"),
                             Code = "bs-Cyrl-BA",
                             EnglishName = "Bosnian (Cyrillic, Bosnia & Herzegovina)"
                         },
                         new
                         {
-                            Id = new Guid("2f47e25c-e7c6-46d3-b47c-4389b29b983c"),
+                            Id = new Guid("ed1e1ad8-c1c7-448e-97e5-df39488b1842"),
                             Code = "bs-Latn",
                             EnglishName = "Bosnian"
                         },
                         new
                         {
-                            Id = new Guid("cdf83fc9-b3a1-411e-8650-4b08163a524a"),
+                            Id = new Guid("ef7afafd-4e90-44e3-abf8-112283483e92"),
                             Code = "bs-Latn-BA",
                             EnglishName = "Bosnian (Latin, Bosnia & Herzegovina)"
                         },
                         new
                         {
-                            Id = new Guid("cda0b210-2289-4f49-a2c4-16e05456d2b5"),
+                            Id = new Guid("31c7f131-e643-48d1-92f2-7c3879597b19"),
                             Code = "byn",
                             EnglishName = "Blin"
                         },
                         new
                         {
-                            Id = new Guid("ebff6b96-7a2d-4a8c-9164-7c49a0a586eb"),
+                            Id = new Guid("7009cac1-1911-4967-b5ae-c477791bba44"),
                             Code = "byn-ER",
                             EnglishName = "Blin (Eritrea)"
                         },
                         new
                         {
-                            Id = new Guid("17051725-914f-4458-821f-5de7d65e5a5f"),
+                            Id = new Guid("911280bd-dcec-48b5-a9b9-d04427e62c40"),
                             Code = "ca",
                             EnglishName = "Catalan"
                         },
                         new
                         {
-                            Id = new Guid("42811b3c-fa70-42ab-b273-02af3b117483"),
+                            Id = new Guid("3a057179-b5c5-450d-9ebd-3107a04019fb"),
                             Code = "ca-AD",
                             EnglishName = "Catalan (Andorra)"
                         },
                         new
                         {
-                            Id = new Guid("05585144-9db7-4969-aa53-c17275b6498b"),
+                            Id = new Guid("48f54fce-c4eb-4bf9-8377-adef1421c9f6"),
                             Code = "ca-ES",
                             EnglishName = "Catalan (Spain)"
                         },
                         new
                         {
-                            Id = new Guid("cce0b990-257f-4245-bc9f-20af75b323e0"),
+                            Id = new Guid("5b2912fd-aa4e-4fec-9657-6dbb79391440"),
                             Code = "ca-ES-VALENCIA",
                             EnglishName = "Catalan (Spain, Valencian)"
                         },
                         new
                         {
-                            Id = new Guid("b0361841-9fdc-4af0-95a4-112c15cfb822"),
+                            Id = new Guid("b4d44e10-317a-47de-8f94-eb6541582046"),
                             Code = "ca-FR",
                             EnglishName = "Catalan (France)"
                         },
                         new
                         {
-                            Id = new Guid("035c5a77-b4bb-450d-bd58-8d1b66efc48b"),
+                            Id = new Guid("f7df092c-f831-4ff2-9785-27b0df7b4af3"),
                             Code = "ca-IT",
                             EnglishName = "Catalan (Italy)"
                         },
                         new
                         {
-                            Id = new Guid("47348927-96c0-4975-a6fa-f7b2ce6e8678"),
+                            Id = new Guid("e18a1cc7-c44e-4ad1-9d66-101a0030a8f0"),
                             Code = "ccp",
                             EnglishName = "Chakma"
                         },
                         new
                         {
-                            Id = new Guid("5c36e641-ab26-45d0-b84d-9f51beabed6e"),
+                            Id = new Guid("fd16a36c-983e-414c-9a66-27c230aab192"),
                             Code = "ccp-BD",
                             EnglishName = "Chakma (Bangladesh)"
                         },
                         new
                         {
-                            Id = new Guid("a08e01b1-771b-41ff-85e8-67d29bf063d9"),
+                            Id = new Guid("61f06a02-82e6-4dda-b3ef-ec007f193b03"),
                             Code = "ccp-IN",
                             EnglishName = "Chakma (India)"
                         },
                         new
                         {
-                            Id = new Guid("ab386b38-ce9d-487a-8819-23ca84d75c3a"),
+                            Id = new Guid("b2493074-e8a0-4097-9dc2-8d88ece14ff1"),
                             Code = "ce",
                             EnglishName = "Chechen"
                         },
                         new
                         {
-                            Id = new Guid("4c504366-c006-4953-8c9d-9903b0a5131e"),
+                            Id = new Guid("18b3854e-4601-45c2-8e1d-8e18fa4a1489"),
                             Code = "ce-RU",
                             EnglishName = "Chechen (Russia)"
                         },
                         new
                         {
-                            Id = new Guid("4fee3f5c-0b64-4b32-8c1d-0aa7ffab2a38"),
+                            Id = new Guid("0fa04da6-fcb8-4264-9c6c-5cac074d3e76"),
                             Code = "ceb",
                             EnglishName = "Cebuano"
                         },
                         new
                         {
-                            Id = new Guid("4d3dd900-d150-4b2a-b661-9d0ef1c9ed99"),
+                            Id = new Guid("9950c5ec-72ab-431c-be4f-8718a6399154"),
                             Code = "ceb-PH",
                             EnglishName = "Cebuano (Philippines)"
                         },
                         new
                         {
-                            Id = new Guid("b70d8625-9d23-45bb-ab43-c493412316c4"),
+                            Id = new Guid("67cbc4ba-5f39-4ee9-92d6-d72032fff5ff"),
                             Code = "cgg",
                             EnglishName = "Chiga"
                         },
                         new
                         {
-                            Id = new Guid("9641683b-92ad-483c-9d71-b7b30bd127a6"),
+                            Id = new Guid("5f6eda90-86ce-4ef3-a76a-3b63fb45edc0"),
                             Code = "cgg-UG",
                             EnglishName = "Chiga (Uganda)"
                         },
                         new
                         {
-                            Id = new Guid("a70b358a-68a2-4fa4-9921-3faaf394cf27"),
+                            Id = new Guid("19c3ba19-9f4a-49e3-bf92-91c557faef47"),
                             Code = "chr",
                             EnglishName = "Cherokee"
                         },
                         new
                         {
-                            Id = new Guid("1a84386d-e687-44dc-b913-c22f091930e0"),
+                            Id = new Guid("1a2c27b6-9bc5-40c3-b491-94115bc237ec"),
                             Code = "chr-US",
                             EnglishName = "Cherokee (United States)"
                         },
                         new
                         {
-                            Id = new Guid("f5245aee-6cd7-494b-a246-e563612f51be"),
+                            Id = new Guid("f78d59ed-b5c1-481a-9af7-1ad49efc3443"),
                             Code = "ckb",
                             EnglishName = "Central Kurdish"
                         },
                         new
                         {
-                            Id = new Guid("24355a84-edb7-40c0-bfc8-c812637b3311"),
+                            Id = new Guid("f444d0d6-a3b7-4240-b973-66c5467ff3df"),
                             Code = "ckb-IQ",
                             EnglishName = "Central Kurdish (Iraq)"
                         },
                         new
                         {
-                            Id = new Guid("1e199f05-92ce-49b2-8f7c-3de336778e9a"),
+                            Id = new Guid("ad1ddc45-03af-4b63-8ba4-3f9326668080"),
                             Code = "ckb-IR",
                             EnglishName = "Central Kurdish (Iran)"
                         },
                         new
                         {
-                            Id = new Guid("b895e799-f4f1-408b-93c8-2e349bf108b7"),
+                            Id = new Guid("34d64a43-010e-4a49-a1b2-90ef858032b8"),
                             Code = "co",
                             EnglishName = "Corsican"
                         },
                         new
                         {
-                            Id = new Guid("2059f7f7-9958-40c0-b333-68120aa01765"),
+                            Id = new Guid("29b1a3c7-92ab-4292-8ee8-c2e29342ec6d"),
                             Code = "co-FR",
                             EnglishName = "Corsican (France)"
                         },
                         new
                         {
-                            Id = new Guid("0b4cb4c1-21f9-4509-a311-18e137a324a3"),
+                            Id = new Guid("46f9445f-ce00-40bb-9943-3f7ac672ffd9"),
                             Code = "cs",
                             EnglishName = "Czech"
                         },
                         new
                         {
-                            Id = new Guid("e408be14-1c94-48e9-bcae-5e533f1716d6"),
+                            Id = new Guid("1d3d0078-dbc1-4c6f-886e-0b1a5a6006b0"),
                             Code = "cs-CZ",
                             EnglishName = "Czech (Czechia)"
                         },
                         new
                         {
-                            Id = new Guid("3a6249cc-db8c-4e5c-9654-63616cd3283c"),
+                            Id = new Guid("7c9573d1-31da-41a4-ba69-187d49d46297"),
                             Code = "cu",
                             EnglishName = "Church Slavic"
                         },
                         new
                         {
-                            Id = new Guid("d3e1f6bc-da5f-4dde-b904-45a19120ee8d"),
+                            Id = new Guid("77c6f9ea-bf81-4fd2-ba54-9162228e0e87"),
                             Code = "cu-RU",
                             EnglishName = "Church Slavic (Russia)"
                         },
                         new
                         {
-                            Id = new Guid("56745b9d-d157-4752-bbc3-c5035ac4985e"),
+                            Id = new Guid("b0eb3105-07c0-475a-ab10-0b4e4085c083"),
                             Code = "cy",
                             EnglishName = "Welsh"
                         },
                         new
                         {
-                            Id = new Guid("462fd341-614d-401f-9ef3-492e65199152"),
+                            Id = new Guid("1e718b7d-2655-4344-887f-8540dc50112f"),
                             Code = "cy-GB",
                             EnglishName = "Welsh (United Kingdom)"
                         },
                         new
                         {
-                            Id = new Guid("44068705-5887-43af-84fc-566761a52053"),
+                            Id = new Guid("36020e6f-ebd9-409d-9bb3-030180ea3e2c"),
                             Code = "da",
                             EnglishName = "Danish"
                         },
                         new
                         {
-                            Id = new Guid("30afc5d3-371d-41e8-b556-4e8f9e0ea001"),
+                            Id = new Guid("6cf0c89f-c8da-4197-bb90-00ce3edd6d6c"),
                             Code = "da-DK",
                             EnglishName = "Danish (Denmark)"
                         },
                         new
                         {
-                            Id = new Guid("b150c909-5afe-46b6-80ab-9efdcc94ec79"),
+                            Id = new Guid("561d4164-cf71-435c-8d3c-2aaada762475"),
                             Code = "da-GL",
                             EnglishName = "Danish (Greenland)"
                         },
                         new
                         {
-                            Id = new Guid("d919c825-95a6-4c89-83c8-10dd4892573f"),
+                            Id = new Guid("ffb60df7-5938-4aec-a6c2-fa61e7d8a7d5"),
                             Code = "dav",
                             EnglishName = "Taita"
                         },
                         new
                         {
-                            Id = new Guid("e00c18ef-3434-4710-8216-02f90f318c01"),
+                            Id = new Guid("5f6141fd-4997-4ee0-adb5-624add0faae3"),
                             Code = "dav-KE",
                             EnglishName = "Taita (Kenya)"
                         },
                         new
                         {
-                            Id = new Guid("338a016c-4785-4447-a3f9-6c688de29530"),
+                            Id = new Guid("af7b144c-ab01-4831-99fe-063e0de204d5"),
                             Code = "de",
                             EnglishName = "German"
                         },
                         new
                         {
-                            Id = new Guid("09cf9fa2-1d34-4ce2-bb40-f89e12c2f41f"),
+                            Id = new Guid("a17a866d-cc4e-4b45-ad05-a66c17e1d690"),
                             Code = "de-AT",
                             EnglishName = "German (Austria)"
                         },
                         new
                         {
-                            Id = new Guid("b07b9c4e-1c9b-4371-9353-c8f79756314a"),
+                            Id = new Guid("90639a15-cead-472f-82a3-90841933ed9b"),
                             Code = "de-BE",
                             EnglishName = "German (Belgium)"
                         },
                         new
                         {
-                            Id = new Guid("249ee1b0-edcc-4ff6-9b71-a1532d7b1d22"),
+                            Id = new Guid("0d907106-eb53-4ae2-8a97-4a539fc731ff"),
                             Code = "de-CH",
                             EnglishName = "German (Switzerland)"
                         },
                         new
                         {
-                            Id = new Guid("b3de688c-f0b6-4108-b81d-b4fe072e56a3"),
+                            Id = new Guid("533d992a-0d9a-4603-aaac-7cb7d67d6dec"),
                             Code = "de-DE",
                             EnglishName = "German (Germany)"
                         },
                         new
                         {
-                            Id = new Guid("c9b958a1-cf40-400c-a20d-5be3ea2494ee"),
+                            Id = new Guid("bc9bd264-3d3c-4f7b-8137-b0b2fa15e0f7"),
                             Code = "de-IT",
                             EnglishName = "German (Italy)"
                         },
                         new
                         {
-                            Id = new Guid("90969c4c-4649-49b2-9b75-69b6da56adfd"),
+                            Id = new Guid("7b79be43-10d5-4c47-af6e-b7cd5016f931"),
                             Code = "de-LI",
                             EnglishName = "German (Liechtenstein)"
                         },
                         new
                         {
-                            Id = new Guid("2b571106-d4bf-450c-b6f8-e0f4a3d09366"),
+                            Id = new Guid("a3b63c13-9830-41bd-8a5f-254fa9a9fc95"),
                             Code = "de-LU",
                             EnglishName = "German (Luxembourg)"
                         },
                         new
                         {
-                            Id = new Guid("16ff944b-e15c-4264-8e0e-de18875fe2a5"),
+                            Id = new Guid("c3b8d9f5-efb1-48df-9678-eb4f8b281ad1"),
                             Code = "dje",
                             EnglishName = "Zarma"
                         },
                         new
                         {
-                            Id = new Guid("43909399-2bf2-429b-9690-d5bd22a4ab2b"),
+                            Id = new Guid("bbf5a593-0bbd-4f44-8de0-44a60e68e5d1"),
                             Code = "dje-NE",
                             EnglishName = "Zarma (Niger)"
                         },
                         new
                         {
-                            Id = new Guid("39a0c2f0-f02c-4960-b8e7-48840b7eee6c"),
+                            Id = new Guid("9addf91f-26f1-4d6a-af54-1ea311171453"),
                             Code = "dsb",
                             EnglishName = "Lower Sorbian"
                         },
                         new
                         {
-                            Id = new Guid("98b55ba2-c5f2-4789-b9de-f6f25bab5bbe"),
+                            Id = new Guid("f6fbac90-3acb-4444-b731-078dad8d9175"),
                             Code = "dsb-DE",
                             EnglishName = "Lower Sorbian (Germany)"
                         },
                         new
                         {
-                            Id = new Guid("2f3f835c-bff5-4e1e-8dd1-96f304da5969"),
+                            Id = new Guid("b725a43e-5635-479f-a6e6-fada446bcf4b"),
                             Code = "dua",
                             EnglishName = "Duala"
                         },
                         new
                         {
-                            Id = new Guid("74831678-4ea5-43d7-829d-7cc9e2b1d52e"),
+                            Id = new Guid("bf86f660-a3d3-44fe-9028-4b064520a350"),
                             Code = "dua-CM",
                             EnglishName = "Duala (Cameroon)"
                         },
                         new
                         {
-                            Id = new Guid("bf779840-6b43-4fdc-a3c9-b6389bbe3ca7"),
+                            Id = new Guid("f1dca988-65e8-4b24-beec-58f0455e0219"),
                             Code = "dv",
                             EnglishName = "Divehi"
                         },
                         new
                         {
-                            Id = new Guid("ab46c98e-ff87-4895-bbb4-daa0d90b978a"),
+                            Id = new Guid("72cd67bc-20f4-4efb-806f-c21ac2ebd1a2"),
                             Code = "dv-MV",
                             EnglishName = "Divehi (Maldives)"
                         },
                         new
                         {
-                            Id = new Guid("beedefbd-5a54-4666-912a-49820e191f33"),
+                            Id = new Guid("8c171ef7-5ff9-4f22-af26-51d6d61a7d10"),
                             Code = "dyo",
                             EnglishName = "Jola-Fonyi"
                         },
                         new
                         {
-                            Id = new Guid("cb5ff7bd-7daa-4eb6-8236-9cdae8fd69d3"),
+                            Id = new Guid("eadc809a-2cb2-4c64-9d9f-bf35389998c9"),
                             Code = "dyo-SN",
                             EnglishName = "Jola-Fonyi (Senegal)"
                         },
                         new
                         {
-                            Id = new Guid("784c1863-d75e-4292-b31a-fd5c50c45a01"),
+                            Id = new Guid("111f3540-7e54-48e4-abf5-e585dab3da3c"),
                             Code = "dz",
                             EnglishName = "Dzongkha"
                         },
                         new
                         {
-                            Id = new Guid("f802cad2-e975-4bc6-aafd-620b19ff14fd"),
+                            Id = new Guid("f1a7460b-f7fe-4bd1-8b1f-496f818ec67b"),
                             Code = "dz-BT",
                             EnglishName = "Dzongkha (Bhutan)"
                         },
                         new
                         {
-                            Id = new Guid("49c4ac55-e48a-4536-9ad7-c4d675414cd4"),
+                            Id = new Guid("45109a19-a49c-4377-a45b-2f5ae06b6ee0"),
                             Code = "ebu",
                             EnglishName = "Embu"
                         },
                         new
                         {
-                            Id = new Guid("9b869466-87f6-401d-a96a-4e3055f8785d"),
+                            Id = new Guid("719e73b7-89a2-493e-9596-689b790e79be"),
                             Code = "ebu-KE",
                             EnglishName = "Embu (Kenya)"
                         },
                         new
                         {
-                            Id = new Guid("a175de86-e396-403b-adff-7538681ed659"),
+                            Id = new Guid("cbf3b5cf-5b3a-4228-ab8c-5f28e8fed703"),
                             Code = "ee",
                             EnglishName = "Ewe"
                         },
                         new
                         {
-                            Id = new Guid("7886f781-56a8-491f-875f-49cbf9d570b7"),
+                            Id = new Guid("8fe09c2a-4a97-49ec-99b4-4bd34670adfc"),
                             Code = "ee-GH",
                             EnglishName = "Ewe (Ghana)"
                         },
                         new
                         {
-                            Id = new Guid("bde33ae9-c5d7-4d81-9963-50ced8387a7c"),
+                            Id = new Guid("05a54c63-2280-4b26-918f-a61d1ed5ce24"),
                             Code = "ee-TG",
                             EnglishName = "Ewe (Togo)"
                         },
                         new
                         {
-                            Id = new Guid("c6074f5c-0656-42e2-8d08-c112129057a4"),
+                            Id = new Guid("26c2a91f-a595-4536-85e3-dfc5b71cf6e2"),
                             Code = "el",
                             EnglishName = "Greek"
                         },
                         new
                         {
-                            Id = new Guid("33898f24-a4cb-4cc9-9955-0cae8d7efc46"),
+                            Id = new Guid("cfc51339-1781-4830-98f8-dce8785ca907"),
                             Code = "el-CY",
                             EnglishName = "Greek (Cyprus)"
                         },
                         new
                         {
-                            Id = new Guid("df25a8a5-3aa2-433b-a2e5-996fc0aa9c60"),
+                            Id = new Guid("4397f14b-97be-4c08-b46e-ddcf399a448c"),
                             Code = "el-GR",
                             EnglishName = "Greek (Greece)"
                         },
                         new
                         {
-                            Id = new Guid("6e3c5541-c562-4f3d-b6af-a41292a609fe"),
+                            Id = new Guid("be8d1800-d3d9-4fb0-aecb-eea0bd4f35f6"),
                             Code = "en",
                             EnglishName = "English"
                         },
                         new
                         {
-                            Id = new Guid("19614ded-5313-46b2-b7b7-4df399c8bfe3"),
+                            Id = new Guid("7ce87551-3d3b-4e8b-ba69-015ed6e4515b"),
                             Code = "en-001",
                             EnglishName = "English (World)"
                         },
                         new
                         {
-                            Id = new Guid("2e84780b-275d-4e96-8078-f5b0edcc48ce"),
+                            Id = new Guid("4f8afa18-3c4b-4de3-8092-1915e734a271"),
                             Code = "en-150",
                             EnglishName = "English (Europe)"
                         },
                         new
                         {
-                            Id = new Guid("44f20d9a-d748-4a28-95c8-9d64b5542103"),
+                            Id = new Guid("50c2e24a-fc5e-4f80-8fc0-427c9d9a6b2a"),
                             Code = "en-AE",
                             EnglishName = "English (United Arab Emirates)"
                         },
                         new
                         {
-                            Id = new Guid("845409e7-5c0c-412b-a59a-e0fc08177495"),
+                            Id = new Guid("dc20c19f-355c-4242-9c5e-a300be273598"),
                             Code = "en-AG",
                             EnglishName = "English (Antigua & Barbuda)"
                         },
                         new
                         {
-                            Id = new Guid("15cef9db-1bc6-4f9c-9b30-7104778517bf"),
+                            Id = new Guid("c7d16789-83b7-49f4-bf54-6a381b9406fd"),
                             Code = "en-AI",
                             EnglishName = "English (Anguilla)"
                         },
                         new
                         {
-                            Id = new Guid("adfb3cad-3317-48a9-abc8-99bed2bf82c7"),
+                            Id = new Guid("c5e0e433-220e-4733-9b80-16afb61654da"),
                             Code = "en-AS",
                             EnglishName = "English (American Samoa)"
                         },
                         new
                         {
-                            Id = new Guid("29493662-5106-464a-a7da-7c2e445a5333"),
+                            Id = new Guid("daebaa62-3796-4ee0-83a9-fab3b41f1ea6"),
                             Code = "en-AT",
                             EnglishName = "English (Austria)"
                         },
                         new
                         {
-                            Id = new Guid("db7f5bad-8034-463c-80fc-c9660e971ea3"),
+                            Id = new Guid("594aa8ce-21ea-40db-b98e-4adca7fc8f7a"),
                             Code = "en-AU",
                             EnglishName = "English (Australia)"
                         },
                         new
                         {
-                            Id = new Guid("41530737-9215-49c5-8a98-6fd4c740dca3"),
+                            Id = new Guid("5ef8d1f3-421e-4d3e-baf3-4446431c9808"),
                             Code = "en-BB",
                             EnglishName = "English (Barbados)"
                         },
                         new
                         {
-                            Id = new Guid("9dc79114-2f19-4cf4-8216-b8ea6b28772f"),
+                            Id = new Guid("628534f6-d033-446f-93e1-a94273e4d8f7"),
                             Code = "en-BE",
                             EnglishName = "English (Belgium)"
                         },
                         new
                         {
-                            Id = new Guid("bd5a6d4b-3b8c-4d4b-b423-c368d61a86ec"),
+                            Id = new Guid("9b96de8b-237b-4502-ac1e-2c47e16eac32"),
                             Code = "en-BI",
                             EnglishName = "English (Burundi)"
                         },
                         new
                         {
-                            Id = new Guid("dbf09488-9d5f-4c2d-9589-bea5e2c77a49"),
+                            Id = new Guid("09107d65-4a75-4128-9174-5b8d0b663e79"),
                             Code = "en-BM",
                             EnglishName = "English (Bermuda)"
                         },
                         new
                         {
-                            Id = new Guid("5b37cf3c-e2e8-4c1f-aabe-c6d50fc621f9"),
+                            Id = new Guid("4804f252-0101-46c1-b3d4-05e7389e9a34"),
                             Code = "en-BS",
                             EnglishName = "English (Bahamas)"
                         },
                         new
                         {
-                            Id = new Guid("1dee61de-d379-4238-a9bb-b1cf3519705b"),
+                            Id = new Guid("b3b7fd97-3b8c-44c9-8e7f-b82a93bea5ab"),
                             Code = "en-BW",
                             EnglishName = "English (Botswana)"
                         },
                         new
                         {
-                            Id = new Guid("4dfabd6b-80a3-4594-9676-f49d60c92cac"),
+                            Id = new Guid("b089a49f-6b94-48c6-a6a4-e88bc7cb2753"),
                             Code = "en-BZ",
                             EnglishName = "English (Belize)"
                         },
                         new
                         {
-                            Id = new Guid("9013546e-4e21-4602-9ba6-be12905988d3"),
+                            Id = new Guid("c27c92ed-ece3-443c-8fdb-a77349b2dd51"),
                             Code = "en-CA",
                             EnglishName = "English (Canada)"
                         },
                         new
                         {
-                            Id = new Guid("9859c9a8-62b1-4206-8abb-32c99c4f7fc2"),
+                            Id = new Guid("72985385-7ce2-4c7d-bfab-b8e1c10f0825"),
                             Code = "en-CC",
                             EnglishName = "English (Cocos [Keeling] Islands)"
                         },
                         new
                         {
-                            Id = new Guid("7927c1a0-c260-466d-815a-a16e2f78c8b2"),
+                            Id = new Guid("bc73daa6-3f07-4fc2-99af-4cc3cb5d13f6"),
                             Code = "en-CH",
                             EnglishName = "English (Switzerland)"
                         },
                         new
                         {
-                            Id = new Guid("0fb613a7-d347-4665-a51e-6ef5f600f34e"),
+                            Id = new Guid("21f18e56-39a4-4300-bccf-1dccc8a1fb17"),
                             Code = "en-CK",
                             EnglishName = "English (Cook Islands)"
                         },
                         new
                         {
-                            Id = new Guid("409f3371-bdcf-4ab4-ab79-2eb666ab8ea1"),
+                            Id = new Guid("8088442c-ff5a-4b90-8415-d6208f7a95b8"),
                             Code = "en-CM",
                             EnglishName = "English (Cameroon)"
                         },
                         new
                         {
-                            Id = new Guid("0e8221df-ea3c-4191-88a2-7c1bf3f75562"),
+                            Id = new Guid("89f95066-0c10-49e4-8764-37327ec984b0"),
                             Code = "en-CX",
                             EnglishName = "English (Christmas Island)"
                         },
                         new
                         {
-                            Id = new Guid("3d380019-b6b2-476a-a196-f5f825b6fcbf"),
+                            Id = new Guid("36c85cf3-b295-43a9-8471-72b3230ff0df"),
                             Code = "en-CY",
                             EnglishName = "English (Cyprus)"
                         },
                         new
                         {
-                            Id = new Guid("cfcecdcf-c73e-4849-8056-df9bd50685ee"),
+                            Id = new Guid("3667ede3-0053-45a4-8114-5bc5b5576001"),
                             Code = "en-DE",
                             EnglishName = "English (Germany)"
                         },
                         new
                         {
-                            Id = new Guid("bf9158a2-0fbc-4391-b3dc-58b353c5f5a4"),
+                            Id = new Guid("014b321e-9373-4158-ac37-d8b02eece9ee"),
                             Code = "en-DK",
                             EnglishName = "English (Denmark)"
                         },
                         new
                         {
-                            Id = new Guid("5a4f0736-cfc5-493f-b657-8dc8d7a1dcb8"),
+                            Id = new Guid("c9c9dede-4da3-4401-a05e-a43e9c97b488"),
                             Code = "en-DM",
                             EnglishName = "English (Dominica)"
                         },
                         new
                         {
-                            Id = new Guid("04a4059a-1acb-4cc5-948d-b4f7a7a8b17a"),
+                            Id = new Guid("bfaeec9d-542b-4fdb-91de-ac66cab8a447"),
                             Code = "en-ER",
                             EnglishName = "English (Eritrea)"
                         },
                         new
                         {
-                            Id = new Guid("57af9f79-6ae7-465d-a25e-2fcc6a8e53a2"),
+                            Id = new Guid("4ec9dfab-697e-4414-bb97-c2f9f8a9564b"),
                             Code = "en-FI",
                             EnglishName = "English (Finland)"
                         },
                         new
                         {
-                            Id = new Guid("4ad68680-41e8-45ef-a785-eec6bf8a03aa"),
+                            Id = new Guid("0b504604-cc06-4458-9e10-ae90f8cf91b8"),
                             Code = "en-FJ",
                             EnglishName = "English (Fiji)"
                         },
                         new
                         {
-                            Id = new Guid("8a827a47-9aac-45a8-af7a-de637fa956d2"),
+                            Id = new Guid("4d1d6774-4618-44b0-86aa-a921f4f80cf1"),
                             Code = "en-FK",
                             EnglishName = "English (Falkland Islands)"
                         },
                         new
                         {
-                            Id = new Guid("a46b4e36-4618-4e68-85e5-3316c843b886"),
+                            Id = new Guid("72a170c2-09a8-4aed-8915-e16df3990ff0"),
                             Code = "en-FM",
                             EnglishName = "English (Micronesia)"
                         },
                         new
                         {
-                            Id = new Guid("6e7cae6b-18f1-4d7d-81cd-078c773f9c38"),
+                            Id = new Guid("d58cf9ac-20e4-4ff5-82e2-6e138bba5637"),
                             Code = "en-GB",
                             EnglishName = "English (United Kingdom)"
                         },
                         new
                         {
-                            Id = new Guid("53040f06-64b3-4782-97c7-28d2f63ec19b"),
+                            Id = new Guid("3cbd4a84-1617-4b25-9c76-1381815dcb78"),
                             Code = "en-GD",
                             EnglishName = "English (Grenada)"
                         },
                         new
                         {
-                            Id = new Guid("a7c36f5d-9bef-4d32-b091-fc079fcd084b"),
+                            Id = new Guid("57e84e2d-e7e5-4a61-b0a1-fd4d1c75f215"),
                             Code = "en-GG",
                             EnglishName = "English (Guernsey)"
                         },
                         new
                         {
-                            Id = new Guid("2b9eb1e5-bd74-4263-878d-af19b50b6f47"),
+                            Id = new Guid("8480095b-afd4-4eef-838a-b91a9ef6f664"),
                             Code = "en-GH",
                             EnglishName = "English (Ghana)"
                         },
                         new
                         {
-                            Id = new Guid("704a99de-2f9c-4b0d-8fa3-7edeb21ed9f5"),
+                            Id = new Guid("8f76b252-7d04-4eaf-98dd-ffa777ce68a6"),
                             Code = "en-GI",
                             EnglishName = "English (Gibraltar)"
                         },
                         new
                         {
-                            Id = new Guid("62b422f0-cf75-4fc9-aa9b-c8d04bd80dc3"),
+                            Id = new Guid("e941a59f-f95f-4ca3-9a7d-0a650a4dbb5b"),
                             Code = "en-GM",
                             EnglishName = "English (Gambia)"
                         },
                         new
                         {
-                            Id = new Guid("18a4d813-2a05-4931-8bc1-d15451ec3b3e"),
+                            Id = new Guid("cbc36923-0f36-458f-b684-6015047bd377"),
                             Code = "en-GU",
                             EnglishName = "English (Guam)"
                         },
                         new
                         {
-                            Id = new Guid("0d162e4a-3cef-4dbf-a3d5-d46f1d5a89f4"),
+                            Id = new Guid("a1dc5050-99cd-4445-9da2-48608ee80245"),
                             Code = "en-GY",
                             EnglishName = "English (Guyana)"
                         },
                         new
                         {
-                            Id = new Guid("d8c2e166-4de0-4994-9585-25663474322e"),
+                            Id = new Guid("2ad3cb63-103a-4610-8077-6407e3e4d9f7"),
                             Code = "en-HK",
                             EnglishName = "English (Hong Kong SAR)"
                         },
                         new
                         {
-                            Id = new Guid("362b489a-d89b-49c7-be97-0670501e59cd"),
+                            Id = new Guid("9e9b1fdb-9216-4c43-9414-c91b6f6093c3"),
                             Code = "en-IE",
                             EnglishName = "English (Ireland)"
                         },
                         new
                         {
-                            Id = new Guid("a4e0e2f2-acf6-406c-b0ec-0854ba3c2570"),
+                            Id = new Guid("213f8d60-afe3-47cc-86a7-8d0d0bba72e8"),
                             Code = "en-IL",
                             EnglishName = "English (Israel)"
                         },
                         new
                         {
-                            Id = new Guid("3a5ce9f0-fa92-4156-bf7a-ea193f458d34"),
+                            Id = new Guid("b7687682-5abb-4388-aab5-a59ceea75eba"),
                             Code = "en-IM",
                             EnglishName = "English (Isle of Man)"
                         },
                         new
                         {
-                            Id = new Guid("108ee281-a238-425d-849a-67489c64e94b"),
+                            Id = new Guid("3bf082fe-2c1f-45b1-b160-1a748c7892ea"),
                             Code = "en-IN",
                             EnglishName = "English (India)"
                         },
                         new
                         {
-                            Id = new Guid("d83e21b1-0280-4c7d-954b-8432b55dd443"),
+                            Id = new Guid("eb270e44-8ef4-472a-a3ad-26f982023845"),
                             Code = "en-IO",
                             EnglishName = "English (British Indian Ocean Territory)"
                         },
                         new
                         {
-                            Id = new Guid("418486f6-f261-4c96-ba54-f3dcd5de26bd"),
+                            Id = new Guid("183c99d2-d247-4457-bcad-0c788231451d"),
                             Code = "en-JE",
                             EnglishName = "English (Jersey)"
                         },
                         new
                         {
-                            Id = new Guid("3b21c164-fbb6-44dd-a903-94dccbfca929"),
+                            Id = new Guid("b7614533-752e-43b8-bbd7-b3171fcf769b"),
                             Code = "en-JM",
                             EnglishName = "English (Jamaica)"
                         },
                         new
                         {
-                            Id = new Guid("bbfe29fd-9a06-45a9-b4c9-cbbbfeb2239e"),
+                            Id = new Guid("ca1f2913-6a10-4cc0-8eb3-f0bc26a9bf68"),
                             Code = "en-KE",
                             EnglishName = "English (Kenya)"
                         },
                         new
                         {
-                            Id = new Guid("045d768a-54fc-49cd-80cc-89635e76c775"),
+                            Id = new Guid("6db508dd-6a73-4392-8260-b6fcfd2e3cda"),
                             Code = "en-KI",
                             EnglishName = "English (Kiribati)"
                         },
                         new
                         {
-                            Id = new Guid("ad1f7867-000c-4d4a-b350-e6541576f10f"),
+                            Id = new Guid("1fc88d87-3a75-4c61-adf8-347655ce54e3"),
                             Code = "en-KN",
                             EnglishName = "English (St. Kitts & Nevis)"
                         },
                         new
                         {
-                            Id = new Guid("78a9f1c1-512d-4d25-9b50-21acd05f3642"),
+                            Id = new Guid("313fd9c7-30b7-4648-85a3-fb5bc07d0ffa"),
                             Code = "en-KY",
                             EnglishName = "English (Cayman Islands)"
                         },
                         new
                         {
-                            Id = new Guid("f262fb8b-b983-4740-a7d5-90c647a67fbc"),
+                            Id = new Guid("bb1c4078-fd40-4096-9f6f-45fc73e3eb99"),
                             Code = "en-LC",
                             EnglishName = "English (St. Lucia)"
                         },
                         new
                         {
-                            Id = new Guid("4afa405a-0ed9-44a3-9796-c829d09b573a"),
+                            Id = new Guid("979d4862-aed2-4ed2-a4b5-adc3b6d936a4"),
                             Code = "en-LR",
                             EnglishName = "English (Liberia)"
                         },
                         new
                         {
-                            Id = new Guid("77212324-9c14-46a7-b5af-aa5d995f1cbf"),
+                            Id = new Guid("c1330963-fbbf-4bda-8083-99adb06bb53d"),
                             Code = "en-LS",
                             EnglishName = "English (Lesotho)"
                         },
                         new
                         {
-                            Id = new Guid("fb887f57-4566-4ee6-bddd-bdccf70a841a"),
+                            Id = new Guid("e1051e76-fd32-4506-9f0a-dc14156a82a9"),
                             Code = "en-MG",
                             EnglishName = "English (Madagascar)"
                         },
                         new
                         {
-                            Id = new Guid("1670b4b5-9fb7-4101-9260-f01c055541b5"),
+                            Id = new Guid("4bc3b22e-a69c-4fda-b709-5955c398d2a8"),
                             Code = "en-MH",
                             EnglishName = "English (Marshall Islands)"
                         },
                         new
                         {
-                            Id = new Guid("8360f16a-caf6-47fa-862e-b7890bd63ca3"),
+                            Id = new Guid("2ae8426c-4a50-4882-8aab-04823552dbba"),
                             Code = "en-MO",
                             EnglishName = "English (Macao SAR)"
                         },
                         new
                         {
-                            Id = new Guid("b21da2f2-4840-4cb9-a22c-b547e5c59991"),
+                            Id = new Guid("c3f38301-45c0-4434-a0fe-c599cc6a693a"),
                             Code = "en-MP",
                             EnglishName = "English (Northern Mariana Islands)"
                         },
                         new
                         {
-                            Id = new Guid("478571e6-a225-4879-abc2-22811c708eca"),
+                            Id = new Guid("af663ae4-4502-4f83-982b-c8752d4da9fb"),
                             Code = "en-MS",
                             EnglishName = "English (Montserrat)"
                         },
                         new
                         {
-                            Id = new Guid("87ba5add-4c2a-4304-b8e4-ae849acd403d"),
+                            Id = new Guid("c5000bf8-0b1d-4162-b03c-6643602ba243"),
                             Code = "en-MT",
                             EnglishName = "English (Malta)"
                         },
                         new
                         {
-                            Id = new Guid("3e652e44-4b38-43c2-a1fd-35f81c6707aa"),
+                            Id = new Guid("9030d725-7f71-4d0e-949d-5f5d6beaf358"),
                             Code = "en-MU",
                             EnglishName = "English (Mauritius)"
                         },
                         new
                         {
-                            Id = new Guid("16015402-e5f4-4c82-a90f-a3d47012c102"),
+                            Id = new Guid("72fd8137-9700-465b-bbb9-ced4b315920b"),
                             Code = "en-MW",
                             EnglishName = "English (Malawi)"
                         },
                         new
                         {
-                            Id = new Guid("676199d0-d96b-4412-8a7f-72bcf9ea977c"),
+                            Id = new Guid("d9f49568-d57e-4d9e-9562-e813ae6ee721"),
                             Code = "en-MY",
                             EnglishName = "English (Malaysia)"
                         },
                         new
                         {
-                            Id = new Guid("ce6213f2-868c-4de9-9318-93c32a45be86"),
+                            Id = new Guid("cef4c3ac-de6e-4bc9-a843-4394eab6cc05"),
                             Code = "en-NA",
                             EnglishName = "English (Namibia)"
                         },
                         new
                         {
-                            Id = new Guid("045bd49e-8661-4ebe-8475-1b5aef6cd3cd"),
+                            Id = new Guid("47168668-a3af-4afb-904d-ae3bc069b4e8"),
                             Code = "en-NF",
                             EnglishName = "English (Norfolk Island)"
                         },
                         new
                         {
-                            Id = new Guid("258a21b9-cd56-46af-aa49-fc5e6efbb0cb"),
+                            Id = new Guid("a91163d9-adba-4156-9eae-49f000f75ab0"),
                             Code = "en-NG",
                             EnglishName = "English (Nigeria)"
                         },
                         new
                         {
-                            Id = new Guid("90e342bb-bd6d-4619-a011-7309cf182f87"),
+                            Id = new Guid("23be5c0f-a9aa-42dd-913b-fbd50572da3b"),
                             Code = "en-NL",
                             EnglishName = "English (Netherlands)"
                         },
                         new
                         {
-                            Id = new Guid("c63f5691-f4e1-4bfe-b4d6-a9b7906394f0"),
+                            Id = new Guid("f23a64a3-8609-4c7d-99bd-f6500d27649c"),
                             Code = "en-NR",
                             EnglishName = "English (Nauru)"
                         },
                         new
                         {
-                            Id = new Guid("82d51693-9c92-45d7-9ebc-b4718c90541e"),
+                            Id = new Guid("4dc7c8cc-269e-4a17-825c-ac6da2e08158"),
                             Code = "en-NU",
                             EnglishName = "English (Niue)"
                         },
                         new
                         {
-                            Id = new Guid("a97dc020-44f8-4fa0-b8e8-3de00aa846a3"),
+                            Id = new Guid("b357c263-f5d6-4114-b054-c7f741412891"),
                             Code = "en-NZ",
                             EnglishName = "English (New Zealand)"
                         },
                         new
                         {
-                            Id = new Guid("49c8cd6b-77eb-492f-ba7f-5b4f414d936d"),
+                            Id = new Guid("1b7108b5-c012-4a2d-8779-0a567d46496c"),
                             Code = "en-PG",
                             EnglishName = "English (Papua New Guinea)"
                         },
                         new
                         {
-                            Id = new Guid("3e1132b5-528b-45fd-a1d8-1927d4faccb1"),
+                            Id = new Guid("35361db7-e6e7-4e4f-9814-4767dbb34586"),
                             Code = "en-PH",
                             EnglishName = "English (Philippines)"
                         },
                         new
                         {
-                            Id = new Guid("9c8a6ee1-d220-4654-acf9-2fce348a5a80"),
+                            Id = new Guid("6372e916-33b6-4859-b4c0-37648f9a7cd4"),
                             Code = "en-PK",
                             EnglishName = "English (Pakistan)"
                         },
                         new
                         {
-                            Id = new Guid("e389fa4b-a20a-4dd0-9671-4c83d4a5e870"),
+                            Id = new Guid("e91ba99c-dbb8-470f-95ff-7ff1ad87e4fc"),
                             Code = "en-PN",
                             EnglishName = "English (Pitcairn Islands)"
                         },
                         new
                         {
-                            Id = new Guid("4fe2f2d8-2efd-4e20-a865-551d27857dd4"),
+                            Id = new Guid("ad64c59b-baf2-4aad-888a-74dac6eaf1bf"),
                             Code = "en-PR",
                             EnglishName = "English (Puerto Rico)"
                         },
                         new
                         {
-                            Id = new Guid("cf3e3a1d-59b7-4fee-bc65-2dd3805e5360"),
+                            Id = new Guid("2534fc98-01c5-4b0e-9989-053507a30705"),
                             Code = "en-PW",
                             EnglishName = "English (Palau)"
                         },
                         new
                         {
-                            Id = new Guid("e8de7ab0-6035-4101-824c-01fd7a2924dd"),
+                            Id = new Guid("0cd0375e-93ce-4f30-ade1-b272bfb79c1e"),
                             Code = "en-RW",
                             EnglishName = "English (Rwanda)"
                         },
                         new
                         {
-                            Id = new Guid("0a191fed-4708-4039-bb0c-4482ceeddceb"),
+                            Id = new Guid("9846a133-8bb7-4beb-8b0a-1b2f4f046c23"),
                             Code = "en-SB",
                             EnglishName = "English (Solomon Islands)"
                         },
                         new
                         {
-                            Id = new Guid("601d37d7-3a4b-407b-b2b5-116be6baf567"),
+                            Id = new Guid("8fbbc334-c040-4891-88ee-71335738a27e"),
                             Code = "en-SC",
                             EnglishName = "English (Seychelles)"
                         },
                         new
                         {
-                            Id = new Guid("e587bc8a-d20c-4840-85b2-b7963842e777"),
+                            Id = new Guid("97f3bedb-1443-435f-bff5-f84616e660d8"),
                             Code = "en-SD",
                             EnglishName = "English (Sudan)"
                         },
                         new
                         {
-                            Id = new Guid("9d591c8b-e781-4ec8-b4ef-156bb71a6869"),
+                            Id = new Guid("4db6a3d5-4599-4e9f-832d-b3ebd7455baf"),
                             Code = "en-SE",
                             EnglishName = "English (Sweden)"
                         },
                         new
                         {
-                            Id = new Guid("c8c4bec2-8dc2-443a-9051-c8e03d03c774"),
+                            Id = new Guid("de1c891c-eb46-4960-9de7-b7045e513842"),
                             Code = "en-SG",
                             EnglishName = "English (Singapore)"
                         },
                         new
                         {
-                            Id = new Guid("86a919fd-2c99-471a-b042-e8f278745c8b"),
+                            Id = new Guid("f9ceb1fc-4c01-4a5e-8a0f-1db939e61ac6"),
                             Code = "en-SH",
                             EnglishName = "English (St Helena, Ascension, Tristan da Cunha)"
                         },
                         new
                         {
-                            Id = new Guid("5dcca856-07cb-4293-a1df-c81514d7912b"),
+                            Id = new Guid("2cda76dc-0c2e-4f75-b987-653eebf18e91"),
                             Code = "en-SI",
                             EnglishName = "English (Slovenia)"
                         },
                         new
                         {
-                            Id = new Guid("ae55d744-8b4e-4f8d-9df1-7958ae4f75ce"),
+                            Id = new Guid("8d7a95d5-0b27-45d7-a6b5-ba491ad065d1"),
                             Code = "en-SL",
                             EnglishName = "English (Sierra Leone)"
                         },
                         new
                         {
-                            Id = new Guid("859c7c27-2c4b-4c14-944e-631c46ee1480"),
+                            Id = new Guid("839ebfb0-e752-424c-aa3f-0dec0061b13c"),
                             Code = "en-SS",
                             EnglishName = "English (South Sudan)"
                         },
                         new
                         {
-                            Id = new Guid("939dd6ba-7814-4ba4-93f8-8532d3857b78"),
+                            Id = new Guid("9422c306-aaf4-4a4b-840c-54a2529a0a84"),
                             Code = "en-SX",
                             EnglishName = "English (Sint Maarten)"
                         },
                         new
                         {
-                            Id = new Guid("bf9cc6c2-2f60-4fe3-b36d-1f5ec59cdeca"),
+                            Id = new Guid("d072d401-17b3-4b86-b29c-fc9d30103bb4"),
                             Code = "en-SZ",
                             EnglishName = "English (Eswatini)"
                         },
                         new
                         {
-                            Id = new Guid("91d15932-87d8-4b03-8515-063d9dd74455"),
+                            Id = new Guid("c65702d7-3778-40de-baba-28c07be99936"),
                             Code = "en-TC",
                             EnglishName = "English (Turks & Caicos Islands)"
                         },
                         new
                         {
-                            Id = new Guid("24ea3e6f-bc04-4695-ba8a-279c90c200bb"),
+                            Id = new Guid("bb21ed02-77f5-4f77-9094-f735e833c5af"),
                             Code = "en-TK",
                             EnglishName = "English (Tokelau)"
                         },
                         new
                         {
-                            Id = new Guid("df685985-67fa-43d3-adb8-b55a6c4e8b41"),
+                            Id = new Guid("3edb68c2-8ee9-4a20-ab36-a970438fbfd3"),
                             Code = "en-TO",
                             EnglishName = "English (Tonga)"
                         },
                         new
                         {
-                            Id = new Guid("b219dd51-01b7-4bc7-aa8d-66458d7c58ed"),
+                            Id = new Guid("f01188e6-fae0-400b-aa68-74676f9e86bf"),
                             Code = "en-TT",
                             EnglishName = "English (Trinidad & Tobago)"
                         },
                         new
                         {
-                            Id = new Guid("8365b81d-0c7c-43eb-b71e-f660a855d055"),
+                            Id = new Guid("4e93683f-4e3a-4d0a-84ca-0535cca0e5fd"),
                             Code = "en-TV",
                             EnglishName = "English (Tuvalu)"
                         },
                         new
                         {
-                            Id = new Guid("7bb3b586-440c-40fe-8470-f8b1214d202c"),
+                            Id = new Guid("644dd708-482d-4103-9b6d-2c167acd7bee"),
                             Code = "en-TZ",
                             EnglishName = "English (Tanzania)"
                         },
                         new
                         {
-                            Id = new Guid("98dc51f2-b04a-4a8e-bc3f-30e7d0eaeaa0"),
+                            Id = new Guid("9f007dac-5226-441c-a129-f0b70624922a"),
                             Code = "en-UG",
                             EnglishName = "English (Uganda)"
                         },
                         new
                         {
-                            Id = new Guid("dc9c5c94-0aa3-4a26-833d-93d421c6819f"),
+                            Id = new Guid("cc35bcba-ca66-47d3-aebb-4ab80303ab7b"),
                             Code = "en-UM",
                             EnglishName = "English (U.S. Outlying Islands)"
                         },
                         new
                         {
-                            Id = new Guid("bc498096-e7ae-4521-8602-ed7725c5c4d8"),
+                            Id = new Guid("4e9fc4e5-a71f-4865-a465-0fb7368092c1"),
                             Code = "en-US",
                             EnglishName = "English (United States)"
                         },
                         new
                         {
-                            Id = new Guid("538859c9-c91b-4432-9c16-3f363c1e173d"),
+                            Id = new Guid("3d845b99-b714-44a5-b774-63249b10643b"),
                             Code = "en-US-POSIX",
                             EnglishName = "English (United States, Computer)"
                         },
                         new
                         {
-                            Id = new Guid("43e45649-1f62-4fc0-96e2-704b6ec842f7"),
+                            Id = new Guid("c6473e26-7c61-4d29-8a74-57b430d2527c"),
                             Code = "en-VC",
                             EnglishName = "English (St. Vincent & Grenadines)"
                         },
                         new
                         {
-                            Id = new Guid("ec55f90d-ffdf-457a-8105-6fbaf0dede35"),
+                            Id = new Guid("9bbd951c-d10a-43c5-9758-ae80ca47b943"),
                             Code = "en-VG",
                             EnglishName = "English (British Virgin Islands)"
                         },
                         new
                         {
-                            Id = new Guid("e5832a1d-a3d1-45f8-887e-dd7ecdebbe63"),
+                            Id = new Guid("a8b6140e-70fd-43ee-b5e2-0ba70f33bc29"),
                             Code = "en-VI",
                             EnglishName = "English (U.S. Virgin Islands)"
                         },
                         new
                         {
-                            Id = new Guid("30ddeabf-07d7-4b64-b6df-57daf57bbd2f"),
+                            Id = new Guid("c1a80b4e-bc3e-4fb3-b886-039f1e61da9e"),
                             Code = "en-VU",
                             EnglishName = "English (Vanuatu)"
                         },
                         new
                         {
-                            Id = new Guid("d519c909-c60f-40b6-819f-d9368fa271a6"),
+                            Id = new Guid("eeac05a8-04bc-4cad-aa79-86b9831ffa62"),
                             Code = "en-WS",
                             EnglishName = "English (Samoa)"
                         },
                         new
                         {
-                            Id = new Guid("e4e15bb5-71c7-4098-a157-ba94afb55178"),
+                            Id = new Guid("b4e93bc0-e47c-48f8-bcda-1b3098b376e4"),
                             Code = "en-ZA",
                             EnglishName = "English (South Africa)"
                         },
                         new
                         {
-                            Id = new Guid("d7aa4df8-a6ec-4e62-8fb2-5f03501fea54"),
+                            Id = new Guid("d285b953-1273-4b5b-9030-46d0eadf98ba"),
                             Code = "en-ZM",
                             EnglishName = "English (Zambia)"
                         },
                         new
                         {
-                            Id = new Guid("a9a74c93-fb9f-4520-a887-a71b50ba3137"),
+                            Id = new Guid("9cc0dc0a-de13-48d6-b362-d64029895989"),
                             Code = "en-ZW",
                             EnglishName = "English (Zimbabwe)"
                         },
                         new
                         {
-                            Id = new Guid("3db47a07-f7c9-463f-bf14-6f56490f796a"),
+                            Id = new Guid("4ac24e8a-2d17-4d31-8081-32ea0e7cfbe0"),
                             Code = "eo",
                             EnglishName = "Esperanto"
                         },
                         new
                         {
-                            Id = new Guid("5781628f-c9a0-4b69-b1d6-18dcf5f91218"),
+                            Id = new Guid("9009923d-220f-444e-a017-eee1885a8a9c"),
                             Code = "eo-001",
                             EnglishName = "Esperanto (World)"
                         },
                         new
                         {
-                            Id = new Guid("41fee5f6-dfaa-4038-aee7-1cf019f62ca3"),
+                            Id = new Guid("8ee4f351-cc61-482d-80ed-63875017a963"),
                             Code = "es",
                             EnglishName = "Spanish"
                         },
                         new
                         {
-                            Id = new Guid("56eed454-aaee-4505-b000-d8b5f79ee011"),
+                            Id = new Guid("4dafe19c-53cf-4c5c-978c-54f31feb2f6c"),
                             Code = "es-419",
                             EnglishName = "Spanish (Latin America)"
                         },
                         new
                         {
-                            Id = new Guid("157e0889-b2c0-4588-b7b9-f4654c320a0e"),
+                            Id = new Guid("4ac5d2dc-217c-45d6-ae66-0098eca1d500"),
                             Code = "es-AR",
                             EnglishName = "Spanish (Argentina)"
                         },
                         new
                         {
-                            Id = new Guid("de64119f-534a-4852-91f1-0ebe128d0de0"),
+                            Id = new Guid("91582cbc-fdf9-470e-9271-74e1bb2dac0c"),
                             Code = "es-BO",
                             EnglishName = "Spanish (Bolivia)"
                         },
                         new
                         {
-                            Id = new Guid("69e848f6-b052-457c-a03d-bf0fe710d495"),
+                            Id = new Guid("eb6bb047-e64a-4ea8-b9e0-20ebb3999ff7"),
                             Code = "es-BR",
                             EnglishName = "Spanish (Brazil)"
                         },
                         new
                         {
-                            Id = new Guid("78ec46a3-6bff-4d33-bb83-bde698d3974a"),
+                            Id = new Guid("7688793d-e57f-41de-98d5-dda3ee401a28"),
                             Code = "es-BZ",
                             EnglishName = "Spanish (Belize)"
                         },
                         new
                         {
-                            Id = new Guid("698d9bfa-7b40-41da-ba74-13a61a712692"),
+                            Id = new Guid("69df1e5b-2a58-4d7f-ac3e-6fa8ea5fe22c"),
                             Code = "es-CL",
                             EnglishName = "Spanish (Chile)"
                         },
                         new
                         {
-                            Id = new Guid("e115022a-ae18-41dc-917a-ab94960d7c76"),
+                            Id = new Guid("09887383-b315-4f72-8099-49ae75aecb90"),
                             Code = "es-CO",
                             EnglishName = "Spanish (Colombia)"
                         },
                         new
                         {
-                            Id = new Guid("8c29bf26-0be1-4ec4-8fcc-eef92cff84bd"),
+                            Id = new Guid("956ab994-6a63-4d5a-b7e6-5d5ef2e7ba8d"),
                             Code = "es-CR",
                             EnglishName = "Spanish (Costa Rica)"
                         },
                         new
                         {
-                            Id = new Guid("d24ceafb-f5c1-4c4c-bf7b-0dbd3e28a357"),
+                            Id = new Guid("b1a49cdc-3d61-4fc2-b511-44cc1f557331"),
                             Code = "es-CU",
                             EnglishName = "Spanish (Cuba)"
                         },
                         new
                         {
-                            Id = new Guid("27bc16b6-16ef-4fc0-b591-fab17a6a9bbb"),
+                            Id = new Guid("ad75a2d0-0c81-43b9-b624-802c352d6794"),
                             Code = "es-DO",
                             EnglishName = "Spanish (Dominican Republic)"
                         },
                         new
                         {
-                            Id = new Guid("d26e63d5-c88f-4d70-aecd-4e2d4d7737dc"),
+                            Id = new Guid("7218e114-38c0-40ad-a5f3-43d3ef823d7c"),
                             Code = "es-EC",
                             EnglishName = "Spanish (Ecuador)"
                         },
                         new
                         {
-                            Id = new Guid("16fc00fd-8d90-49ac-8a33-5ea083b99a1e"),
+                            Id = new Guid("ccaa8bb8-44ed-425f-8656-d3b4e78ef854"),
                             Code = "es-ES",
                             EnglishName = "Spanish (Spain)"
                         },
                         new
                         {
-                            Id = new Guid("c9c45324-e25e-4820-9a66-aba42a8d4b84"),
+                            Id = new Guid("11733553-0930-4e71-b087-741d4ca65f98"),
                             Code = "es-GQ",
                             EnglishName = "Spanish (Equatorial Guinea)"
                         },
                         new
                         {
-                            Id = new Guid("5984176c-a43e-4888-b2a3-c82c9930a8eb"),
+                            Id = new Guid("e9faa69b-894d-4ee3-b495-143a18d6a920"),
                             Code = "es-GT",
                             EnglishName = "Spanish (Guatemala)"
                         },
                         new
                         {
-                            Id = new Guid("7e8f0f70-2a5d-4569-ad47-4392b55b7b22"),
+                            Id = new Guid("da80df6e-7513-468f-a67d-356eac15a9e5"),
                             Code = "es-HN",
                             EnglishName = "Spanish (Honduras)"
                         },
                         new
                         {
-                            Id = new Guid("f26e42ad-a461-4e3e-bb27-bb92d0bdc267"),
+                            Id = new Guid("7e8fb5c5-575c-430e-862a-ab67116fd14b"),
                             Code = "es-MX",
                             EnglishName = "Spanish (Mexico)"
                         },
                         new
                         {
-                            Id = new Guid("f6c03f32-85df-48a5-b78b-a9aecead4fba"),
+                            Id = new Guid("c14fbc42-3d51-4841-9852-d30e9fb253e4"),
                             Code = "es-NI",
                             EnglishName = "Spanish (Nicaragua)"
                         },
                         new
                         {
-                            Id = new Guid("4b4dd53a-9bd4-4a00-94aa-5af5a1bc666d"),
+                            Id = new Guid("f0d9213b-88ea-493b-8a8b-e517e15c8c16"),
                             Code = "es-PA",
                             EnglishName = "Spanish (Panama)"
                         },
                         new
                         {
-                            Id = new Guid("f56b253a-b2b2-4667-88cc-d2eb77283746"),
+                            Id = new Guid("21b19ddb-cd99-414b-a27f-a2b7c73483e5"),
                             Code = "es-PE",
                             EnglishName = "Spanish (Peru)"
                         },
                         new
                         {
-                            Id = new Guid("b93ba3c3-5d78-4d14-931b-b5614a2a3aec"),
+                            Id = new Guid("02f77d22-25b9-4214-85cb-332467104697"),
                             Code = "es-PH",
                             EnglishName = "Spanish (Philippines)"
                         },
                         new
                         {
-                            Id = new Guid("c315571d-6899-49ff-9617-a46e17afc463"),
+                            Id = new Guid("2b50b24f-1f8d-4cf8-a109-e30ec9520835"),
                             Code = "es-PR",
                             EnglishName = "Spanish (Puerto Rico)"
                         },
                         new
                         {
-                            Id = new Guid("1cb4dc41-947c-4eb0-9a78-80b43a4da223"),
+                            Id = new Guid("600a980a-3604-43b1-9386-64ddddc30ea3"),
                             Code = "es-PY",
                             EnglishName = "Spanish (Paraguay)"
                         },
                         new
                         {
-                            Id = new Guid("10497a23-5087-4e06-bf3e-de0d25aacf80"),
+                            Id = new Guid("118d0061-1aea-4b3a-834f-4e76cd6b3cba"),
                             Code = "es-SV",
                             EnglishName = "Spanish (El Salvador)"
                         },
                         new
                         {
-                            Id = new Guid("a7d91fc5-a236-4ca0-8161-04c395b4ad8e"),
+                            Id = new Guid("a385153e-14bd-4058-bcbf-0f67e0db4604"),
                             Code = "es-US",
                             EnglishName = "Spanish (United States)"
                         },
                         new
                         {
-                            Id = new Guid("2a61c526-6d7c-441c-a7a4-517ee55ac266"),
+                            Id = new Guid("75963a9c-b515-49f8-865f-6808162ba0d4"),
                             Code = "es-UY",
                             EnglishName = "Spanish (Uruguay)"
                         },
                         new
                         {
-                            Id = new Guid("acbc9e18-e2a0-4363-b0a0-fc0b742ccb65"),
+                            Id = new Guid("b9100ce0-8225-4a59-ae5b-1bd627ad9404"),
                             Code = "es-VE",
                             EnglishName = "Spanish (Venezuela)"
                         },
                         new
                         {
-                            Id = new Guid("0a6b0b89-2ccf-4214-95f0-a303e1420ed0"),
+                            Id = new Guid("be0a6572-ed9e-4c0d-9ce0-507423ce30f5"),
                             Code = "et",
                             EnglishName = "Estonian"
                         },
                         new
                         {
-                            Id = new Guid("48943501-632b-4809-bef5-a4f3793d3465"),
+                            Id = new Guid("cbff7143-9465-45c4-ae81-f3c0e0dd57d6"),
                             Code = "et-EE",
                             EnglishName = "Estonian (Estonia)"
                         },
                         new
                         {
-                            Id = new Guid("a2126786-91a1-46e3-bd26-6cc66bd45949"),
+                            Id = new Guid("09d7177e-fb4a-4071-80c5-5f7354df05f6"),
                             Code = "eu",
                             EnglishName = "Basque"
                         },
                         new
                         {
-                            Id = new Guid("0d6f8bea-0675-4685-83bd-6a5d57a946cd"),
+                            Id = new Guid("62c25778-908a-47b6-84b5-33fc4968bc0a"),
                             Code = "eu-ES",
                             EnglishName = "Basque (Spain)"
                         },
                         new
                         {
-                            Id = new Guid("d27cb05c-37d9-4fcc-8902-2b4e717047fe"),
+                            Id = new Guid("4a5de978-bdd3-4773-b530-1c2c21d0591f"),
                             Code = "ewo",
                             EnglishName = "Ewondo"
                         },
                         new
                         {
-                            Id = new Guid("556a8321-2d61-4c62-9b71-c03d9fd35d90"),
+                            Id = new Guid("1a54046e-86e7-4b52-b9ce-56b7fc52181e"),
                             Code = "ewo-CM",
                             EnglishName = "Ewondo (Cameroon)"
                         },
                         new
                         {
-                            Id = new Guid("fb7e00a0-e93c-4aed-b687-152b37f7c63a"),
+                            Id = new Guid("d128f186-9aab-471c-aa40-6b4af1f07e5b"),
                             Code = "fa",
                             EnglishName = "Persian"
                         },
                         new
                         {
-                            Id = new Guid("7b065cb2-3500-4fd2-8787-f99a962b53a3"),
+                            Id = new Guid("3d17ebd5-6e28-4d89-8a2d-c856db00ccd8"),
                             Code = "fa-AF",
                             EnglishName = "Persian (Afghanistan)"
                         },
                         new
                         {
-                            Id = new Guid("47c6feff-d4ad-4367-9be6-5ccfc01e2e5d"),
+                            Id = new Guid("b727c4dc-2118-496b-9614-a244932cf925"),
                             Code = "fa-IR",
                             EnglishName = "Persian (Iran)"
                         },
                         new
                         {
-                            Id = new Guid("319d2b50-4d04-496e-bf68-08a14a79f36b"),
+                            Id = new Guid("39ee489f-65bc-4319-b63c-fd835bf6284d"),
                             Code = "ff",
                             EnglishName = "Fulah"
                         },
                         new
                         {
-                            Id = new Guid("da2e7146-ddcd-413b-8574-1ad315aed3d1"),
+                            Id = new Guid("f962c59c-c06a-4d37-8266-f7407e82cb0c"),
                             Code = "ff-Latn",
                             EnglishName = "Fulah"
                         },
                         new
                         {
-                            Id = new Guid("8719ac45-14f5-4532-918b-c62d2f453674"),
+                            Id = new Guid("d90316db-4cb9-497f-badb-55ab4f9643d9"),
                             Code = "ff-Latn-BF",
                             EnglishName = "Fulah (Latin, Burkina Faso)"
                         },
                         new
                         {
-                            Id = new Guid("71d47a7b-732d-4103-8df3-c3f9ddb9b883"),
+                            Id = new Guid("44a25c37-378e-4fb5-af59-d7740afe76f8"),
                             Code = "ff-Latn-CM",
                             EnglishName = "Fulah (Latin, Cameroon)"
                         },
                         new
                         {
-                            Id = new Guid("055e6235-e6b1-4705-abca-cb6098115f49"),
+                            Id = new Guid("6df1bc5b-7345-4326-bcfc-08d8cc336ec6"),
                             Code = "ff-Latn-GH",
                             EnglishName = "Fulah (Latin, Ghana)"
                         },
                         new
                         {
-                            Id = new Guid("061eb92d-16d5-4599-8d75-cca070fcded2"),
+                            Id = new Guid("61f53e92-d5a6-4995-9170-a7cd759132e4"),
                             Code = "ff-Latn-GM",
                             EnglishName = "Fulah (Latin, Gambia)"
                         },
                         new
                         {
-                            Id = new Guid("e9957e01-fe96-45c4-ae23-1f437788f067"),
+                            Id = new Guid("ab885826-0794-4f38-8c8f-1346b5f059ba"),
                             Code = "ff-Latn-GN",
                             EnglishName = "Fulah (Latin, Guinea)"
                         },
                         new
                         {
-                            Id = new Guid("2a90c1aa-e568-4629-bd51-4988932c013c"),
+                            Id = new Guid("aac9bfce-704f-4819-97b9-ace45515990d"),
                             Code = "ff-Latn-GW",
                             EnglishName = "Fulah (Latin, Guinea-Bissau)"
                         },
                         new
                         {
-                            Id = new Guid("7b41b37e-a358-4326-a017-e6ae0be4a930"),
+                            Id = new Guid("2d0a8151-d944-4060-a9d0-5fa85ea3ebd3"),
                             Code = "ff-Latn-LR",
                             EnglishName = "Fulah (Latin, Liberia)"
                         },
                         new
                         {
-                            Id = new Guid("2a891863-2b6d-4ab7-bf25-2664918868c4"),
+                            Id = new Guid("2adea2d0-d16a-449c-bf47-22d8a598aef0"),
                             Code = "ff-Latn-MR",
                             EnglishName = "Fulah (Latin, Mauritania)"
                         },
                         new
                         {
-                            Id = new Guid("3416441c-1e71-4c51-a520-e060a2398b97"),
+                            Id = new Guid("c00bfb1e-a96b-4774-87c7-6af864064e92"),
                             Code = "ff-Latn-NE",
                             EnglishName = "Fulah (Latin, Niger)"
                         },
                         new
                         {
-                            Id = new Guid("095b4a63-aade-41d4-ac7b-f83452e2e8e1"),
+                            Id = new Guid("c840eac6-6e7f-4485-9c23-30187bb9ad58"),
                             Code = "ff-Latn-NG",
                             EnglishName = "Fulah (Latin, Nigeria)"
                         },
                         new
                         {
-                            Id = new Guid("8c05e34a-8813-4bcc-a927-aae4b245b0e6"),
+                            Id = new Guid("bc81c855-2310-4b5a-ab45-0f90075614c0"),
                             Code = "ff-Latn-SL",
                             EnglishName = "Fulah (Latin, Sierra Leone)"
                         },
                         new
                         {
-                            Id = new Guid("741fe623-c7ee-46c0-bd27-0e144c246a9c"),
+                            Id = new Guid("5effae71-9d49-45e0-b99b-c8048ce878ea"),
                             Code = "ff-Latn-SN",
                             EnglishName = "Fulah (Latin, Senegal)"
                         },
                         new
                         {
-                            Id = new Guid("f2b9df69-5848-43b3-b404-b4a8846fdecc"),
+                            Id = new Guid("46b0b069-02c1-4517-9c54-308800c34823"),
                             Code = "fi",
                             EnglishName = "Finnish"
                         },
                         new
                         {
-                            Id = new Guid("d2b1547a-edf5-4d0c-a6ef-6d763e39535f"),
+                            Id = new Guid("f01439c0-5be5-4997-a7a0-d68e5f5437aa"),
                             Code = "fi-FI",
                             EnglishName = "Finnish (Finland)"
                         },
                         new
                         {
-                            Id = new Guid("75155ce4-1edc-4a6f-9663-7b33ba4e2064"),
+                            Id = new Guid("0ee2c2b8-2432-4ac8-90de-0de2eb9e90f2"),
                             Code = "fil",
                             EnglishName = "Filipino"
                         },
                         new
                         {
-                            Id = new Guid("1033564b-0fa2-4478-81af-5d4631ad53fd"),
+                            Id = new Guid("d3c14dca-5626-4e9c-a8b3-b1d2f2791beb"),
                             Code = "fil-PH",
                             EnglishName = "Filipino (Philippines)"
                         },
                         new
                         {
-                            Id = new Guid("9c80e4cd-2da5-4f78-9c57-09398d06c53a"),
+                            Id = new Guid("f13338e5-e0cb-4228-b81d-5e318e7cf218"),
                             Code = "fo",
                             EnglishName = "Faroese"
                         },
                         new
                         {
-                            Id = new Guid("ba19ce45-46d7-48ef-94c1-a4d7ad7251ed"),
+                            Id = new Guid("a06b6287-3cae-433d-a279-a0b3687379a8"),
                             Code = "fo-DK",
                             EnglishName = "Faroese (Denmark)"
                         },
                         new
                         {
-                            Id = new Guid("f32de777-2431-4960-8e68-f0283742a0a6"),
+                            Id = new Guid("2a28efdd-da23-4be6-930d-75050eac8a74"),
                             Code = "fo-FO",
                             EnglishName = "Faroese (Faroe Islands)"
                         },
                         new
                         {
-                            Id = new Guid("cbd6bca5-d579-4a09-a294-e02736a10e77"),
+                            Id = new Guid("2e5b607f-652a-4b14-813a-904d09b5795c"),
                             Code = "fr",
                             EnglishName = "French"
                         },
                         new
                         {
-                            Id = new Guid("17848771-9fc9-4717-8709-c8117a15ad29"),
+                            Id = new Guid("e951bdfd-356d-4daf-8fb5-0318eb31fb84"),
                             Code = "fr-BE",
                             EnglishName = "French (Belgium)"
                         },
                         new
                         {
-                            Id = new Guid("b5e5b0e2-0dca-4f88-977b-933795a8a652"),
+                            Id = new Guid("3769e78f-0449-4c04-85f4-ce752572782b"),
                             Code = "fr-BF",
                             EnglishName = "French (Burkina Faso)"
                         },
                         new
                         {
-                            Id = new Guid("3f26e592-9fad-4f86-8a10-0849b40edf1b"),
+                            Id = new Guid("2cf57306-e502-43ca-a3d6-906fd5ec0450"),
                             Code = "fr-BI",
                             EnglishName = "French (Burundi)"
                         },
                         new
                         {
-                            Id = new Guid("974e2fbb-feb9-4640-8ca5-0fb6ba2bc0c8"),
+                            Id = new Guid("df0b9297-be6a-41a7-8349-b2412a145366"),
                             Code = "fr-BJ",
                             EnglishName = "French (Benin)"
                         },
                         new
                         {
-                            Id = new Guid("fc6274d6-018c-4a59-8e71-e6854e470a81"),
+                            Id = new Guid("84d4ab33-38bc-44c6-8a66-8fcfd3c689d5"),
                             Code = "fr-BL",
                             EnglishName = "French (St. Barthélemy)"
                         },
                         new
                         {
-                            Id = new Guid("9a78103e-fe3d-4feb-8742-d2eb9a851036"),
+                            Id = new Guid("18e6bb72-88a7-43e5-a039-9b20869e81e8"),
                             Code = "fr-CA",
                             EnglishName = "French (Canada)"
                         },
                         new
                         {
-                            Id = new Guid("7c48337a-58d2-4eef-8bd4-8c0fb16e3e57"),
+                            Id = new Guid("246d681a-b3d4-42d5-811a-767588a7ad10"),
                             Code = "fr-CD",
                             EnglishName = "French (Congo [DRC])"
                         },
                         new
                         {
-                            Id = new Guid("a85fac2c-ec60-48c5-a52e-b8154401cb17"),
+                            Id = new Guid("1f0608cd-5e86-450e-92eb-b3729f821f6f"),
                             Code = "fr-CF",
                             EnglishName = "French (Central African Republic)"
                         },
                         new
                         {
-                            Id = new Guid("893a8619-33df-4f0e-bf33-194c972ba9ee"),
+                            Id = new Guid("1895a110-9ade-4100-8c7c-0d5df531cfda"),
                             Code = "fr-CG",
                             EnglishName = "French (Congo)"
                         },
                         new
                         {
-                            Id = new Guid("9f1ad160-5df0-4c5b-b555-b91c7a232d0c"),
+                            Id = new Guid("ebbee2e3-bba3-40fc-b742-1bddf5366398"),
                             Code = "fr-CH",
                             EnglishName = "French (Switzerland)"
                         },
                         new
                         {
-                            Id = new Guid("930addef-ad7c-4a00-a765-1cda2c85b8b7"),
+                            Id = new Guid("a4e94a5e-af74-4b52-9fb4-a3eb9f2b8619"),
                             Code = "fr-CI",
                             EnglishName = "French (Côte d’Ivoire)"
                         },
                         new
                         {
-                            Id = new Guid("82c45269-88f6-4206-b1dc-88f12147a318"),
+                            Id = new Guid("7b703959-0d35-4a8e-a34f-0a56300f846a"),
                             Code = "fr-CM",
                             EnglishName = "French (Cameroon)"
                         },
                         new
                         {
-                            Id = new Guid("c65eabe9-495d-4c8c-9b9f-4256f068ff3a"),
+                            Id = new Guid("1a0c297e-4aac-4436-bf04-2cad72ca9a97"),
                             Code = "fr-DJ",
                             EnglishName = "French (Djibouti)"
                         },
                         new
                         {
-                            Id = new Guid("791b0302-26c8-44dd-b2fe-5c4907ac50d3"),
+                            Id = new Guid("103e2b80-c4e9-49b0-95ee-3166c93f9ef6"),
                             Code = "fr-DZ",
                             EnglishName = "French (Algeria)"
                         },
                         new
                         {
-                            Id = new Guid("4706c0f9-87a2-4aec-841b-112035fb3fd5"),
+                            Id = new Guid("77921368-6e0b-4dbc-9e2d-230595383373"),
                             Code = "fr-FR",
                             EnglishName = "French (France)"
                         },
                         new
                         {
-                            Id = new Guid("56f5dd8a-f875-4557-8cbf-1e8c569a6b15"),
+                            Id = new Guid("83a46b4d-482c-4589-95fb-671504b66f68"),
                             Code = "fr-GA",
                             EnglishName = "French (Gabon)"
                         },
                         new
                         {
-                            Id = new Guid("464ad40f-29c1-4276-b4e9-260769348717"),
+                            Id = new Guid("9ff65229-72ee-4b6a-88d5-d0c714041f90"),
                             Code = "fr-GF",
                             EnglishName = "French (French Guiana)"
                         },
                         new
                         {
-                            Id = new Guid("20a0c5d2-d7bb-4d0c-82b5-85d6468c35ed"),
+                            Id = new Guid("bc3557f5-bd17-43ec-86ae-a71076e7abbd"),
                             Code = "fr-GN",
                             EnglishName = "French (Guinea)"
                         },
                         new
                         {
-                            Id = new Guid("57301bce-e693-4a7e-93f9-9e91e0c3d54a"),
+                            Id = new Guid("92b7c030-0ca6-4e96-9680-a2116e42169b"),
                             Code = "fr-GP",
                             EnglishName = "French (Guadeloupe)"
                         },
                         new
                         {
-                            Id = new Guid("67bd2fda-c6f3-4837-904b-c7f1e39a9ce4"),
+                            Id = new Guid("0931002f-eb5b-4c08-a649-87391be366aa"),
                             Code = "fr-GQ",
                             EnglishName = "French (Equatorial Guinea)"
                         },
                         new
                         {
-                            Id = new Guid("00579d10-8ff7-47a1-af0d-e8dad112718a"),
+                            Id = new Guid("1fae2c7a-4616-46f1-87f9-bfee6eee6528"),
                             Code = "fr-HT",
                             EnglishName = "French (Haiti)"
                         },
                         new
                         {
-                            Id = new Guid("d663a181-f738-4e5f-82b4-8c0426509d1c"),
+                            Id = new Guid("fc76f7b6-166b-45cd-8ad0-de2532f571c7"),
                             Code = "fr-KM",
                             EnglishName = "French (Comoros)"
                         },
                         new
                         {
-                            Id = new Guid("6ea6e6bd-ba65-4948-9b20-536dc1f5da7b"),
+                            Id = new Guid("b55d3f4e-8cd0-4239-9744-e74dc13e5870"),
                             Code = "fr-LU",
                             EnglishName = "French (Luxembourg)"
                         },
                         new
                         {
-                            Id = new Guid("15971502-df2d-4a22-98fb-09c84e13a720"),
+                            Id = new Guid("23b3f4c4-ad01-45e5-ac0c-2fdd6edebb4c"),
                             Code = "fr-MA",
                             EnglishName = "French (Morocco)"
                         },
                         new
                         {
-                            Id = new Guid("fb6fd377-f73c-41fd-8bd5-de1dd7562bde"),
+                            Id = new Guid("3821672b-1fb2-4e42-b1f3-49ae16ea5441"),
                             Code = "fr-MC",
                             EnglishName = "French (Monaco)"
                         },
                         new
                         {
-                            Id = new Guid("53d4ea53-7682-459a-b2b9-6215dab607eb"),
+                            Id = new Guid("94ab9f04-a332-4cb2-9586-607d39680665"),
                             Code = "fr-MF",
                             EnglishName = "French (St. Martin)"
                         },
                         new
                         {
-                            Id = new Guid("144dbd1a-d0fc-4e9b-9de5-49eb4f2ca0cc"),
+                            Id = new Guid("c017085f-42d7-4615-a1ea-c8c86c6dde02"),
                             Code = "fr-MG",
                             EnglishName = "French (Madagascar)"
                         },
                         new
                         {
-                            Id = new Guid("632ff7b2-363e-4ffb-98bf-693401706d06"),
+                            Id = new Guid("2dadb1c7-f9f3-48da-8e65-ed835df2cdb5"),
                             Code = "fr-ML",
                             EnglishName = "French (Mali)"
                         },
                         new
                         {
-                            Id = new Guid("df47f5a9-6b0a-434b-bfa5-33c5ac955987"),
+                            Id = new Guid("f60e38c8-81eb-4ee0-9ba8-2a43433bd726"),
                             Code = "fr-MQ",
                             EnglishName = "French (Martinique)"
                         },
                         new
                         {
-                            Id = new Guid("ec75eef3-488e-4e50-896b-a45a8b7b2d6f"),
+                            Id = new Guid("17e9cee8-c579-422e-be0a-d93696a5e61e"),
                             Code = "fr-MR",
                             EnglishName = "French (Mauritania)"
                         },
                         new
                         {
-                            Id = new Guid("77ec1f94-590c-42ae-a161-4a4b86ba3a9a"),
+                            Id = new Guid("fa9678fe-5e36-48e5-a820-355acb0a4f0d"),
                             Code = "fr-MU",
                             EnglishName = "French (Mauritius)"
                         },
                         new
                         {
-                            Id = new Guid("f945d382-094f-47a0-94bf-d1a6d51d2529"),
+                            Id = new Guid("149772f9-966a-439a-b7ca-0a14a58b21d2"),
                             Code = "fr-NC",
                             EnglishName = "French (New Caledonia)"
                         },
                         new
                         {
-                            Id = new Guid("11df122d-1836-4a57-989d-c5b043315ca9"),
+                            Id = new Guid("75b73c90-822f-46bf-8635-34fe42798cee"),
                             Code = "fr-NE",
                             EnglishName = "French (Niger)"
                         },
                         new
                         {
-                            Id = new Guid("9b2cfe58-4b1b-40e8-8d72-3040eca5f34b"),
+                            Id = new Guid("863f2cff-ceee-4166-9ac4-5be08d5c59dd"),
                             Code = "fr-PF",
                             EnglishName = "French (French Polynesia)"
                         },
                         new
                         {
-                            Id = new Guid("5a00112c-ae51-4130-a5db-f23b65c23efc"),
+                            Id = new Guid("20d94e4f-2c03-4122-b282-603c72d2fb70"),
                             Code = "fr-PM",
                             EnglishName = "French (St. Pierre & Miquelon)"
                         },
                         new
                         {
-                            Id = new Guid("a6674699-4dd5-498b-8d97-c484361af09a"),
+                            Id = new Guid("1c626885-3cb1-43cc-9e34-5bc014d0cc20"),
                             Code = "fr-RE",
                             EnglishName = "French (Réunion)"
                         },
                         new
                         {
-                            Id = new Guid("f39a6f79-6cbf-4e40-b18c-fa14b211e8f1"),
+                            Id = new Guid("62fed291-e937-4354-8170-716f265b3d7d"),
                             Code = "fr-RW",
                             EnglishName = "French (Rwanda)"
                         },
                         new
                         {
-                            Id = new Guid("fa34dabe-00e9-4cff-8bbd-955c84ffe8e2"),
+                            Id = new Guid("4e2dc2ed-c287-46f8-9bf9-5d556fe9c5a4"),
                             Code = "fr-SC",
                             EnglishName = "French (Seychelles)"
                         },
                         new
                         {
-                            Id = new Guid("3eee68c9-f2ec-489f-aa31-282b6b786b0d"),
+                            Id = new Guid("51045f65-a66e-4287-8b9a-d3bdf7f7108d"),
                             Code = "fr-SN",
                             EnglishName = "French (Senegal)"
                         },
                         new
                         {
-                            Id = new Guid("1fb31fa3-1975-4106-ad16-55a1f514985a"),
+                            Id = new Guid("0e815979-2c2c-4079-8ec4-e3e1ee882a3a"),
                             Code = "fr-SY",
                             EnglishName = "French (Syria)"
                         },
                         new
                         {
-                            Id = new Guid("abc094e6-b327-44d4-bf8b-646c7ea7e42a"),
+                            Id = new Guid("f2b6485b-e559-4c20-b416-a85df0e1b66c"),
                             Code = "fr-TD",
                             EnglishName = "French (Chad)"
                         },
                         new
                         {
-                            Id = new Guid("0f518728-82b1-4384-867f-5345a71345e8"),
+                            Id = new Guid("44ab409f-7267-4e52-a811-6104a4aa9170"),
                             Code = "fr-TG",
                             EnglishName = "French (Togo)"
                         },
                         new
                         {
-                            Id = new Guid("5374e70a-cb76-437f-8176-ad27992039d9"),
+                            Id = new Guid("537c416a-5581-42a2-9078-630b703bcc11"),
                             Code = "fr-TN",
                             EnglishName = "French (Tunisia)"
                         },
                         new
                         {
-                            Id = new Guid("6bcc67c0-f7ae-43df-9eb2-2750b1858f6a"),
+                            Id = new Guid("ba42c12d-04c7-4d64-a855-7af386ac9c33"),
                             Code = "fr-VU",
                             EnglishName = "French (Vanuatu)"
                         },
                         new
                         {
-                            Id = new Guid("b8160819-a779-4219-8b1a-3f6aae195201"),
+                            Id = new Guid("f4762e6f-d742-4939-8c83-13514843e6a8"),
                             Code = "fr-WF",
                             EnglishName = "French (Wallis & Futuna)"
                         },
                         new
                         {
-                            Id = new Guid("35f16ffb-b39e-4c63-809b-b80f148e526a"),
+                            Id = new Guid("55816d40-35a5-4041-b803-50f2fe5205c3"),
                             Code = "fr-YT",
                             EnglishName = "French (Mayotte)"
                         },
                         new
                         {
-                            Id = new Guid("c971b27f-8d6f-4946-97a0-84ff906d08ec"),
+                            Id = new Guid("ab32e70e-4d09-48ee-aac9-890ecafd3606"),
                             Code = "fur",
                             EnglishName = "Friulian"
                         },
                         new
                         {
-                            Id = new Guid("47b41956-3dad-48e3-8c39-12bdb442889d"),
+                            Id = new Guid("38472479-0065-44f9-8447-46e8cf006ab6"),
                             Code = "fur-IT",
                             EnglishName = "Friulian (Italy)"
                         },
                         new
                         {
-                            Id = new Guid("c0b266d4-0639-4af8-8df3-1cc1b7216360"),
+                            Id = new Guid("ebd1284f-fa85-42f1-8a4e-dd5837c2bfd1"),
                             Code = "fy",
                             EnglishName = "Western Frisian"
                         },
                         new
                         {
-                            Id = new Guid("2b6baf20-d55a-44c9-aca0-4f52290b457c"),
+                            Id = new Guid("2de6c174-a50e-46e1-b23b-9b01e1f98c3c"),
                             Code = "fy-NL",
                             EnglishName = "Western Frisian (Netherlands)"
                         },
                         new
                         {
-                            Id = new Guid("a573508d-b94b-48ad-9674-bffcba0c198e"),
+                            Id = new Guid("067ed17e-5bc6-4a85-a4a1-f9c16a7200bb"),
                             Code = "ga",
                             EnglishName = "Irish"
                         },
                         new
                         {
-                            Id = new Guid("347cc7ca-a79e-4ffa-b369-bbfa2cbbe149"),
+                            Id = new Guid("7a1e9198-3541-4874-ac14-90e73054d395"),
                             Code = "ga-IE",
                             EnglishName = "Irish (Ireland)"
                         },
                         new
                         {
-                            Id = new Guid("1b4afad0-d13a-4608-ac74-abb50e2ef8b9"),
+                            Id = new Guid("b8d77350-8550-4701-b3dc-c17df0859712"),
                             Code = "gd",
                             EnglishName = "Scottish Gaelic"
                         },
                         new
                         {
-                            Id = new Guid("efc42a22-99c5-4efe-9cf3-efc583b96706"),
+                            Id = new Guid("d0ca4533-f0d0-43c3-a4a4-bf791cbf6e8c"),
                             Code = "gd-GB",
                             EnglishName = "Scottish Gaelic (United Kingdom)"
                         },
                         new
                         {
-                            Id = new Guid("683ac77c-3825-4bed-aaf9-3915f94be4e8"),
+                            Id = new Guid("9fbf72f1-7bed-4dbf-b080-b57e6c57bcd5"),
                             Code = "gl",
                             EnglishName = "Galician"
                         },
                         new
                         {
-                            Id = new Guid("9004f56f-5f17-43e1-b3fd-cd3b17e08394"),
+                            Id = new Guid("f3b23efc-459c-49b1-a9d9-9dc7ed2e8203"),
                             Code = "gl-ES",
                             EnglishName = "Galician (Spain)"
                         },
                         new
                         {
-                            Id = new Guid("16a7818f-d0c4-4763-b683-b2ffe18cf7b0"),
+                            Id = new Guid("fd97db8e-d97e-4b21-a331-3c27db6b3e6b"),
                             Code = "gn",
                             EnglishName = "Guarani"
                         },
                         new
                         {
-                            Id = new Guid("2df9ae5c-858d-4c54-b3d0-f58a7311e59f"),
+                            Id = new Guid("3c5b85a0-ae8c-4526-b7b1-f8105d77d573"),
                             Code = "gn-PY",
                             EnglishName = "Guarani (Paraguay)"
                         },
                         new
                         {
-                            Id = new Guid("e603faf0-3635-442e-a8dd-d8a96cf40e34"),
+                            Id = new Guid("68883965-0073-4da7-adae-f8d1f8fcf479"),
                             Code = "gsw",
                             EnglishName = "Swiss German"
                         },
                         new
                         {
-                            Id = new Guid("20989103-3a21-45dc-b6ee-a2729f386608"),
+                            Id = new Guid("431b3725-72f3-4b0f-9c3c-2580d6fa653a"),
                             Code = "gsw-CH",
                             EnglishName = "Swiss German (Switzerland)"
                         },
                         new
                         {
-                            Id = new Guid("3cbf110d-2252-477c-9143-885bec28c8fd"),
+                            Id = new Guid("eb7636bb-ac51-4b57-b540-ac9b2c525d13"),
                             Code = "gsw-FR",
                             EnglishName = "Swiss German (France)"
                         },
                         new
                         {
-                            Id = new Guid("4671cf6c-1b74-4501-9b81-eec8bfb35a55"),
+                            Id = new Guid("2496c62c-0871-4b72-8f13-40a14eb18ae7"),
                             Code = "gsw-LI",
                             EnglishName = "Swiss German (Liechtenstein)"
                         },
                         new
                         {
-                            Id = new Guid("cd43ad37-e33a-4782-84c3-930918ad191b"),
+                            Id = new Guid("097a7f78-acd2-4430-bf74-af7689d17302"),
                             Code = "gu",
                             EnglishName = "Gujarati"
                         },
                         new
                         {
-                            Id = new Guid("8c516ff4-d371-4306-a743-bea6432f1dac"),
+                            Id = new Guid("c649b026-587f-446a-8c23-a7ed15827d44"),
                             Code = "gu-IN",
                             EnglishName = "Gujarati (India)"
                         },
                         new
                         {
-                            Id = new Guid("61881fc1-f0bf-471f-9f86-f0e3ff87f4a3"),
+                            Id = new Guid("77fe53c5-b876-4bc4-83ef-45c780262e62"),
                             Code = "guz",
                             EnglishName = "Gusii"
                         },
                         new
                         {
-                            Id = new Guid("3974e1fc-042a-4da0-98d9-6949ba4cf0f5"),
+                            Id = new Guid("58b5762e-b428-404e-bed6-1e0ce6ac1d18"),
                             Code = "guz-KE",
                             EnglishName = "Gusii (Kenya)"
                         },
                         new
                         {
-                            Id = new Guid("38f0e370-cfc6-4a1e-8caa-f7647c8191b5"),
+                            Id = new Guid("70f26c27-bad9-4f0d-92c9-5a185a899841"),
                             Code = "gv",
                             EnglishName = "Manx"
                         },
                         new
                         {
-                            Id = new Guid("ebd63744-e741-4bcf-ac10-8d4c774d84bc"),
+                            Id = new Guid("d4e4c4ab-db41-45fb-b30f-97dc6efe7667"),
                             Code = "gv-IM",
                             EnglishName = "Manx (Isle of Man)"
                         },
                         new
                         {
-                            Id = new Guid("6a31aaea-9f59-4f46-bb5f-3214eebd8375"),
+                            Id = new Guid("6384ec3e-e092-4b53-9d11-c1d48e61fa34"),
                             Code = "ha",
                             EnglishName = "Hausa"
                         },
                         new
                         {
-                            Id = new Guid("927d5349-75b7-426f-9994-a00b07caa223"),
+                            Id = new Guid("14e8f1d6-bb8e-4aeb-bc3e-a1a61caa676e"),
                             Code = "ha-GH",
                             EnglishName = "Hausa (Ghana)"
                         },
                         new
                         {
-                            Id = new Guid("b67531cf-1f59-44fa-baa5-8fd7233e1ac6"),
+                            Id = new Guid("d6a86dcd-4564-49fb-a661-f0a343a28201"),
                             Code = "ha-NE",
                             EnglishName = "Hausa (Niger)"
                         },
                         new
                         {
-                            Id = new Guid("4d99bbf8-31bc-4bee-aefb-6ef743ac4587"),
+                            Id = new Guid("ff97cce9-6e09-4abc-afe1-8ee980eb05b2"),
                             Code = "ha-NG",
                             EnglishName = "Hausa (Nigeria)"
                         },
                         new
                         {
-                            Id = new Guid("3335332f-1df4-42f3-afed-fd5169417136"),
+                            Id = new Guid("80c7b330-ab2f-4703-aa1e-b338e5279b81"),
                             Code = "haw",
                             EnglishName = "Hawaiian"
                         },
                         new
                         {
-                            Id = new Guid("c3e72d25-92ae-448b-b11a-2ecbf5bed35c"),
+                            Id = new Guid("1f9f2ed0-a01c-4bff-a6b9-bc0222ae7340"),
                             Code = "haw-US",
                             EnglishName = "Hawaiian (United States)"
                         },
                         new
                         {
-                            Id = new Guid("d2462992-3737-4b2d-84fd-51db47c6e05d"),
+                            Id = new Guid("9d6f4ad0-f062-4514-a413-d064239e91ea"),
                             Code = "he",
                             EnglishName = "Hebrew"
                         },
                         new
                         {
-                            Id = new Guid("6fa2b6b1-594d-463a-9e4a-304a30fd7262"),
+                            Id = new Guid("b9076592-65b2-47f4-b0dd-b52382648f9f"),
                             Code = "he-IL",
                             EnglishName = "Hebrew (Israel)"
                         },
                         new
                         {
-                            Id = new Guid("1f62e9e9-8e91-4a10-af67-4e1a024ca1d3"),
+                            Id = new Guid("6a849970-4a9a-4b93-8bdf-01a892fcc0dc"),
                             Code = "hi",
                             EnglishName = "Hindi"
                         },
                         new
                         {
-                            Id = new Guid("63936993-f2a5-488a-ab24-dd31bf31d152"),
+                            Id = new Guid("92f252d3-aa8f-46bd-89ba-85ab64af02fc"),
                             Code = "hi-IN",
                             EnglishName = "Hindi (India)"
                         },
                         new
                         {
-                            Id = new Guid("d90f4846-ccfa-40ec-9d2a-71c6b9f7c8f8"),
+                            Id = new Guid("b77a2449-c329-4689-8f25-1adaeab4f664"),
                             Code = "hr",
                             EnglishName = "Croatian"
                         },
                         new
                         {
-                            Id = new Guid("5eaaab6b-5dc7-4629-afe0-3be74574f137"),
+                            Id = new Guid("f680d585-982f-449b-9c69-6effae3bc80b"),
                             Code = "hr-BA",
                             EnglishName = "Croatian (Bosnia & Herzegovina)"
                         },
                         new
                         {
-                            Id = new Guid("c0943451-6ea9-4003-8e19-bf35a6717685"),
+                            Id = new Guid("64c838b5-f94e-4dac-84ad-2db0b1e2f645"),
                             Code = "hr-HR",
                             EnglishName = "Croatian (Croatia)"
                         },
                         new
                         {
-                            Id = new Guid("63f6188b-8a0a-4162-a8a6-6a1a94a094ec"),
+                            Id = new Guid("0df6b992-745f-4b1c-8b04-0eab567bcd83"),
                             Code = "hsb",
                             EnglishName = "Upper Sorbian"
                         },
                         new
                         {
-                            Id = new Guid("2c87afa3-112f-4a82-8c66-953480fd183e"),
+                            Id = new Guid("43f9fef3-1837-46a3-9786-48e2e30feb35"),
                             Code = "hsb-DE",
                             EnglishName = "Upper Sorbian (Germany)"
                         },
                         new
                         {
-                            Id = new Guid("bc36a3cd-6e81-4941-b012-1747f8561a94"),
+                            Id = new Guid("0356e07e-32a2-44c6-af5a-f162d2542ff2"),
                             Code = "hu",
                             EnglishName = "Hungarian"
                         },
                         new
                         {
-                            Id = new Guid("c475adbc-1fda-4480-ba30-f269e3bc5959"),
+                            Id = new Guid("c3effcb9-3691-42b0-92d1-7c6cbbe4148e"),
                             Code = "hu-HU",
                             EnglishName = "Hungarian (Hungary)"
                         },
                         new
                         {
-                            Id = new Guid("9150bd40-e521-4000-b13f-6ff7d08914bf"),
+                            Id = new Guid("b0bc4f3c-bba2-4df0-bca8-f5e812f1d136"),
                             Code = "hy",
                             EnglishName = "Armenian"
                         },
                         new
                         {
-                            Id = new Guid("c571e6b6-9e7b-40fb-9b03-e23f0ce98c78"),
+                            Id = new Guid("4a344100-84fc-44c5-9286-fc552008bc3c"),
                             Code = "hy-AM",
                             EnglishName = "Armenian (Armenia)"
                         },
                         new
                         {
-                            Id = new Guid("04ef1ffd-cb60-4895-886a-721b42f95849"),
+                            Id = new Guid("fa0f1975-4b29-4de7-9959-f4edf0bca87e"),
                             Code = "ia",
                             EnglishName = "Interlingua"
                         },
                         new
                         {
-                            Id = new Guid("73cd44ab-fbc0-4749-8b66-8dc860163e98"),
+                            Id = new Guid("87223040-56a2-4b92-bc3d-3fdcf7f34f56"),
                             Code = "ia-001",
                             EnglishName = "Interlingua (World)"
                         },
                         new
                         {
-                            Id = new Guid("de6a8de9-8ab0-4739-bd4a-899e2220c853"),
+                            Id = new Guid("b92e9bb2-70d3-4b10-9c36-90c35e15d2fa"),
                             Code = "id",
                             EnglishName = "Indonesian"
                         },
                         new
                         {
-                            Id = new Guid("bb2de70b-5d32-4201-9a8f-13e3b201930b"),
+                            Id = new Guid("9dd0e5c8-ea4f-4aad-bd7e-4696e387c732"),
                             Code = "id-ID",
                             EnglishName = "Indonesian (Indonesia)"
                         },
                         new
                         {
-                            Id = new Guid("4f55ef36-f09f-4e70-b519-c817f893ac19"),
+                            Id = new Guid("ac8e4c02-0490-479c-b5dc-11cfd830d59d"),
                             Code = "ig",
                             EnglishName = "Igbo"
                         },
                         new
                         {
-                            Id = new Guid("7e7b9c05-66c4-4e25-b7f6-469972e3f3b8"),
+                            Id = new Guid("fd42b443-a9df-4fbe-a6fc-15bb14841f4c"),
                             Code = "ig-NG",
                             EnglishName = "Igbo (Nigeria)"
                         },
                         new
                         {
-                            Id = new Guid("95da92db-d7eb-4dc2-a36a-e22e4ef66504"),
+                            Id = new Guid("dfb60a22-430c-4292-8961-80da5732397c"),
                             Code = "ii",
                             EnglishName = "Yi"
                         },
                         new
                         {
-                            Id = new Guid("eb7f360d-e4de-473c-9c0d-338df15e2b6c"),
+                            Id = new Guid("08458e85-2893-49a3-9feb-0da00cceb17e"),
                             Code = "ii-CN",
                             EnglishName = "Yi (China)"
                         },
                         new
                         {
-                            Id = new Guid("92605c4c-ff6d-4ebd-a07f-f342ebead28f"),
+                            Id = new Guid("6f3bbb60-f3bd-4c7e-a0dd-7d8e89646524"),
                             Code = "is",
                             EnglishName = "Icelandic"
                         },
                         new
                         {
-                            Id = new Guid("bceb027e-c396-487c-bc74-983d061f5a03"),
+                            Id = new Guid("9a822c53-d511-44d7-8f35-9c94990fe360"),
                             Code = "is-IS",
                             EnglishName = "Icelandic (Iceland)"
                         },
                         new
                         {
-                            Id = new Guid("4ef65fe0-1b82-41bb-a66f-d792357bbfce"),
+                            Id = new Guid("35c6c5ee-6f69-4765-8dd1-5002ddaf66e7"),
                             Code = "it",
                             EnglishName = "Italian"
                         },
                         new
                         {
-                            Id = new Guid("99db9eea-e957-4a7f-b328-74bf6550c96e"),
+                            Id = new Guid("925e99f8-1a57-4f61-8b18-d7cd1a467c8f"),
                             Code = "it-CH",
                             EnglishName = "Italian (Switzerland)"
                         },
                         new
                         {
-                            Id = new Guid("d58d2846-5ce8-4311-afd9-911f2097b549"),
+                            Id = new Guid("fa39939a-b975-4b25-9eba-27c30ffc0d7d"),
                             Code = "it-IT",
                             EnglishName = "Italian (Italy)"
                         },
                         new
                         {
-                            Id = new Guid("748d0a8a-4630-493d-8476-3c510e449631"),
+                            Id = new Guid("0c267584-dfec-4592-b2de-34bae21ccec4"),
                             Code = "it-SM",
                             EnglishName = "Italian (San Marino)"
                         },
                         new
                         {
-                            Id = new Guid("f83a433a-f6b7-40a0-a0cb-e5337997357f"),
+                            Id = new Guid("c0bcd3ad-611a-4e60-bef2-775b1b0c17b5"),
                             Code = "it-VA",
                             EnglishName = "Italian (Vatican City)"
                         },
                         new
                         {
-                            Id = new Guid("d6c88959-9485-4610-9531-691e11943bab"),
+                            Id = new Guid("5a85f60e-f8f7-43ed-8503-eea814c4b1c7"),
                             Code = "iu",
                             EnglishName = "Inuktitut"
                         },
                         new
                         {
-                            Id = new Guid("034ec9c1-ab82-4bc0-bc72-140c5e2dfbc0"),
+                            Id = new Guid("e8160332-e5e6-49f1-9ba1-142fc07dce65"),
                             Code = "iu-CA",
                             EnglishName = "Inuktitut (Canada)"
                         },
                         new
                         {
-                            Id = new Guid("d63dba98-03a6-4c02-a4bc-274e308252ef"),
+                            Id = new Guid("64c81bde-4fb9-410b-acd0-3cb12e9700f8"),
                             Code = "iu-Latn",
                             EnglishName = "Inuktitut"
                         },
                         new
                         {
-                            Id = new Guid("41eb3493-e970-4c8e-9192-c18e4a771bb0"),
+                            Id = new Guid("360f6b12-cae6-4705-a092-3e3d09425954"),
                             Code = "iu-Latn-CA",
                             EnglishName = "Inuktitut (Latin, Canada)"
                         },
                         new
                         {
-                            Id = new Guid("3c2af937-f634-4799-bf12-a10cc6cfeb68"),
+                            Id = new Guid("f790104b-d714-4508-83e8-497373eca727"),
                             Code = "ja",
                             EnglishName = "Japanese"
                         },
                         new
                         {
-                            Id = new Guid("fc050590-3687-474e-9e92-0f4c6502d2a2"),
+                            Id = new Guid("e21dd77a-b366-47d7-a8d5-b4e26200f6a6"),
                             Code = "ja-JP",
                             EnglishName = "Japanese (Japan)"
                         },
                         new
                         {
-                            Id = new Guid("1ce9688c-89eb-4ac2-955f-1f2b30c74038"),
+                            Id = new Guid("bf758b54-d0dc-4979-8c29-5fc5467d60ec"),
                             Code = "jgo",
                             EnglishName = "Ngomba"
                         },
                         new
                         {
-                            Id = new Guid("c15a6640-4999-4316-96b7-9706ac91004e"),
+                            Id = new Guid("0f4f596e-893b-48b7-9234-56c7fec9faf4"),
                             Code = "jgo-CM",
                             EnglishName = "Ngomba (Cameroon)"
                         },
                         new
                         {
-                            Id = new Guid("4ed29061-4687-4660-8f4a-dca04e1805cf"),
+                            Id = new Guid("42800faa-22a9-45ad-844e-f6a4c35580d4"),
                             Code = "jmc",
                             EnglishName = "Machame"
                         },
                         new
                         {
-                            Id = new Guid("4f70d365-7ca2-4d1a-9245-bbe743e3f87f"),
+                            Id = new Guid("49837b46-56c0-4b00-826e-86b87fae98af"),
                             Code = "jmc-TZ",
                             EnglishName = "Machame (Tanzania)"
                         },
                         new
                         {
-                            Id = new Guid("42327ec5-0c29-4695-b4ee-5b678e5f7767"),
+                            Id = new Guid("06a264f6-9521-4f4a-8fa7-e78d688484fa"),
                             Code = "jv",
                             EnglishName = "Javanese"
                         },
                         new
                         {
-                            Id = new Guid("b7bde09e-44ff-49a9-b740-af525b4aa9a0"),
+                            Id = new Guid("fdbb1e29-569e-48f9-8af6-b4fe39f362f6"),
                             Code = "jv-ID",
                             EnglishName = "Javanese (Indonesia)"
                         },
                         new
                         {
-                            Id = new Guid("5412eae0-0d83-4838-903d-59878bce66b4"),
+                            Id = new Guid("39fa5131-468f-446b-8615-4e1a86026c31"),
                             Code = "ka",
                             EnglishName = "Georgian"
                         },
                         new
                         {
-                            Id = new Guid("0bf1da97-af04-4615-8bc4-74df7bf6bdf6"),
+                            Id = new Guid("5eec5e91-adef-497d-9bda-1bfaa447e73e"),
                             Code = "ka-GE",
                             EnglishName = "Georgian (Georgia)"
                         },
                         new
                         {
-                            Id = new Guid("888628ec-e9d5-468a-bee2-c7200968e143"),
+                            Id = new Guid("6586f12e-b9c8-4e9d-bdbb-aed94117d541"),
                             Code = "kab",
                             EnglishName = "Kabyle"
                         },
                         new
                         {
-                            Id = new Guid("56512616-647d-4070-ad7f-5edfd7d5aa6b"),
+                            Id = new Guid("9b534964-283e-482b-b609-aac89efb4231"),
                             Code = "kab-DZ",
                             EnglishName = "Kabyle (Algeria)"
                         },
                         new
                         {
-                            Id = new Guid("440ac87e-8990-4376-a3d2-f2bad5632865"),
+                            Id = new Guid("ffe05080-8d86-432b-9d56-e88098a83b28"),
                             Code = "kam",
                             EnglishName = "Kamba"
                         },
                         new
                         {
-                            Id = new Guid("a362804f-b1f2-4c2b-a2d1-9e74eda37294"),
+                            Id = new Guid("692a6766-341d-42b2-b41e-aedfc89dd250"),
                             Code = "kam-KE",
                             EnglishName = "Kamba (Kenya)"
                         },
                         new
                         {
-                            Id = new Guid("8c3bf9ac-70aa-4e6b-ac79-8907eb9ab3d0"),
+                            Id = new Guid("93f9c900-6b09-45a0-a587-f76503d45bb4"),
                             Code = "kde",
                             EnglishName = "Makonde"
                         },
                         new
                         {
-                            Id = new Guid("c006487f-673a-450d-adc5-00513b612163"),
+                            Id = new Guid("ca500044-81d5-4b3a-9c9b-a1af3b44edeb"),
                             Code = "kde-TZ",
                             EnglishName = "Makonde (Tanzania)"
                         },
                         new
                         {
-                            Id = new Guid("ae98164b-1ae9-4d2c-83c0-9de19576d69f"),
+                            Id = new Guid("c026fe5e-1493-4fc1-88f1-cfd1b2e762ef"),
                             Code = "kea",
                             EnglishName = "Kabuverdianu"
                         },
                         new
                         {
-                            Id = new Guid("b1fef645-4e20-4bb6-833c-4dbfd0461df1"),
+                            Id = new Guid("2838cb0c-548c-439d-9aef-288e0b7d8e8d"),
                             Code = "kea-CV",
                             EnglishName = "Kabuverdianu (Cabo Verde)"
                         },
                         new
                         {
-                            Id = new Guid("7cccfabc-34bf-470f-8aa5-380117b9fb19"),
+                            Id = new Guid("aaf4b24a-e076-4b94-a611-99ada7850f95"),
                             Code = "khq",
                             EnglishName = "Koyra Chiini"
                         },
                         new
                         {
-                            Id = new Guid("ce6367f3-7a9e-4cc6-aef5-11899ac4cc40"),
+                            Id = new Guid("be64ff56-2fb8-4943-af93-8c39471475ef"),
                             Code = "khq-ML",
                             EnglishName = "Koyra Chiini (Mali)"
                         },
                         new
                         {
-                            Id = new Guid("4b76ecb3-5c0e-41e7-8bfc-a1fe396436c7"),
+                            Id = new Guid("346f3a92-304b-4d46-85f6-12594cf2e357"),
                             Code = "ki",
                             EnglishName = "Kikuyu"
                         },
                         new
                         {
-                            Id = new Guid("dab52a7c-7413-4590-915c-bd6d0ea13890"),
+                            Id = new Guid("0681633e-f467-457b-82f8-04be1500f703"),
                             Code = "ki-KE",
                             EnglishName = "Kikuyu (Kenya)"
                         },
                         new
                         {
-                            Id = new Guid("74857461-f900-4610-a762-6aa188cdee40"),
+                            Id = new Guid("175ceb01-8d09-49f1-b4f5-5459334e41ca"),
                             Code = "kk",
                             EnglishName = "Kazakh"
                         },
                         new
                         {
-                            Id = new Guid("c543df88-13b5-47b5-947b-4731c98f1bc4"),
+                            Id = new Guid("e49b4d90-5200-4c49-8087-f18222331667"),
                             Code = "kk-KZ",
                             EnglishName = "Kazakh (Kazakhstan)"
                         },
                         new
                         {
-                            Id = new Guid("1fa33d4c-83ce-465e-9d1d-4fb9dc0b604f"),
+                            Id = new Guid("69b51d5a-8b45-48e5-8571-2e3940e11382"),
                             Code = "kkj",
                             EnglishName = "Kako"
                         },
                         new
                         {
-                            Id = new Guid("4048c761-bd27-4271-9df9-599c30d0cd19"),
+                            Id = new Guid("ee45de47-9e3c-4f3d-b4b9-7150d6c8ce70"),
                             Code = "kkj-CM",
                             EnglishName = "Kako (Cameroon)"
                         },
                         new
                         {
-                            Id = new Guid("8562f9dc-cf0c-457d-a1bd-85cc0fd1bebb"),
+                            Id = new Guid("ea685cc7-3c38-42e2-a982-9c7b6412ba4e"),
                             Code = "kl",
                             EnglishName = "Kalaallisut"
                         },
                         new
                         {
-                            Id = new Guid("52826169-650c-4135-a649-f0989afd3102"),
+                            Id = new Guid("2b33b563-ed56-49b1-8d9c-82940271772d"),
                             Code = "kl-GL",
                             EnglishName = "Kalaallisut (Greenland)"
                         },
                         new
                         {
-                            Id = new Guid("46babc18-9c73-4f40-ad0a-1b41d9823292"),
+                            Id = new Guid("24ef019b-49a8-4890-b095-c34261fdedbe"),
                             Code = "kln",
                             EnglishName = "Kalenjin"
                         },
                         new
                         {
-                            Id = new Guid("b4409ae8-1398-4402-9be9-946936dd7cba"),
+                            Id = new Guid("500c233f-4195-47bf-a008-07f20376e7f0"),
                             Code = "kln-KE",
                             EnglishName = "Kalenjin (Kenya)"
                         },
                         new
                         {
-                            Id = new Guid("afb1e271-4b56-4f55-b3fc-0ef7852897e5"),
+                            Id = new Guid("1affeab5-8276-48b7-bb49-03c8bcce744d"),
                             Code = "km",
                             EnglishName = "Khmer"
                         },
                         new
                         {
-                            Id = new Guid("7168535d-fbe2-4b4f-8af2-4f54e82ea2c5"),
+                            Id = new Guid("025a75ca-9ce6-444a-84aa-300e02347e81"),
                             Code = "km-KH",
                             EnglishName = "Khmer (Cambodia)"
                         },
                         new
                         {
-                            Id = new Guid("9ce0a3ee-cdb2-447c-a099-b56faab72aa7"),
+                            Id = new Guid("52e73a90-a088-4703-8a01-b6e9fdb13049"),
                             Code = "kn",
                             EnglishName = "Kannada"
                         },
                         new
                         {
-                            Id = new Guid("6c2ff123-fecb-4c32-b2e9-165c2cb5833e"),
+                            Id = new Guid("7e7aa969-9937-4bab-a5b4-b255cbc71722"),
                             Code = "kn-IN",
                             EnglishName = "Kannada (India)"
                         },
                         new
                         {
-                            Id = new Guid("afb2ce0f-df68-4357-a08e-ac3faf3c9ec6"),
+                            Id = new Guid("fa02c399-7313-4384-a758-d3259088d248"),
                             Code = "ko",
                             EnglishName = "Korean"
                         },
                         new
                         {
-                            Id = new Guid("39da2283-2f63-4b01-947f-1e09af20b0d1"),
+                            Id = new Guid("11d0e3af-1e4c-4620-bd1b-1b3786827292"),
                             Code = "ko-KP",
                             EnglishName = "Korean (North Korea)"
                         },
                         new
                         {
-                            Id = new Guid("3338fd4a-3792-4041-9759-821d9453979f"),
+                            Id = new Guid("e595dc5a-3c7a-4e62-a7f9-47d9706c7a6a"),
                             Code = "ko-KR",
                             EnglishName = "Korean (Korea)"
                         },
                         new
                         {
-                            Id = new Guid("7cdc1e81-9bab-4673-98c0-725359955ff7"),
+                            Id = new Guid("d3eeb82b-c509-46e6-b153-d2cad6ffd89b"),
                             Code = "kok",
                             EnglishName = "Konkani"
                         },
                         new
                         {
-                            Id = new Guid("368956cf-f6d1-4dc8-9fee-17024b3eec11"),
+                            Id = new Guid("2498681e-ce97-4020-9f76-520b8c06cdd3"),
                             Code = "kok-IN",
                             EnglishName = "Konkani (India)"
                         },
                         new
                         {
-                            Id = new Guid("525a2659-00fd-4283-9d10-c25e8ebc5cf5"),
+                            Id = new Guid("4d48e49d-b4d5-4a61-b0a9-453b6f15da62"),
                             Code = "ks",
                             EnglishName = "Kashmiri"
                         },
                         new
                         {
-                            Id = new Guid("c4db4710-7267-4241-a9ba-3420db270c4e"),
+                            Id = new Guid("4f8ecc21-4e32-4c24-b1f8-2773be50d61c"),
                             Code = "ks-IN",
                             EnglishName = "Kashmiri (India)"
                         },
                         new
                         {
-                            Id = new Guid("4a1012fd-aac7-4130-b544-37f11b7ed45b"),
+                            Id = new Guid("e57d2b42-73ed-4448-b108-2dd9d9244071"),
                             Code = "ksb",
                             EnglishName = "Shambala"
                         },
                         new
                         {
-                            Id = new Guid("7199e80f-9610-4998-a4bf-85ababae6ba1"),
+                            Id = new Guid("9b82b305-403c-451c-9d2f-bc2c3ce4dd5f"),
                             Code = "ksb-TZ",
                             EnglishName = "Shambala (Tanzania)"
                         },
                         new
                         {
-                            Id = new Guid("4d0e4227-6016-4efb-b1fe-3230ea489ab0"),
+                            Id = new Guid("7bebe4c9-b991-4198-9182-b0e53b944fc2"),
                             Code = "ksf",
                             EnglishName = "Bafia"
                         },
                         new
                         {
-                            Id = new Guid("27ac8af1-c382-4f36-bc0d-55d11af36683"),
+                            Id = new Guid("fc170caf-0ae8-4107-b6ac-1230d860688b"),
                             Code = "ksf-CM",
                             EnglishName = "Bafia (Cameroon)"
                         },
                         new
                         {
-                            Id = new Guid("ce8641f7-42bf-4b9c-8cec-f4951e3632c6"),
+                            Id = new Guid("15ed1621-9fd7-4558-9a3d-c93ebe6a3597"),
                             Code = "ksh",
                             EnglishName = "Colognian"
                         },
                         new
                         {
-                            Id = new Guid("f1acf313-db4f-406a-9069-efa2618dc0cd"),
+                            Id = new Guid("312bf862-bcdd-4a1b-a653-4f55826dd92e"),
                             Code = "ksh-DE",
                             EnglishName = "Colognian (Germany)"
                         },
                         new
                         {
-                            Id = new Guid("66651072-9e54-4d3d-8ecb-1870f8499945"),
+                            Id = new Guid("3a751afc-94ef-4c45-9064-c6845cdf0435"),
                             Code = "kw",
                             EnglishName = "Cornish"
                         },
                         new
                         {
-                            Id = new Guid("ffdb4751-52a6-4d25-86bd-1c537f6006ff"),
+                            Id = new Guid("2bebadb7-0c45-4726-b385-5688dcd6cbd5"),
                             Code = "kw-GB",
                             EnglishName = "Cornish (United Kingdom)"
                         },
                         new
                         {
-                            Id = new Guid("62e0ca56-b659-4672-a613-a6daf603597e"),
+                            Id = new Guid("99ffd405-e875-40e0-8fe4-8298c7a16109"),
                             Code = "ky",
                             EnglishName = "Kyrgyz"
                         },
                         new
                         {
-                            Id = new Guid("a480c103-ae8d-4412-81b3-3e2eb778f137"),
+                            Id = new Guid("f86f51d2-aab3-471f-a314-5496dad4c676"),
                             Code = "ky-KG",
                             EnglishName = "Kyrgyz (Kyrgyzstan)"
                         },
                         new
                         {
-                            Id = new Guid("7802e833-9cb9-4159-91c1-168551e5a3e8"),
+                            Id = new Guid("a69a55e0-73a5-4dcb-99a4-ff129faa5efc"),
                             Code = "lag",
                             EnglishName = "Langi"
                         },
                         new
                         {
-                            Id = new Guid("1a97c556-4e29-46e9-bca0-2e8e7be258a2"),
+                            Id = new Guid("88805a21-cc73-452f-bba0-0402c53e1b54"),
                             Code = "lag-TZ",
                             EnglishName = "Langi (Tanzania)"
                         },
                         new
                         {
-                            Id = new Guid("f2495991-6222-48a4-8d10-1c2f98ad5a71"),
+                            Id = new Guid("74a4d8a2-0b99-488b-b2b5-a3d1a067df3e"),
                             Code = "lb",
                             EnglishName = "Luxembourgish"
                         },
                         new
                         {
-                            Id = new Guid("ddb46d2e-f1aa-4c64-b8ae-04960fa63060"),
+                            Id = new Guid("2c2d286b-102c-4e96-9447-e27f9e55a008"),
                             Code = "lb-LU",
                             EnglishName = "Luxembourgish (Luxembourg)"
                         },
                         new
                         {
-                            Id = new Guid("b863df25-e5d7-4819-b384-2da9f0932d0e"),
+                            Id = new Guid("94084192-e88a-4382-8711-68ec43ab3037"),
                             Code = "lg",
                             EnglishName = "Ganda"
                         },
                         new
                         {
-                            Id = new Guid("3a25963b-b003-42c8-a634-892f076f65dc"),
+                            Id = new Guid("f8667b59-ecbb-4455-9d56-e47ca6cfa18a"),
                             Code = "lg-UG",
                             EnglishName = "Ganda (Uganda)"
                         },
                         new
                         {
-                            Id = new Guid("820720b2-6cb6-4190-bab2-39e85df8c878"),
+                            Id = new Guid("1fab1bec-85ff-41cf-8995-bafe0f66d67a"),
                             Code = "lkt",
                             EnglishName = "Lakota"
                         },
                         new
                         {
-                            Id = new Guid("1ef3444b-772f-4972-a0b4-822b760c4033"),
+                            Id = new Guid("684a4e71-c9a5-4da2-9d91-9accde9cce6c"),
                             Code = "lkt-US",
                             EnglishName = "Lakota (United States)"
                         },
                         new
                         {
-                            Id = new Guid("744209bd-cad8-4c96-b7b7-77423b5ac3d4"),
+                            Id = new Guid("4f90f083-bc9b-4bc9-873e-7b80e4b29b56"),
                             Code = "ln",
                             EnglishName = "Lingala"
                         },
                         new
                         {
-                            Id = new Guid("147a7c4b-c0a1-49c4-8845-5ea24ad268c8"),
+                            Id = new Guid("781723e2-d4e5-4942-9baf-928ab44771b5"),
                             Code = "ln-AO",
                             EnglishName = "Lingala (Angola)"
                         },
                         new
                         {
-                            Id = new Guid("aab472ce-3249-4832-8169-39d8bf53cf14"),
+                            Id = new Guid("867c04c6-8d72-4b35-af24-9faa2938f1b5"),
                             Code = "ln-CD",
                             EnglishName = "Lingala (Congo [DRC])"
                         },
                         new
                         {
-                            Id = new Guid("5c916cf5-b590-49c3-86e1-cb9decffb015"),
+                            Id = new Guid("bc631d31-ea94-4f5d-9a10-36c4fad811ae"),
                             Code = "ln-CF",
                             EnglishName = "Lingala (Central African Republic)"
                         },
                         new
                         {
-                            Id = new Guid("8e5afce1-c186-4f78-9536-7ab3f77cbe37"),
+                            Id = new Guid("5144ede9-e6ab-4317-a0d9-27a66801e0ad"),
                             Code = "ln-CG",
                             EnglishName = "Lingala (Congo)"
                         },
                         new
                         {
-                            Id = new Guid("9b71cbac-c146-414b-a3e2-da1b8719557b"),
+                            Id = new Guid("f29ef818-ca4d-49c2-a2cd-f3ea0303eddd"),
                             Code = "lo",
                             EnglishName = "Lao"
                         },
                         new
                         {
-                            Id = new Guid("b86b0d8f-8472-43cc-becb-f520b0dea4c7"),
+                            Id = new Guid("7adfd0c2-3de9-4ec8-9114-c92ccd504b96"),
                             Code = "lo-LA",
                             EnglishName = "Lao (Laos)"
                         },
                         new
                         {
-                            Id = new Guid("27ba6038-406e-45d9-be57-a440a5a5c2cc"),
+                            Id = new Guid("777d4de2-7414-41db-bf89-155e85846d94"),
                             Code = "lrc",
                             EnglishName = "Northern Luri"
                         },
                         new
                         {
-                            Id = new Guid("5114161c-fc83-416e-80d2-225f0faf6994"),
+                            Id = new Guid("d5bcaf9d-e041-4f8e-82a8-b4d446dc1ee2"),
                             Code = "lrc-IQ",
                             EnglishName = "Northern Luri (Iraq)"
                         },
                         new
                         {
-                            Id = new Guid("97e3144f-a6d7-4a1b-a316-f6e25fbd4e10"),
+                            Id = new Guid("2eedacb1-a314-497d-a8b9-628715092c81"),
                             Code = "lrc-IR",
                             EnglishName = "Northern Luri (Iran)"
                         },
                         new
                         {
-                            Id = new Guid("b79d1e72-65dc-4eab-ad99-ac8fd4c24ec5"),
+                            Id = new Guid("23eefa43-3410-4ce3-b838-3f68c17f8de5"),
                             Code = "lt",
                             EnglishName = "Lithuanian"
                         },
                         new
                         {
-                            Id = new Guid("015203dc-62bc-4d8d-80ba-8d26e6d83d58"),
+                            Id = new Guid("831ad560-d23d-4b12-a3c9-e9a29a1d8477"),
                             Code = "lt-LT",
                             EnglishName = "Lithuanian (Lithuania)"
                         },
                         new
                         {
-                            Id = new Guid("92b13954-56f1-4f65-9d1a-067180e63fe0"),
+                            Id = new Guid("ee757cea-12a7-450e-b72d-553bca311a53"),
                             Code = "lu",
                             EnglishName = "Luba-Katanga"
                         },
                         new
                         {
-                            Id = new Guid("d40fef27-fcb1-4d1e-bf30-c0da6a35f74a"),
+                            Id = new Guid("c672fe44-414b-4eb6-a5c9-37f0b6101117"),
                             Code = "lu-CD",
                             EnglishName = "Luba-Katanga (Congo [DRC])"
                         },
                         new
                         {
-                            Id = new Guid("b0b7c7be-6454-4bf1-850c-5a974b57ab95"),
+                            Id = new Guid("2c9201c5-fc95-4d39-bd53-d9a369f53fe2"),
                             Code = "luo",
                             EnglishName = "Luo"
                         },
                         new
                         {
-                            Id = new Guid("2aff9903-a769-4f22-8fbf-26d4a6af4107"),
+                            Id = new Guid("98059ee5-d387-449d-aaa9-76b4ce72b64b"),
                             Code = "luo-KE",
                             EnglishName = "Luo (Kenya)"
                         },
                         new
                         {
-                            Id = new Guid("2f868b9e-c51b-4af0-b96b-8ef97a2fdffc"),
+                            Id = new Guid("21df3829-4363-42bf-b88b-fc68d7e96fa2"),
                             Code = "luy",
                             EnglishName = "Luyia"
                         },
                         new
                         {
-                            Id = new Guid("29e18cac-f448-49ae-b06d-056b8debb88a"),
+                            Id = new Guid("3d5491a2-e5b2-4f27-aab2-46372eacb336"),
                             Code = "luy-KE",
                             EnglishName = "Luyia (Kenya)"
                         },
                         new
                         {
-                            Id = new Guid("3475e000-3062-4ee3-9515-01c747e9e655"),
+                            Id = new Guid("9be4b977-6c9a-4577-af71-0513f35baf80"),
                             Code = "lv",
                             EnglishName = "Latvian"
                         },
                         new
                         {
-                            Id = new Guid("2115addc-04cf-4263-93cc-d932029fc7e8"),
+                            Id = new Guid("a54045aa-ee93-4d69-baa7-5ebe4888bf09"),
                             Code = "lv-LV",
                             EnglishName = "Latvian (Latvia)"
                         },
                         new
                         {
-                            Id = new Guid("62b64b17-76bd-4a7c-a851-55da9caf4798"),
+                            Id = new Guid("a74f5998-6f3c-4afd-bb43-1a5b974342d0"),
                             Code = "mas",
                             EnglishName = "Masai"
                         },
                         new
                         {
-                            Id = new Guid("ef203feb-b2c2-412a-a5c8-c867e09f4979"),
+                            Id = new Guid("419bfcdb-acee-4ea7-a865-e1141f6f584b"),
                             Code = "mas-KE",
                             EnglishName = "Masai (Kenya)"
                         },
                         new
                         {
-                            Id = new Guid("679d30b4-d18b-461d-a3a1-388bca90e185"),
+                            Id = new Guid("7f29f1dc-bc83-47ec-bae5-b1998ffb7cb0"),
                             Code = "mas-TZ",
                             EnglishName = "Masai (Tanzania)"
                         },
                         new
                         {
-                            Id = new Guid("1683ab49-af24-4272-bb2d-a02b7dfa8020"),
+                            Id = new Guid("761e4d8c-3aec-4586-a45e-185d127f5218"),
                             Code = "mer",
                             EnglishName = "Meru"
                         },
                         new
                         {
-                            Id = new Guid("f1c3a466-528b-4f3f-9837-9cd24d9eaee5"),
+                            Id = new Guid("5ba90df6-2484-446b-9789-811239c67072"),
                             Code = "mer-KE",
                             EnglishName = "Meru (Kenya)"
                         },
                         new
                         {
-                            Id = new Guid("0a485686-b21e-4fbe-9dfd-2aa1336d1b20"),
+                            Id = new Guid("356e8951-d1e8-4e54-aaff-5bf81533602c"),
                             Code = "mfe",
                             EnglishName = "Morisyen"
                         },
                         new
                         {
-                            Id = new Guid("5fb4b758-06cf-4df0-bcf9-942b62e4e906"),
+                            Id = new Guid("b7156265-1dd3-45a1-8546-f55234842ac2"),
                             Code = "mfe-MU",
                             EnglishName = "Morisyen (Mauritius)"
                         },
                         new
                         {
-                            Id = new Guid("bfbc13c5-5e6e-4b18-9a8d-5b2c819a790b"),
+                            Id = new Guid("00626d60-c2e2-4d70-aefa-9ab62aab7135"),
                             Code = "mg",
                             EnglishName = "Malagasy"
                         },
                         new
                         {
-                            Id = new Guid("ef60b644-23ea-48ce-ba0e-a7d198edb512"),
+                            Id = new Guid("c66114f1-d49e-4e02-bcee-da1274165994"),
                             Code = "mg-MG",
                             EnglishName = "Malagasy (Madagascar)"
                         },
                         new
                         {
-                            Id = new Guid("3023f476-08b6-49ea-aa7e-3c7d52de82d2"),
+                            Id = new Guid("482e7f80-9b7d-4f27-9365-ac8330e699c0"),
                             Code = "mgh",
                             EnglishName = "Makhuwa-Meetto"
                         },
                         new
                         {
-                            Id = new Guid("382227ae-7a00-43dd-8049-6a815d329558"),
+                            Id = new Guid("06ce4252-2952-4efa-8af4-1a58c9934b43"),
                             Code = "mgh-MZ",
                             EnglishName = "Makhuwa-Meetto (Mozambique)"
                         },
                         new
                         {
-                            Id = new Guid("e656c3da-5865-4a86-89b8-a2ba31ffe5fa"),
+                            Id = new Guid("e976af73-c5dc-4f91-8057-3629d9ffd252"),
                             Code = "mgo",
                             EnglishName = "Metaʼ"
                         },
                         new
                         {
-                            Id = new Guid("cf70d376-6650-49e9-9655-1b0498bfa3d5"),
+                            Id = new Guid("62e4e2ad-884e-4d4c-8ec0-fb4a802e62ad"),
                             Code = "mgo-CM",
                             EnglishName = "Metaʼ (Cameroon)"
                         },
                         new
                         {
-                            Id = new Guid("1f2fd6f4-4775-4a1e-84c2-38d8da46d5f9"),
+                            Id = new Guid("05a61b32-a801-4cc8-9573-81ec41af31bd"),
                             Code = "mi",
                             EnglishName = "Maori"
                         },
                         new
                         {
-                            Id = new Guid("43b81b5c-7947-427e-8728-c31fdec0a31a"),
+                            Id = new Guid("32baf604-d5db-4292-a3dd-f40d83e746b7"),
                             Code = "mi-NZ",
                             EnglishName = "Maori (New Zealand)"
                         },
                         new
                         {
-                            Id = new Guid("7b9320cc-bd83-44b6-acbf-53d3f0a1e16a"),
+                            Id = new Guid("38090f60-9862-4b1d-a616-19da450b1588"),
                             Code = "mk",
                             EnglishName = "Macedonian"
                         },
                         new
                         {
-                            Id = new Guid("7023be95-6e54-4ce5-8f62-4368246e2aec"),
+                            Id = new Guid("05f2d546-8b12-44da-a5b5-a3142817f122"),
                             Code = "mk-MK",
                             EnglishName = "Macedonian (North Macedonia)"
                         },
                         new
                         {
-                            Id = new Guid("2c7bad05-395c-4e66-abed-99c4681e8cad"),
+                            Id = new Guid("2cfa4340-68d2-42c5-be23-ecc5b1ebc5aa"),
                             Code = "ml",
                             EnglishName = "Malayalam"
                         },
                         new
                         {
-                            Id = new Guid("54698e3c-e131-4ef0-85e7-ee360fe9440d"),
+                            Id = new Guid("84e08126-e339-4baa-8d83-e81ad6e232fb"),
                             Code = "ml-IN",
                             EnglishName = "Malayalam (India)"
                         },
                         new
                         {
-                            Id = new Guid("186adf43-2502-4164-bb40-cd438575e353"),
+                            Id = new Guid("83ee4d2b-cdc8-4b41-899b-43ef18e069de"),
                             Code = "mn",
                             EnglishName = "Mongolian"
                         },
                         new
                         {
-                            Id = new Guid("8b4de5cd-48c5-4d63-8bde-968db8259244"),
+                            Id = new Guid("4bacaa1b-a5bb-4b7d-ab0c-4ab12f484683"),
                             Code = "mn-MN",
                             EnglishName = "Mongolian (Mongolia)"
                         },
                         new
                         {
-                            Id = new Guid("9fd0d47a-d093-46ca-9631-ebccdcb85654"),
+                            Id = new Guid("a2e249c4-bc78-4938-a2a1-1b0bb657b5e6"),
                             Code = "mn-Mong",
                             EnglishName = "Mongolian"
                         },
                         new
                         {
-                            Id = new Guid("957b6ef0-1645-42fe-a333-c51f9ee7a154"),
+                            Id = new Guid("2549f775-1a12-49f8-95ce-ee939dd36c0f"),
                             Code = "mn-Mong-CN",
                             EnglishName = "Mongolian (Mongolian, China)"
                         },
                         new
                         {
-                            Id = new Guid("b2e8445f-dab4-43e2-bc2d-7b206b8eec8a"),
+                            Id = new Guid("9485be5a-2f5c-44ca-b161-77c7ee4bcb23"),
                             Code = "mn-Mong-MN",
                             EnglishName = "Mongolian (Mongolian, Mongolia)"
                         },
                         new
                         {
-                            Id = new Guid("efc91c56-12ea-4d1d-b36b-8042c5084f8a"),
+                            Id = new Guid("c33ff1d5-f505-4d3a-9f3f-fcdb4885a952"),
                             Code = "moh",
                             EnglishName = "Mohawk"
                         },
                         new
                         {
-                            Id = new Guid("3bd61fcb-cfbc-43cc-88f2-1174dd863bc9"),
+                            Id = new Guid("36d8400c-f28e-426c-99a3-134c659813c2"),
                             Code = "moh-CA",
                             EnglishName = "Mohawk (Canada)"
                         },
                         new
                         {
-                            Id = new Guid("a25b492c-9e21-4881-bd57-19b5c675151b"),
+                            Id = new Guid("605d886f-ba84-4620-9de3-5ee433092ecf"),
                             Code = "mr",
                             EnglishName = "Marathi"
                         },
                         new
                         {
-                            Id = new Guid("0104b28a-9fdd-4a98-8e8e-a2fa612bfb63"),
+                            Id = new Guid("981e93a2-3ee4-4b2c-81c7-83ce9fff0271"),
                             Code = "mr-IN",
                             EnglishName = "Marathi (India)"
                         },
                         new
                         {
-                            Id = new Guid("118d6a50-ceab-4e8f-a0ac-3e06848054a0"),
+                            Id = new Guid("032d95fd-de95-46f6-975a-3d52f7c596a5"),
                             Code = "ms",
                             EnglishName = "Malay"
                         },
                         new
                         {
-                            Id = new Guid("0cb73ece-14ef-43bf-afce-708a6118ad0b"),
+                            Id = new Guid("0374ce84-fd87-4d1f-a751-f6ce131d0d00"),
                             Code = "ms-BN",
                             EnglishName = "Malay (Brunei)"
                         },
                         new
                         {
-                            Id = new Guid("42a5f49e-bf78-47ac-9a88-fa7ecf5bb7bb"),
+                            Id = new Guid("9bfee6f2-acc7-47ec-8bc7-544f39630513"),
                             Code = "ms-MY",
                             EnglishName = "Malay (Malaysia)"
                         },
                         new
                         {
-                            Id = new Guid("db23bd10-08d5-4700-bfb3-7b19573ca9c3"),
+                            Id = new Guid("4d887bf5-a081-4bb8-961d-fb177c561c08"),
                             Code = "ms-SG",
                             EnglishName = "Malay (Singapore)"
                         },
                         new
                         {
-                            Id = new Guid("32a8b082-f59d-4a6f-bbf1-79f113a3976e"),
+                            Id = new Guid("d64525bb-d38f-4d0a-aba1-6d0f3e11c0db"),
                             Code = "mt",
                             EnglishName = "Maltese"
                         },
                         new
                         {
-                            Id = new Guid("c2a96e7a-3aad-414e-b45c-11131a0a68a1"),
+                            Id = new Guid("63b43496-2ec3-4b93-b493-5946f0d757a6"),
                             Code = "mt-MT",
                             EnglishName = "Maltese (Malta)"
                         },
                         new
                         {
-                            Id = new Guid("4cfd2dfc-7a3f-4e81-b7b6-2774734bb2e2"),
+                            Id = new Guid("044db733-a83e-414c-9ec7-f01a173bb3a3"),
                             Code = "mua",
                             EnglishName = "Mundang"
                         },
                         new
                         {
-                            Id = new Guid("a4f35140-b830-4044-81a9-3dc03b30574d"),
+                            Id = new Guid("7d6eb7ea-1966-443a-99ad-b61a0aa89951"),
                             Code = "mua-CM",
                             EnglishName = "Mundang (Cameroon)"
                         },
                         new
                         {
-                            Id = new Guid("6080d9cf-cc24-4dc5-b583-ca248c5539ca"),
+                            Id = new Guid("f77a1920-edb7-440d-b6d6-c6a66d8aef5b"),
                             Code = "my",
                             EnglishName = "Burmese"
                         },
                         new
                         {
-                            Id = new Guid("a078be4f-6388-46cc-8bd1-1b864dadcae1"),
+                            Id = new Guid("8983aadc-5063-4a7f-8a03-038bc0bf41af"),
                             Code = "my-MM",
                             EnglishName = "Burmese (Myanmar)"
                         },
                         new
                         {
-                            Id = new Guid("34f98efd-46a6-486d-b8a6-2191edeecb79"),
+                            Id = new Guid("4999f90c-e055-402b-8ea5-281d672a9e7e"),
                             Code = "mzn",
                             EnglishName = "Mazanderani"
                         },
                         new
                         {
-                            Id = new Guid("f4b3601b-762e-489b-a7fb-d49e1ce9b0ab"),
+                            Id = new Guid("95438aed-995e-4910-8e6b-0ea86518047e"),
                             Code = "mzn-IR",
                             EnglishName = "Mazanderani (Iran)"
                         },
                         new
                         {
-                            Id = new Guid("cb2b175b-e916-423b-9e4d-8652d37a358c"),
+                            Id = new Guid("f8555b87-5336-4295-b4b8-c0ec9c4b990d"),
                             Code = "naq",
                             EnglishName = "Nama"
                         },
                         new
                         {
-                            Id = new Guid("7cfd1e2d-7c78-48c7-8c28-9240bbea5746"),
+                            Id = new Guid("5e64265f-f6c1-41bf-a8ea-89aae8b4d103"),
                             Code = "naq-NA",
                             EnglishName = "Nama (Namibia)"
                         },
                         new
                         {
-                            Id = new Guid("433eb022-bcea-4810-b4b9-3f138493190f"),
+                            Id = new Guid("c46cedd6-71a5-44bf-af8f-f2cffcea8b57"),
                             Code = "nb",
                             EnglishName = "Norwegian Bokmål"
                         },
                         new
                         {
-                            Id = new Guid("9f5aa3bd-4cdd-40bf-810b-5284ea54c5fe"),
+                            Id = new Guid("71af7fbd-165d-440a-ad0a-f3645f3ea543"),
                             Code = "nb-NO",
                             EnglishName = "Norwegian Bokmål (Norway)"
                         },
                         new
                         {
-                            Id = new Guid("1674158a-abae-4010-b4a7-32c1348f3655"),
+                            Id = new Guid("f44a9a7d-c77c-4959-9fde-bfb62724dd21"),
                             Code = "nb-SJ",
                             EnglishName = "Norwegian Bokmål (Svalbard & Jan Mayen)"
                         },
                         new
                         {
-                            Id = new Guid("c1b6c041-f7d5-436b-a5f2-ed063c06bd65"),
+                            Id = new Guid("94c015a5-b0b8-4ea8-8f30-490a059eaea0"),
                             Code = "nd",
                             EnglishName = "North Ndebele"
                         },
                         new
                         {
-                            Id = new Guid("b736cc7d-f4a6-4b3a-b7a3-0fb359ba7422"),
+                            Id = new Guid("685af514-69f3-42ba-8cda-008ecddce6b9"),
                             Code = "nd-ZW",
                             EnglishName = "North Ndebele (Zimbabwe)"
                         },
                         new
                         {
-                            Id = new Guid("f3888317-f6f8-47b8-99e3-82f95d746b96"),
+                            Id = new Guid("8c07cbed-7c96-4ca3-ae79-baeb52d2066e"),
                             Code = "nds",
                             EnglishName = "Low German"
                         },
                         new
                         {
-                            Id = new Guid("67245497-3065-4777-a14e-66ee2cfa53dc"),
+                            Id = new Guid("8226205b-d596-4568-ac07-7292e41faf2d"),
                             Code = "nds-DE",
                             EnglishName = "Low German (Germany)"
                         },
                         new
                         {
-                            Id = new Guid("89864df6-a31c-4bec-9889-6d97e5b188fe"),
+                            Id = new Guid("411f69d3-4927-43d1-a01c-96462666661a"),
                             Code = "nds-NL",
                             EnglishName = "Low German (Netherlands)"
                         },
                         new
                         {
-                            Id = new Guid("55f4bcfe-6697-4665-bc68-d3908efcf30c"),
+                            Id = new Guid("ef6ec32c-8ee1-4a2a-8dc2-c273ceff6dcc"),
                             Code = "ne",
                             EnglishName = "Nepali"
                         },
                         new
                         {
-                            Id = new Guid("de6130d8-e2cb-4c91-b5d6-0a25b5a69838"),
+                            Id = new Guid("975d47b3-d069-46c2-8434-699a8a0abde4"),
                             Code = "ne-IN",
                             EnglishName = "Nepali (India)"
                         },
                         new
                         {
-                            Id = new Guid("bf9407e2-b511-46db-8094-c33eadb6dd96"),
+                            Id = new Guid("51ae48d2-c0a6-49ae-989e-25c3d26b751e"),
                             Code = "ne-NP",
                             EnglishName = "Nepali (Nepal)"
                         },
                         new
                         {
-                            Id = new Guid("40beb300-46df-4ff2-9b6c-c504be822db0"),
+                            Id = new Guid("7ebbca13-2a54-46ab-a9c2-bb6d97e78d15"),
                             Code = "nl",
                             EnglishName = "Dutch"
                         },
                         new
                         {
-                            Id = new Guid("392ea468-1c68-4ea8-b585-a8df524a2595"),
+                            Id = new Guid("84c4ed37-9066-4af8-8676-8f3b76ac6efb"),
                             Code = "nl-AW",
                             EnglishName = "Dutch (Aruba)"
                         },
                         new
                         {
-                            Id = new Guid("b4a0c34e-e5a4-4d8c-b862-810e642498e5"),
+                            Id = new Guid("11848e64-846c-4cf4-a966-8ea3c6d258be"),
                             Code = "nl-BE",
                             EnglishName = "Dutch (Belgium)"
                         },
                         new
                         {
-                            Id = new Guid("8b52ed7e-2076-4681-9e67-bee1f1e8000d"),
+                            Id = new Guid("0484e4a5-0706-40d5-b30b-91a5055c5b5e"),
                             Code = "nl-BQ",
                             EnglishName = "Dutch (Bonaire, Sint Eustatius and Saba)"
                         },
                         new
                         {
-                            Id = new Guid("524da73c-9950-455b-b7cd-9725b147cd03"),
+                            Id = new Guid("e4027c50-2a52-433e-bd16-ad786385fa7b"),
                             Code = "nl-CW",
                             EnglishName = "Dutch (Curaçao)"
                         },
                         new
                         {
-                            Id = new Guid("2ed2fb1e-74c9-4571-ac9e-aa33d4fd9922"),
+                            Id = new Guid("535911ab-e274-455e-82f8-8981b306879f"),
                             Code = "nl-NL",
                             EnglishName = "Dutch (Netherlands)"
                         },
                         new
                         {
-                            Id = new Guid("19905a0b-7678-43cc-81c4-7870c71d1e0e"),
+                            Id = new Guid("94878f44-bcd5-4d82-a9f8-501acf34b310"),
                             Code = "nl-SR",
                             EnglishName = "Dutch (Suriname)"
                         },
                         new
                         {
-                            Id = new Guid("dd2835cd-c18c-4228-af64-2cbfbf19ae9e"),
+                            Id = new Guid("3c247834-8759-4a33-b4b9-66ce76943dee"),
                             Code = "nl-SX",
                             EnglishName = "Dutch (Sint Maarten)"
                         },
                         new
                         {
-                            Id = new Guid("d2aa81f7-df14-43b2-bb3c-f691c43e3552"),
+                            Id = new Guid("cdd665b7-b628-4d2c-afce-e0c0c727fb65"),
                             Code = "nmg",
                             EnglishName = "Kwasio"
                         },
                         new
                         {
-                            Id = new Guid("48db50b4-1985-4c1d-b100-702a858aeb3f"),
+                            Id = new Guid("0d963f39-1d67-450f-b62a-a88652f44819"),
                             Code = "nmg-CM",
                             EnglishName = "Kwasio (Cameroon)"
                         },
                         new
                         {
-                            Id = new Guid("48b64909-566f-4e51-a453-d713ef6637a2"),
+                            Id = new Guid("282e529d-d493-4417-95d0-45a39709d6ad"),
                             Code = "nn",
                             EnglishName = "Norwegian Nynorsk"
                         },
                         new
                         {
-                            Id = new Guid("80616732-2a6c-4526-99bf-b1c970645045"),
+                            Id = new Guid("917082b1-948c-474c-86b3-866e7139c21f"),
                             Code = "nn-NO",
                             EnglishName = "Norwegian Nynorsk (Norway)"
                         },
                         new
                         {
-                            Id = new Guid("7287fa8c-b2dd-4c8e-80bd-619401af75f3"),
+                            Id = new Guid("209b4b3c-4bb9-4456-a354-cffbeed3b1fd"),
                             Code = "nnh",
                             EnglishName = "Ngiemboon"
                         },
                         new
                         {
-                            Id = new Guid("1c033a16-c75b-4ddb-a870-2a79173e0e16"),
+                            Id = new Guid("ef107158-9a67-40c5-ac8c-3e09c6af62fc"),
                             Code = "nnh-CM",
                             EnglishName = "Ngiemboon (Cameroon)"
                         },
                         new
                         {
-                            Id = new Guid("2427340d-67aa-4e8c-969e-b1ab14e9fbe8"),
+                            Id = new Guid("36edea8f-85d7-48e7-8111-ec08755112ba"),
                             Code = "nqo",
                             EnglishName = "N’Ko"
                         },
                         new
                         {
-                            Id = new Guid("a0c96627-d1e5-4916-8c14-27bd5c1b1da5"),
+                            Id = new Guid("50b061dc-d828-4985-bb16-952c7471d0f0"),
                             Code = "nqo-GN",
                             EnglishName = "N’Ko (Guinea)"
                         },
                         new
                         {
-                            Id = new Guid("acf6e957-ce42-4a4a-8fc7-83c06a3aeda1"),
+                            Id = new Guid("458d3869-4d17-4469-9dfb-de361be7586c"),
                             Code = "nr",
                             EnglishName = "South Ndebele"
                         },
                         new
                         {
-                            Id = new Guid("aeb3d7be-618a-4409-a240-ce1b7252ad83"),
+                            Id = new Guid("a58a6a84-01e6-40b3-b8d7-45d61c7dcb42"),
                             Code = "nr-ZA",
                             EnglishName = "South Ndebele (South Africa)"
                         },
                         new
                         {
-                            Id = new Guid("862d92e4-7361-4410-9088-af49854ed32c"),
+                            Id = new Guid("0827d3d7-8a01-448f-87db-07cd18641e20"),
                             Code = "nso",
                             EnglishName = "Sesotho sa Leboa"
                         },
                         new
                         {
-                            Id = new Guid("5d2774b8-7b37-4413-8f6f-66a0bec22266"),
+                            Id = new Guid("55243607-33c9-4266-9daa-8aeffaacb894"),
                             Code = "nso-ZA",
                             EnglishName = "Sesotho sa Leboa (South Africa)"
                         },
                         new
                         {
-                            Id = new Guid("8ac337ac-f2e3-4231-b399-0e474c7e8768"),
+                            Id = new Guid("9f359950-a410-4a6c-8053-896ba08a20c1"),
                             Code = "nus",
                             EnglishName = "Nuer"
                         },
                         new
                         {
-                            Id = new Guid("dd0df7d2-1a4c-495f-980f-396cf0596c0e"),
+                            Id = new Guid("41cb1e5d-155d-4bb0-8f9b-bbc556424159"),
                             Code = "nus-SS",
                             EnglishName = "Nuer (South Sudan)"
                         },
                         new
                         {
-                            Id = new Guid("b3d9a920-c5ff-424a-b320-761a9f176817"),
+                            Id = new Guid("292a7ec4-8a23-4dd7-9af3-6258e14a8230"),
                             Code = "nyn",
                             EnglishName = "Nyankole"
                         },
                         new
                         {
-                            Id = new Guid("644ae73d-8d60-432f-aa2e-56aa302e4618"),
+                            Id = new Guid("4e362eec-70ed-4154-b79c-da3d5a3b9e5d"),
                             Code = "nyn-UG",
                             EnglishName = "Nyankole (Uganda)"
                         },
                         new
                         {
-                            Id = new Guid("aeeb29b0-5879-4801-8fbe-44ab90ee47b7"),
+                            Id = new Guid("45c8ef2c-aa3d-4631-95d5-c4fa9ba226e9"),
                             Code = "oc",
                             EnglishName = "Occitan"
                         },
                         new
                         {
-                            Id = new Guid("06ce4886-8bb6-451a-a5cb-facd2f313b59"),
+                            Id = new Guid("439eab9c-05c2-4c18-87a7-e445b49fc59e"),
                             Code = "oc-FR",
                             EnglishName = "Occitan (France)"
                         },
                         new
                         {
-                            Id = new Guid("e7b07bd8-f361-4a9b-92b0-76afb2996d40"),
+                            Id = new Guid("be678ce9-6bad-4890-b1dd-8238e081d054"),
                             Code = "om",
                             EnglishName = "Oromo"
                         },
                         new
                         {
-                            Id = new Guid("0761a892-3ff7-4f1e-992d-de07e9c59a74"),
+                            Id = new Guid("ce2dbe7a-4f9f-45c9-a9d9-e8e59e79a2ae"),
                             Code = "om-ET",
                             EnglishName = "Oromo (Ethiopia)"
                         },
                         new
                         {
-                            Id = new Guid("942e1f07-8375-456c-880b-8e91fafebeaa"),
+                            Id = new Guid("e448df08-ec57-4dcf-96b9-9b991d6f7157"),
                             Code = "om-KE",
                             EnglishName = "Oromo (Kenya)"
                         },
                         new
                         {
-                            Id = new Guid("5dd86bad-4286-42c9-96b8-8b4ca6771ef1"),
+                            Id = new Guid("3c7ac5fb-ae83-4dac-8f08-82316d8915d5"),
                             Code = "or",
                             EnglishName = "Odia"
                         },
                         new
                         {
-                            Id = new Guid("f29531b2-d517-4725-b8d1-07cc43f95d68"),
+                            Id = new Guid("2489059e-9fe5-47c4-ab71-a02da22656f8"),
                             Code = "or-IN",
                             EnglishName = "Odia (India)"
                         },
                         new
                         {
-                            Id = new Guid("24110102-5ced-4823-b03c-3b916d68138b"),
+                            Id = new Guid("de672b65-180d-4f49-b3b1-a3138fb2a520"),
                             Code = "os",
                             EnglishName = "Ossetic"
                         },
                         new
                         {
-                            Id = new Guid("f38f4a77-c90d-41b4-99eb-7e2b7b0c8b8b"),
+                            Id = new Guid("983df180-6f30-46ad-a5f2-6a09731755c0"),
                             Code = "os-GE",
                             EnglishName = "Ossetic (Georgia)"
                         },
                         new
                         {
-                            Id = new Guid("5ab43bb4-94ea-4949-8361-29722143b473"),
+                            Id = new Guid("f9e325e8-8dc3-478e-a4d1-3c7e8b7d969e"),
                             Code = "os-RU",
                             EnglishName = "Ossetic (Russia)"
                         },
                         new
                         {
-                            Id = new Guid("34e28589-ddfc-4ed6-81c6-c794c5750389"),
+                            Id = new Guid("681ea045-071f-4da9-ad9e-1cc68355e6b7"),
                             Code = "pa",
                             EnglishName = "Punjabi"
                         },
                         new
                         {
-                            Id = new Guid("a4aabcc8-a47c-435a-bd7a-a022f1fa385c"),
+                            Id = new Guid("524ef89b-033d-4c0c-a121-87ace7c5225b"),
                             Code = "pa-Arab",
                             EnglishName = "Punjabi"
                         },
                         new
                         {
-                            Id = new Guid("9c743c24-48e6-4850-92e7-28a16adb3383"),
+                            Id = new Guid("824a1399-fff7-4784-a08d-0b947c568c17"),
                             Code = "pa-Arab-PK",
                             EnglishName = "Punjabi (Arabic, Pakistan)"
                         },
                         new
                         {
-                            Id = new Guid("87df20cd-71e1-444e-a848-0365f4d583d5"),
+                            Id = new Guid("8051108e-2446-407d-8946-4f3e54bbb06d"),
                             Code = "pa-Guru",
                             EnglishName = "Punjabi"
                         },
                         new
                         {
-                            Id = new Guid("87fafd9f-82a2-47c1-ab9e-e6525b9e594a"),
+                            Id = new Guid("e6a1d0fd-01a5-425c-b900-28e2e455a5ac"),
                             Code = "pa-Guru-IN",
                             EnglishName = "Punjabi (Gurmukhi, India)"
                         },
                         new
                         {
-                            Id = new Guid("77e76a0e-d762-49d9-99a7-0e9c674188d0"),
+                            Id = new Guid("8c4c90a2-d56f-4d23-bfb9-aae942d784ec"),
                             Code = "pl",
                             EnglishName = "Polish"
                         },
                         new
                         {
-                            Id = new Guid("a11fffc1-6b03-4f88-97c4-37aa183d2a9f"),
+                            Id = new Guid("0a3023b7-9c05-4e63-be15-36b35600353e"),
                             Code = "pl-PL",
                             EnglishName = "Polish (Poland)"
                         },
                         new
                         {
-                            Id = new Guid("9c6fea00-62dd-4f7b-bd01-6b0f1917eec3"),
+                            Id = new Guid("c06c3944-9776-4192-82c1-2a0a0ee4c05e"),
                             Code = "prg",
                             EnglishName = "Prussian"
                         },
                         new
                         {
-                            Id = new Guid("5d712d77-cba9-4b93-80a5-0f87947dd32d"),
+                            Id = new Guid("e7c42a3b-4cae-4104-9712-3e69d5b8c9d9"),
                             Code = "prg-001",
                             EnglishName = "Prussian (World)"
                         },
                         new
                         {
-                            Id = new Guid("9fcac050-a693-4c26-b54c-8fd0a19d2238"),
+                            Id = new Guid("604c73e0-96fc-4619-aa5d-b2631ffe35f8"),
                             Code = "ps",
                             EnglishName = "Pashto"
                         },
                         new
                         {
-                            Id = new Guid("b300fdac-c43a-4794-8878-ced24d4ac1a2"),
+                            Id = new Guid("059bbe29-9a12-457d-b780-1d3712c299b5"),
                             Code = "ps-AF",
                             EnglishName = "Pashto (Afghanistan)"
                         },
                         new
                         {
-                            Id = new Guid("2f923091-3e2d-4b73-ad1a-6752d2168782"),
+                            Id = new Guid("10a5d2c3-629b-465c-b21d-2bf39ae2dffe"),
                             Code = "ps-PK",
                             EnglishName = "Pashto (Pakistan)"
                         },
                         new
                         {
-                            Id = new Guid("247b4866-424f-4e0a-a601-38d4b4aabcfa"),
+                            Id = new Guid("15bf079d-3e44-47ba-93c0-d4cf63e4c766"),
                             Code = "pt",
                             EnglishName = "Portuguese"
                         },
                         new
                         {
-                            Id = new Guid("c11f3aa3-e49c-49de-b531-c006f3a8ea3c"),
+                            Id = new Guid("b6ebf263-fbc3-4f1a-ad43-cf482b4a12d0"),
                             Code = "pt-AO",
                             EnglishName = "Portuguese (Angola)"
                         },
                         new
                         {
-                            Id = new Guid("69713791-0661-4b1b-806b-eb0ed9419de1"),
+                            Id = new Guid("2f7858bc-8d53-46eb-89bd-56620d4fc855"),
                             Code = "pt-BR",
                             EnglishName = "Portuguese (Brazil)"
                         },
                         new
                         {
-                            Id = new Guid("4b72bb85-563e-449d-b795-57ecf50f0d8e"),
+                            Id = new Guid("b2ea4841-6578-442d-87cd-99e8bb0f76f8"),
                             Code = "pt-CH",
                             EnglishName = "Portuguese (Switzerland)"
                         },
                         new
                         {
-                            Id = new Guid("fcbb4854-3704-48ad-9103-2ef8cd968a17"),
+                            Id = new Guid("77b30ff5-636b-4915-8245-2082eb3599fa"),
                             Code = "pt-CV",
                             EnglishName = "Portuguese (Cabo Verde)"
                         },
                         new
                         {
-                            Id = new Guid("1822f6ce-e6d5-4e4a-aeb2-5f54cb0dfc90"),
+                            Id = new Guid("8f227a2a-237c-4939-a999-e1fc7e3d4b4c"),
                             Code = "pt-GQ",
                             EnglishName = "Portuguese (Equatorial Guinea)"
                         },
                         new
                         {
-                            Id = new Guid("ee481c15-cfa9-4f92-9434-504c01ae4f25"),
+                            Id = new Guid("6dfdbe0a-695b-4544-a183-4c06d6b784d9"),
                             Code = "pt-GW",
                             EnglishName = "Portuguese (Guinea-Bissau)"
                         },
                         new
                         {
-                            Id = new Guid("fb4c8d47-f968-4d7f-b92a-1ff5e8858d12"),
+                            Id = new Guid("f1600dae-1ee1-4a9b-ac1f-bd477a12d118"),
                             Code = "pt-LU",
                             EnglishName = "Portuguese (Luxembourg)"
                         },
                         new
                         {
-                            Id = new Guid("aaf795bd-621a-424f-a5ce-cf7c03355f3f"),
+                            Id = new Guid("371890ee-e85b-4c4b-9a3f-6f90abc4475d"),
                             Code = "pt-MO",
                             EnglishName = "Portuguese (Macao SAR)"
                         },
                         new
                         {
-                            Id = new Guid("7816290c-5fe6-49b8-932b-ef3df7065706"),
+                            Id = new Guid("6188e562-cf11-487a-aa36-9f201435f118"),
                             Code = "pt-MZ",
                             EnglishName = "Portuguese (Mozambique)"
                         },
                         new
                         {
-                            Id = new Guid("c04bd411-cd92-4e1b-a46d-89da7c5fd6a1"),
+                            Id = new Guid("fda1638f-b98f-43b8-b4c1-de05c9ff7c04"),
                             Code = "pt-PT",
                             EnglishName = "Portuguese (Portugal)"
                         },
                         new
                         {
-                            Id = new Guid("4f5de5a6-6dc0-4677-b2ee-a2dc751d2f3d"),
+                            Id = new Guid("e7f03879-8299-4f85-bb83-8915b15b0d0f"),
                             Code = "pt-ST",
                             EnglishName = "Portuguese (São Tomé & Príncipe)"
                         },
                         new
                         {
-                            Id = new Guid("4ede34f1-2694-41eb-8e69-312b743e60d4"),
+                            Id = new Guid("5cb23147-b55f-42a7-a93f-0c92039e1bc5"),
                             Code = "pt-TL",
                             EnglishName = "Portuguese (Timor-Leste)"
                         },
                         new
                         {
-                            Id = new Guid("00e53a44-91a1-4d17-a71f-4d345b9aa955"),
+                            Id = new Guid("bff9c028-be7a-4dc0-9140-d5bcbabebed1"),
                             Code = "qu",
                             EnglishName = "Quechua"
                         },
                         new
                         {
-                            Id = new Guid("afa00fb2-3589-405b-899d-e3ba984e5eda"),
+                            Id = new Guid("4b4869dc-73e4-4dc0-8459-252ab6ace63f"),
                             Code = "qu-BO",
                             EnglishName = "Quechua (Bolivia)"
                         },
                         new
                         {
-                            Id = new Guid("2ea2ee6e-176b-45e1-9e11-0d05d81b5df8"),
+                            Id = new Guid("4caaecf8-0c2a-43e0-9344-ea731567c48b"),
                             Code = "qu-EC",
                             EnglishName = "Quechua (Ecuador)"
                         },
                         new
                         {
-                            Id = new Guid("ce405b70-721d-4464-8f34-a905627040c1"),
+                            Id = new Guid("5dac7a4f-c9a9-4991-916f-3036fa8775dc"),
                             Code = "qu-PE",
                             EnglishName = "Quechua (Peru)"
                         },
                         new
                         {
-                            Id = new Guid("fc1298f2-959a-44ac-b7b7-dc36b8d1fd4e"),
+                            Id = new Guid("a19557f2-bb7e-4447-8ee4-d4a894d7901b"),
                             Code = "quc",
                             EnglishName = "Kʼicheʼ"
                         },
                         new
                         {
-                            Id = new Guid("02082460-1c1e-4c51-8ee4-f29b57a3f77b"),
+                            Id = new Guid("fea98f7f-3307-41fa-bdb0-c5af9d751597"),
                             Code = "quc-GT",
                             EnglishName = "Kʼicheʼ (Guatemala)"
                         },
                         new
                         {
-                            Id = new Guid("446cd396-4eef-4aa1-bf0c-61412c4a7fed"),
+                            Id = new Guid("56a87ddb-4f13-4860-9927-091deb146a22"),
                             Code = "rm",
                             EnglishName = "Romansh"
                         },
                         new
                         {
-                            Id = new Guid("2db797ad-6402-4328-905a-52f6a55924f3"),
+                            Id = new Guid("c2becb74-15f6-4224-8283-a16127b23940"),
                             Code = "rm-CH",
                             EnglishName = "Romansh (Switzerland)"
                         },
                         new
                         {
-                            Id = new Guid("9f4f68bb-7219-447b-a73f-4965925a5bf7"),
+                            Id = new Guid("5ea3973d-f904-4f03-995e-77efc1126f2d"),
                             Code = "rn",
                             EnglishName = "Rundi"
                         },
                         new
                         {
-                            Id = new Guid("9006dc13-4e31-4ba8-97fe-b88e6fca9637"),
+                            Id = new Guid("c8049f0a-b99c-4215-b061-38e63292c1a0"),
                             Code = "rn-BI",
                             EnglishName = "Rundi (Burundi)"
                         },
                         new
                         {
-                            Id = new Guid("51aba2bd-fd64-4f0f-876a-e5637cef1eb8"),
+                            Id = new Guid("06692370-ee76-4b15-bc1b-1ed4b02f20e6"),
                             Code = "ro",
                             EnglishName = "Romanian"
                         },
                         new
                         {
-                            Id = new Guid("78e7e804-539a-45c9-a9a6-848e088447b9"),
+                            Id = new Guid("db8800fb-2dc3-41f1-adab-e6ea02f9c206"),
                             Code = "ro-MD",
                             EnglishName = "Romanian (Moldova)"
                         },
                         new
                         {
-                            Id = new Guid("e9eef14a-cf8b-4365-b9e5-ef148eb77ff1"),
+                            Id = new Guid("a0439271-745e-4cc3-98f7-c12a38b2acba"),
                             Code = "ro-RO",
                             EnglishName = "Romanian (Romania)"
                         },
                         new
                         {
-                            Id = new Guid("980cfe78-f9c4-431f-9104-1c08b8b2c0f7"),
+                            Id = new Guid("d04f7066-a9b2-47fd-9f1c-3ad3b86495f2"),
                             Code = "rof",
                             EnglishName = "Rombo"
                         },
                         new
                         {
-                            Id = new Guid("5925eb45-11b3-4933-96f4-74568d5974d8"),
+                            Id = new Guid("03c8045a-1a5c-4e31-86c1-923014401f40"),
                             Code = "rof-TZ",
                             EnglishName = "Rombo (Tanzania)"
                         },
                         new
                         {
-                            Id = new Guid("a2df16e2-dd94-4b4f-872d-c560681c725f"),
+                            Id = new Guid("3a2c7c70-09e0-48a8-ae11-3cfbc381b373"),
                             Code = "ru",
                             EnglishName = "Russian"
                         },
                         new
                         {
-                            Id = new Guid("b456cda9-a114-4e54-8342-fb7c12f55f2c"),
+                            Id = new Guid("e0f94ac3-7c47-453a-b2f6-67c503cd6b02"),
                             Code = "ru-BY",
                             EnglishName = "Russian (Belarus)"
                         },
                         new
                         {
-                            Id = new Guid("a48a354a-3d29-409a-966e-382da969b692"),
+                            Id = new Guid("1e2a865d-5cc3-4eaa-8b5c-5de60cd9c39d"),
                             Code = "ru-KG",
                             EnglishName = "Russian (Kyrgyzstan)"
                         },
                         new
                         {
-                            Id = new Guid("ef88f57b-fe11-4881-8af6-2e66cc83fbe2"),
+                            Id = new Guid("a29bd4a5-5a38-4106-961d-4c01833cf7f5"),
                             Code = "ru-KZ",
                             EnglishName = "Russian (Kazakhstan)"
                         },
                         new
                         {
-                            Id = new Guid("5781e65c-201a-4228-a46b-d679116343b1"),
+                            Id = new Guid("61eb9cd4-9f2a-4a4b-85ee-985b7dc86308"),
                             Code = "ru-MD",
                             EnglishName = "Russian (Moldova)"
                         },
                         new
                         {
-                            Id = new Guid("49a000da-6182-4d0c-a5c1-323e86598a57"),
+                            Id = new Guid("180307ba-4a3c-4415-b24f-1370aa799bbb"),
                             Code = "ru-RU",
                             EnglishName = "Russian (Russia)"
                         },
                         new
                         {
-                            Id = new Guid("7e98eb73-5f04-4527-83e2-d95cdd5eb437"),
+                            Id = new Guid("1e33cdac-d460-4cae-a11d-7dd5e5fe1d9b"),
                             Code = "ru-UA",
                             EnglishName = "Russian (Ukraine)"
                         },
                         new
                         {
-                            Id = new Guid("289e1809-a798-4390-b953-3f3f2b307689"),
+                            Id = new Guid("fa127704-9390-45fd-bc2a-fa426cfeee2c"),
                             Code = "rw",
                             EnglishName = "Kinyarwanda"
                         },
                         new
                         {
-                            Id = new Guid("f4784822-7f46-4814-9582-bbc7f69e60a5"),
+                            Id = new Guid("6a715af4-6eae-4700-adc5-0893d06bb3a7"),
                             Code = "rw-RW",
                             EnglishName = "Kinyarwanda (Rwanda)"
                         },
                         new
                         {
-                            Id = new Guid("3356503d-d705-4c37-8a48-e31fd53cdf82"),
+                            Id = new Guid("56ee7458-4f04-4f17-aa01-bf82e3f7e01e"),
                             Code = "rwk",
                             EnglishName = "Rwa"
                         },
                         new
                         {
-                            Id = new Guid("2a9fe4ce-6387-4623-be60-910bd11c8763"),
+                            Id = new Guid("6408f914-6643-4c90-b378-39534071cf48"),
                             Code = "rwk-TZ",
                             EnglishName = "Rwa (Tanzania)"
                         },
                         new
                         {
-                            Id = new Guid("3ce910d0-51aa-4032-a521-a9ca0861fa75"),
+                            Id = new Guid("1316d07c-8018-4b1b-a95f-2bb551d30ec9"),
                             Code = "sa",
                             EnglishName = "Sanskrit"
                         },
                         new
                         {
-                            Id = new Guid("28bb2e20-c05c-4255-a18e-df24beeb598f"),
+                            Id = new Guid("9eb09f82-5c81-4ed8-84c1-a1abd8203b34"),
                             Code = "sa-IN",
                             EnglishName = "Sanskrit (India)"
                         },
                         new
                         {
-                            Id = new Guid("495521c1-144c-4ccb-8d0e-c8f7db3be4de"),
+                            Id = new Guid("ff01ed19-880f-4fd7-ae5d-9cd915502cfa"),
                             Code = "sah",
                             EnglishName = "Sakha"
                         },
                         new
                         {
-                            Id = new Guid("bbd8b0e6-d5d9-4b34-a2c8-0319f9dfed6c"),
+                            Id = new Guid("2e02b1cf-765b-419d-b2c2-df0ef5b97522"),
                             Code = "sah-RU",
                             EnglishName = "Sakha (Russia)"
                         },
                         new
                         {
-                            Id = new Guid("6f6c0220-cc77-49a6-a966-3f12c0e0d222"),
+                            Id = new Guid("5c89e84f-90a8-4c67-ad58-0c029e58b730"),
                             Code = "saq",
                             EnglishName = "Samburu"
                         },
                         new
                         {
-                            Id = new Guid("ec0fe79b-fd21-4709-a676-b4d6d23684a3"),
+                            Id = new Guid("d7bd10b4-77eb-470a-a170-10f653ccba9e"),
                             Code = "saq-KE",
                             EnglishName = "Samburu (Kenya)"
                         },
                         new
                         {
-                            Id = new Guid("dfb91446-a669-4d36-bba2-8a5f2773ec47"),
+                            Id = new Guid("d2beec0f-a91a-4c32-ab90-da871eb74a04"),
                             Code = "sbp",
                             EnglishName = "Sangu"
                         },
                         new
                         {
-                            Id = new Guid("ab7409d6-1433-4ed9-b09a-ae407826362a"),
+                            Id = new Guid("c08dc61d-eefd-4906-b5c8-aee78a48f3e9"),
                             Code = "sbp-TZ",
                             EnglishName = "Sangu (Tanzania)"
                         },
                         new
                         {
-                            Id = new Guid("e55cd58a-d826-4931-877f-a4356055ba62"),
+                            Id = new Guid("75252ca7-802e-4446-960f-d7255bda9b3f"),
                             Code = "sd",
                             EnglishName = "Sindhi"
                         },
                         new
                         {
-                            Id = new Guid("6539f780-3056-43d1-85ab-7f0b7753a8b3"),
+                            Id = new Guid("81a1f589-b2ec-4de2-943b-76c2c3edb057"),
                             Code = "sd-PK",
                             EnglishName = "Sindhi (Pakistan)"
                         },
                         new
                         {
-                            Id = new Guid("e3de7935-6cad-439f-9f97-695af1089cc1"),
+                            Id = new Guid("6f037aa8-23c0-4bf9-9d6c-75699c991473"),
                             Code = "se",
                             EnglishName = "Northern Sami"
                         },
                         new
                         {
-                            Id = new Guid("5d6068dd-7f4b-418d-89a3-49f10ebfad2b"),
+                            Id = new Guid("cd5c3880-b3ab-4543-85aa-45c4077f838f"),
                             Code = "se-FI",
                             EnglishName = "Northern Sami (Finland)"
                         },
                         new
                         {
-                            Id = new Guid("5f47e693-bc42-404f-a88e-492e6b1ea666"),
+                            Id = new Guid("3419a799-fd27-4253-a77b-af38a453ed50"),
                             Code = "se-NO",
                             EnglishName = "Northern Sami (Norway)"
                         },
                         new
                         {
-                            Id = new Guid("7995294d-1ca0-42ad-9f53-ec9c695f28cd"),
+                            Id = new Guid("149d27b7-404f-4491-b255-9b71b0459139"),
                             Code = "se-SE",
                             EnglishName = "Northern Sami (Sweden)"
                         },
                         new
                         {
-                            Id = new Guid("04167766-3436-4899-bd7e-6b191cfdb158"),
+                            Id = new Guid("9a4e64ae-85b1-4cc0-b858-f3d4e1fe7c00"),
                             Code = "seh",
                             EnglishName = "Sena"
                         },
                         new
                         {
-                            Id = new Guid("a8f52384-cd3f-4ecc-9226-e68f43a28275"),
+                            Id = new Guid("127dc853-336c-484b-a7b4-6dfdcf11a5fb"),
                             Code = "seh-MZ",
                             EnglishName = "Sena (Mozambique)"
                         },
                         new
                         {
-                            Id = new Guid("a39d29ea-d56a-42be-9012-6a52c1cc1b09"),
+                            Id = new Guid("0cfb9327-a74a-473c-af59-9cf343c45e5e"),
                             Code = "ses",
                             EnglishName = "Koyraboro Senni"
                         },
                         new
                         {
-                            Id = new Guid("8e579a61-1f50-47a1-9caa-41e11de3a54a"),
+                            Id = new Guid("e0023d7f-7b64-4d74-8ee2-0bcad7f6744d"),
                             Code = "ses-ML",
                             EnglishName = "Koyraboro Senni (Mali)"
                         },
                         new
                         {
-                            Id = new Guid("1fcb3095-a577-4700-9c00-6a3fe74841a6"),
+                            Id = new Guid("241c2755-aeb7-4b5c-ba9b-74f6798eb7a0"),
                             Code = "sg",
                             EnglishName = "Sango"
                         },
                         new
                         {
-                            Id = new Guid("e59741ab-c87f-4e76-a4c4-7397b56decd8"),
+                            Id = new Guid("12b684cd-9e21-4b58-82b4-4b7dbcbbb27e"),
                             Code = "sg-CF",
                             EnglishName = "Sango (Central African Republic)"
                         },
                         new
                         {
-                            Id = new Guid("56d645d3-0db8-4fb7-9f2a-3af6ca2d5086"),
+                            Id = new Guid("410ab912-c664-47bd-bc7b-c0774c64cb5c"),
                             Code = "shi",
                             EnglishName = "Tachelhit"
                         },
                         new
                         {
-                            Id = new Guid("157f9c06-f019-4865-85e5-75b6f9c9c6b1"),
+                            Id = new Guid("03edacbe-d252-4c11-9492-2059193fd931"),
                             Code = "shi-Latn",
                             EnglishName = "Tachelhit"
                         },
                         new
                         {
-                            Id = new Guid("9c2bac74-1884-4466-a7d3-745ce78b7c57"),
+                            Id = new Guid("52332fd7-6630-4bd7-80d3-12654140f1c0"),
                             Code = "shi-Latn-MA",
                             EnglishName = "Tachelhit (Latin, Morocco)"
                         },
                         new
                         {
-                            Id = new Guid("f8796314-fe16-4d2f-9f91-23fc2b5514bc"),
+                            Id = new Guid("20af39cd-a1da-4d94-b4d2-cf3235e90ceb"),
                             Code = "shi-Tfng",
                             EnglishName = "Tachelhit"
                         },
                         new
                         {
-                            Id = new Guid("bedabbe8-836a-404f-be53-e1884dc8c9bb"),
+                            Id = new Guid("2e3d82b2-cedf-42c7-8b08-1926517529c0"),
                             Code = "shi-Tfng-MA",
                             EnglishName = "Tachelhit (Tifinagh, Morocco)"
                         },
                         new
                         {
-                            Id = new Guid("4b58f051-88d6-4de0-9ff1-116567af19a0"),
+                            Id = new Guid("299d2811-84eb-42c2-b164-8f0ed1500312"),
                             Code = "si",
                             EnglishName = "Sinhala"
                         },
                         new
                         {
-                            Id = new Guid("fd0cd69a-9144-454d-9056-71b9c4cb49d3"),
+                            Id = new Guid("52586f59-65f7-4117-8744-4bb6b69cdfd2"),
                             Code = "si-LK",
                             EnglishName = "Sinhala (Sri Lanka)"
                         },
                         new
                         {
-                            Id = new Guid("40e48daa-2c26-4c8e-9adc-eb7f251bc7f3"),
+                            Id = new Guid("edcf6faf-2159-4a0b-abf3-afffbcd09999"),
                             Code = "sk",
                             EnglishName = "Slovak"
                         },
                         new
                         {
-                            Id = new Guid("fd0995e3-093a-426b-8759-e375792670a9"),
+                            Id = new Guid("a62a77c9-8ac3-4fc3-b6e5-4db9f6d337a4"),
                             Code = "sk-SK",
                             EnglishName = "Slovak (Slovakia)"
                         },
                         new
                         {
-                            Id = new Guid("b96cb555-d6a7-40dc-a25b-80ea134b4266"),
+                            Id = new Guid("9e763847-08d6-4481-bbe6-60f1b0e77f3d"),
                             Code = "sl",
                             EnglishName = "Slovenian"
                         },
                         new
                         {
-                            Id = new Guid("99d11419-f702-4194-a360-21e7051509ef"),
+                            Id = new Guid("5986ae02-e79c-4f24-8c21-739c93b015de"),
                             Code = "sl-SI",
                             EnglishName = "Slovenian (Slovenia)"
                         },
                         new
                         {
-                            Id = new Guid("ec63459a-40f3-4b71-ab18-893ec4edb71b"),
+                            Id = new Guid("d983464f-2273-40a8-b426-f027f436ec29"),
                             Code = "sma",
                             EnglishName = "Southern Sami"
                         },
                         new
                         {
-                            Id = new Guid("d23a6ee4-4a80-418a-9179-836d3150d13f"),
+                            Id = new Guid("56a03f99-6771-472c-a072-af35622a0627"),
                             Code = "sma-NO",
                             EnglishName = "Southern Sami (Norway)"
                         },
                         new
                         {
-                            Id = new Guid("3a19e620-da13-4d65-b49c-1a87fcb5b158"),
+                            Id = new Guid("6cbec3e6-6f65-44df-ab6f-5fa15619a3a2"),
                             Code = "sma-SE",
                             EnglishName = "Southern Sami (Sweden)"
                         },
                         new
                         {
-                            Id = new Guid("c1220b73-099d-4054-876f-284d2e3ee54e"),
+                            Id = new Guid("983b50a1-f6fc-4738-8a14-be54f549a21b"),
                             Code = "smj",
                             EnglishName = "Lule Sami"
                         },
                         new
                         {
-                            Id = new Guid("1d115337-77d1-4f9c-9f7a-9444af969f01"),
+                            Id = new Guid("285a3d36-0db5-4a00-9971-815515bfb540"),
                             Code = "smj-NO",
                             EnglishName = "Lule Sami (Norway)"
                         },
                         new
                         {
-                            Id = new Guid("c1078201-3d96-44d5-8de3-537b6d0e6783"),
+                            Id = new Guid("dffc3b55-aa20-4404-b8fb-0dbdc17c6922"),
                             Code = "smj-SE",
                             EnglishName = "Lule Sami (Sweden)"
                         },
                         new
                         {
-                            Id = new Guid("28e135fe-a551-4889-bd83-43c311ef51e2"),
+                            Id = new Guid("fd42a74c-39f6-493e-a2a9-f8863f3d6a03"),
                             Code = "smn",
                             EnglishName = "Inari Sami"
                         },
                         new
                         {
-                            Id = new Guid("1d019c0e-83c5-4caf-a3eb-7249497b5c3a"),
+                            Id = new Guid("cec83462-b0dc-4694-846e-f8b2cb1b60e6"),
                             Code = "smn-FI",
                             EnglishName = "Inari Sami (Finland)"
                         },
                         new
                         {
-                            Id = new Guid("cdbf804d-4db0-49b1-a8bd-6afaad4ea152"),
+                            Id = new Guid("85eab1c9-36d8-45f7-af97-5c9972d60043"),
                             Code = "sms",
                             EnglishName = "Skolt Sami"
                         },
                         new
                         {
-                            Id = new Guid("56ebb23f-84d2-409b-b4d7-66d07382c3ed"),
+                            Id = new Guid("b72f41d6-c96d-440c-8089-bf1216dc6c73"),
                             Code = "sms-FI",
                             EnglishName = "Skolt Sami (Finland)"
                         },
                         new
                         {
-                            Id = new Guid("708b580e-3983-467f-b43f-337336f4350c"),
+                            Id = new Guid("1aac1edb-b9c2-46b3-acd4-5af1307a4841"),
                             Code = "sn",
                             EnglishName = "Shona"
                         },
                         new
                         {
-                            Id = new Guid("7045b544-ae79-4897-9da3-4c4a001925bb"),
+                            Id = new Guid("54ecca32-8338-4fc1-b221-6b92bee34359"),
                             Code = "sn-ZW",
                             EnglishName = "Shona (Zimbabwe)"
                         },
                         new
                         {
-                            Id = new Guid("a3dbb27b-f67b-4007-8c8f-90faf3cd872d"),
+                            Id = new Guid("8fae487f-8a45-4ddf-aa41-27a8220057ce"),
                             Code = "so",
                             EnglishName = "Somali"
                         },
                         new
                         {
-                            Id = new Guid("07ff50cf-3f67-420e-b872-6726ec89331e"),
+                            Id = new Guid("a43a1fc3-2b01-4fba-9706-6629005d624b"),
                             Code = "so-DJ",
                             EnglishName = "Somali (Djibouti)"
                         },
                         new
                         {
-                            Id = new Guid("041b1a47-84e9-4a7c-a19e-a06074f64e81"),
+                            Id = new Guid("cafad238-cbdd-4162-95ae-d2fb3a22dab8"),
                             Code = "so-ET",
                             EnglishName = "Somali (Ethiopia)"
                         },
                         new
                         {
-                            Id = new Guid("ed00cabf-b387-4838-85ac-ba44acd22bf1"),
+                            Id = new Guid("d521405c-e889-4510-9e60-5822909680d7"),
                             Code = "so-KE",
                             EnglishName = "Somali (Kenya)"
                         },
                         new
                         {
-                            Id = new Guid("ea1f12db-2fa1-48b4-adbd-05d506fbaac5"),
+                            Id = new Guid("30615e32-2606-41d3-8a56-3624d73b42e6"),
                             Code = "so-SO",
                             EnglishName = "Somali (Somalia)"
                         },
                         new
                         {
-                            Id = new Guid("e1433a69-3b7d-4a61-8b13-e1e0aac80b6f"),
+                            Id = new Guid("d959e212-1950-42db-9081-0634ee1e8909"),
                             Code = "sq",
                             EnglishName = "Albanian"
                         },
                         new
                         {
-                            Id = new Guid("ea300c02-5429-40c8-8f20-f1d59ae4cfdd"),
+                            Id = new Guid("f1aaa120-7221-400a-8611-05a4b9255097"),
                             Code = "sq-AL",
                             EnglishName = "Albanian (Albania)"
                         },
                         new
                         {
-                            Id = new Guid("c99d65a2-1fe3-4308-84d4-0e93dce22ec8"),
+                            Id = new Guid("e57c2bb4-730e-40ad-8610-eeeb0286d8c7"),
                             Code = "sq-MK",
                             EnglishName = "Albanian (North Macedonia)"
                         },
                         new
                         {
-                            Id = new Guid("4fd450de-c593-46af-ade8-ce94342cca5d"),
+                            Id = new Guid("c0443863-18ed-4533-80ff-b832afc70fac"),
                             Code = "sq-XK",
                             EnglishName = "Albanian (Kosovo)"
                         },
                         new
                         {
-                            Id = new Guid("3cd5c1d7-1cc1-486a-a1b6-f044848e70f5"),
+                            Id = new Guid("b5c7e332-90a2-4a7c-8f86-1334e44b3e54"),
                             Code = "sr",
                             EnglishName = "Serbian"
                         },
                         new
                         {
-                            Id = new Guid("913917ec-95ef-45ec-a067-d284236a9466"),
+                            Id = new Guid("54a4c3eb-5146-4b47-a4cc-27272c57ded8"),
                             Code = "sr-Cyrl",
                             EnglishName = "Serbian"
                         },
                         new
                         {
-                            Id = new Guid("5560137e-c577-43af-b02b-ff8587c74cfe"),
+                            Id = new Guid("84b133b8-5c0a-44ad-b024-40b2b8860f98"),
                             Code = "sr-Cyrl-BA",
                             EnglishName = "Serbian (Cyrillic, Bosnia & Herzegovina)"
                         },
                         new
                         {
-                            Id = new Guid("0929ade8-1710-49e9-920b-40b5e67e83dc"),
+                            Id = new Guid("c0e100bd-47e8-4873-867a-9ddc2b18997a"),
                             Code = "sr-Cyrl-ME",
                             EnglishName = "Serbian (Cyrillic, Montenegro)"
                         },
                         new
                         {
-                            Id = new Guid("6d23dd31-1afa-49e6-92a9-2610adc9d447"),
+                            Id = new Guid("bd7abd68-2758-4a05-ba56-036050ec1c45"),
                             Code = "sr-Cyrl-RS",
                             EnglishName = "Serbian (Cyrillic, Serbia)"
                         },
                         new
                         {
-                            Id = new Guid("fdcdd02b-c9e5-4e4b-bc2c-f82fa762aa3b"),
+                            Id = new Guid("8c1f598a-b6a8-44d7-ad73-a28f452f4d49"),
                             Code = "sr-Cyrl-XK",
                             EnglishName = "Serbian (Cyrillic, Kosovo)"
                         },
                         new
                         {
-                            Id = new Guid("442f1ba1-8bca-4d61-9798-dc68b4e64390"),
+                            Id = new Guid("a48847cb-6d48-4a7b-89a8-1f9a7f427977"),
                             Code = "sr-Latn",
                             EnglishName = "Serbian"
                         },
                         new
                         {
-                            Id = new Guid("74be65ae-cc85-4332-ae8b-6daed793fa23"),
+                            Id = new Guid("3cf169de-469e-4fc0-9173-fd93c9ff26d5"),
                             Code = "sr-Latn-BA",
                             EnglishName = "Serbian (Latin, Bosnia & Herzegovina)"
                         },
                         new
                         {
-                            Id = new Guid("6007a177-d673-4fff-a286-e0c271f4f170"),
+                            Id = new Guid("6058dd33-a12b-4b23-bbcb-74a82f8c8e76"),
                             Code = "sr-Latn-ME",
                             EnglishName = "Serbian (Latin, Montenegro)"
                         },
                         new
                         {
-                            Id = new Guid("b9694a8d-43a7-40e3-b148-02175b26843b"),
+                            Id = new Guid("f7e24116-7da6-4e1b-b723-d05b7a1ae2c0"),
                             Code = "sr-Latn-RS",
                             EnglishName = "Serbian (Latin, Serbia)"
                         },
                         new
                         {
-                            Id = new Guid("896f1d5b-4995-478e-9c30-e4ce855b1560"),
+                            Id = new Guid("3d74cd12-9185-42e3-a726-cdd9c79ff632"),
                             Code = "sr-Latn-XK",
                             EnglishName = "Serbian (Latin, Kosovo)"
                         },
                         new
                         {
-                            Id = new Guid("7eb64393-dd0a-4a80-b80e-5b656b8d420d"),
+                            Id = new Guid("5597638e-2bf7-4fb0-bb8b-1763ac6a9f19"),
                             Code = "ss",
                             EnglishName = "siSwati"
                         },
                         new
                         {
-                            Id = new Guid("7dc5a21a-a395-467c-bdef-722afaac7d07"),
+                            Id = new Guid("6a7cef0e-896a-48b7-b2e8-76da4d4bdff0"),
                             Code = "ss-SZ",
                             EnglishName = "siSwati (Eswatini)"
                         },
                         new
                         {
-                            Id = new Guid("861f236e-2b38-4732-944f-0b82235e3b29"),
+                            Id = new Guid("3080ab51-e865-400c-8f3e-bac1e42a6e05"),
                             Code = "ss-ZA",
                             EnglishName = "siSwati (South Africa)"
                         },
                         new
                         {
-                            Id = new Guid("da19b8b8-8abe-46c3-84ac-c88ee2cdde5a"),
+                            Id = new Guid("2957b1bf-ceb6-4911-8116-65d292dbb7e9"),
                             Code = "ssy",
                             EnglishName = "Saho"
                         },
                         new
                         {
-                            Id = new Guid("f9cf9dff-984e-4560-bcd4-701a8bc8ceab"),
+                            Id = new Guid("aa3bb68d-4ea4-488a-93b5-dbcd4c6bdce5"),
                             Code = "ssy-ER",
                             EnglishName = "Saho (Eritrea)"
                         },
                         new
                         {
-                            Id = new Guid("7ec6b3d6-a53c-405d-b3c0-893ff3220779"),
+                            Id = new Guid("3bb6ef9c-20eb-4cf1-bdcc-3de43769aafc"),
                             Code = "st",
                             EnglishName = "Sesotho"
                         },
                         new
                         {
-                            Id = new Guid("213ca554-356a-4269-ae80-596c5839a2a4"),
+                            Id = new Guid("779c9fdf-a584-4c4a-ac0e-1ca77d18e68a"),
                             Code = "st-LS",
                             EnglishName = "Sesotho (Lesotho)"
                         },
                         new
                         {
-                            Id = new Guid("5606f8b5-b662-4e42-a837-152ad3ba37ee"),
+                            Id = new Guid("8c06ec47-de02-4f30-810f-9388b791ef6d"),
                             Code = "st-ZA",
                             EnglishName = "Sesotho (South Africa)"
                         },
                         new
                         {
-                            Id = new Guid("7e0a9954-2110-4044-aae0-e8abb3f22a78"),
+                            Id = new Guid("c5bd099c-1b0a-4fe0-9e99-8590f9ca44ef"),
                             Code = "sv",
                             EnglishName = "Swedish"
                         },
                         new
                         {
-                            Id = new Guid("6218cfe5-76aa-4a0f-ba82-aeb6e41d4820"),
+                            Id = new Guid("5a47b6c8-3c6f-4eca-a791-9408b0ff0531"),
                             Code = "sv-AX",
                             EnglishName = "Swedish (Åland Islands)"
                         },
                         new
                         {
-                            Id = new Guid("3284dc4b-294a-422a-af20-030d218104f8"),
+                            Id = new Guid("60679238-a0e4-4d36-ad63-d3b26eff7c1e"),
                             Code = "sv-FI",
                             EnglishName = "Swedish (Finland)"
                         },
                         new
                         {
-                            Id = new Guid("cc2ed781-f539-4172-8ca6-e21fb21d2cd4"),
+                            Id = new Guid("f1307975-0af2-4d5a-939a-4e5036e9ab43"),
                             Code = "sv-SE",
                             EnglishName = "Swedish (Sweden)"
                         },
                         new
                         {
-                            Id = new Guid("60e40d01-1137-445b-8970-d716773ecb32"),
+                            Id = new Guid("c67b377d-f494-48d5-ac43-7c82587d9674"),
                             Code = "sw",
                             EnglishName = "Kiswahili"
                         },
                         new
                         {
-                            Id = new Guid("6ffde777-a2ef-4021-b83d-462984cc6211"),
+                            Id = new Guid("fa8a5528-6518-449d-ace5-f85da7017db8"),
                             Code = "sw-CD",
                             EnglishName = "Kiswahili (Congo [DRC])"
                         },
                         new
                         {
-                            Id = new Guid("03dbb9cd-6aa2-424f-aeef-0500985ed94c"),
+                            Id = new Guid("956aceee-c5d4-4a50-b728-6feb294d6824"),
                             Code = "sw-KE",
                             EnglishName = "Kiswahili (Kenya)"
                         },
                         new
                         {
-                            Id = new Guid("da0522ca-b735-4e4f-9edd-348a1f4088f3"),
+                            Id = new Guid("698fca59-5887-41cc-b7d4-6c1e7852f62b"),
                             Code = "sw-TZ",
                             EnglishName = "Kiswahili (Tanzania)"
                         },
                         new
                         {
-                            Id = new Guid("9cb569a1-f9ed-4482-9840-9af5afbfdacf"),
+                            Id = new Guid("67d215be-c784-47ac-9094-ab565a715008"),
                             Code = "sw-UG",
                             EnglishName = "Kiswahili (Uganda)"
                         },
                         new
                         {
-                            Id = new Guid("9fa9e588-a50a-4244-a11b-f563a4bb486d"),
+                            Id = new Guid("db181c0b-f025-4c07-817d-a83946ac63e1"),
                             Code = "syr",
                             EnglishName = "Syriac"
                         },
                         new
                         {
-                            Id = new Guid("a8f01180-52ca-4993-b38a-6378aef15f25"),
+                            Id = new Guid("03d143af-7854-4d78-a3b4-81d678457b35"),
                             Code = "syr-SY",
                             EnglishName = "Syriac (Syria)"
                         },
                         new
                         {
-                            Id = new Guid("9e06a641-5da8-45f6-959e-6944ae67a9de"),
+                            Id = new Guid("f38a3aa5-f0fe-4121-a687-76df55b72e2a"),
                             Code = "ta",
                             EnglishName = "Tamil"
                         },
                         new
                         {
-                            Id = new Guid("d426d5fc-5fdd-4ace-9e93-3dd7691c620e"),
+                            Id = new Guid("351f5865-64e4-4a14-a7e2-635b09c856a7"),
                             Code = "ta-IN",
                             EnglishName = "Tamil (India)"
                         },
                         new
                         {
-                            Id = new Guid("87f7d71d-e93e-4ea1-bdff-a162ae4aabba"),
+                            Id = new Guid("d7ead07c-597a-45eb-bbe1-458ed5556414"),
                             Code = "ta-LK",
                             EnglishName = "Tamil (Sri Lanka)"
                         },
                         new
                         {
-                            Id = new Guid("55f362c6-f247-4348-a50d-271bc5133d8b"),
+                            Id = new Guid("24d842de-036d-47de-a2d5-959b33f0f248"),
                             Code = "ta-MY",
                             EnglishName = "Tamil (Malaysia)"
                         },
                         new
                         {
-                            Id = new Guid("c7eff5c4-59f0-464e-9439-57216f747146"),
+                            Id = new Guid("66cd72b3-04b5-45a2-9833-03aed75ea70d"),
                             Code = "ta-SG",
                             EnglishName = "Tamil (Singapore)"
                         },
                         new
                         {
-                            Id = new Guid("37a2ba97-967d-4c31-85a2-9a90c9333aff"),
+                            Id = new Guid("f55b47b2-9dde-4b81-a9f6-03439281c4f1"),
                             Code = "te",
                             EnglishName = "Telugu"
                         },
                         new
                         {
-                            Id = new Guid("ff1df3ab-e9bc-44fe-96dd-e96ea910c88e"),
+                            Id = new Guid("6f6f337b-d36b-4f26-b765-c2c02920e7a2"),
                             Code = "te-IN",
                             EnglishName = "Telugu (India)"
                         },
                         new
                         {
-                            Id = new Guid("f0b12503-675f-43b7-8fb9-0e295d45a028"),
+                            Id = new Guid("ee374de5-9b7c-4b28-8231-dcef30ffde83"),
                             Code = "teo",
                             EnglishName = "Teso"
                         },
                         new
                         {
-                            Id = new Guid("7186f216-73e3-432b-bd94-2374dbf71a4c"),
+                            Id = new Guid("5c667fa9-2509-47c6-b312-60696a905cb5"),
                             Code = "teo-KE",
                             EnglishName = "Teso (Kenya)"
                         },
                         new
                         {
-                            Id = new Guid("80e1f7e6-c231-479c-b374-0d53b80a7c21"),
+                            Id = new Guid("e9fe9307-167a-4905-bbad-9732bead9854"),
                             Code = "teo-UG",
                             EnglishName = "Teso (Uganda)"
                         },
                         new
                         {
-                            Id = new Guid("5293e07f-f52c-4368-9f9a-9a3b45ea63b6"),
+                            Id = new Guid("95bf9456-01b9-4f97-9817-bc51c3857779"),
                             Code = "tg",
                             EnglishName = "Tajik"
                         },
                         new
                         {
-                            Id = new Guid("e31b5f13-624a-45bb-aa35-383e0fe1702d"),
+                            Id = new Guid("abccf487-99c6-42a7-a641-5d066f24f8cc"),
                             Code = "tg-TJ",
                             EnglishName = "Tajik (Tajikistan)"
                         },
                         new
                         {
-                            Id = new Guid("0c692fb9-2d8f-40ea-a0a4-40a5a2ac0170"),
+                            Id = new Guid("d589bb11-4976-4fb6-8f67-cd547a68e059"),
                             Code = "th",
                             EnglishName = "Thai"
                         },
                         new
                         {
-                            Id = new Guid("fe06212b-19a3-4023-840f-0466d6e2ea4e"),
+                            Id = new Guid("765db233-add4-4ed1-b15a-413c5b8fbabb"),
                             Code = "th-TH",
                             EnglishName = "Thai (Thailand)"
                         },
                         new
                         {
-                            Id = new Guid("38a66b06-f944-4580-862d-af07be71d02d"),
+                            Id = new Guid("3cc7a84c-867b-4d0e-a15b-3c32cc005da2"),
                             Code = "ti",
                             EnglishName = "Tigrinya"
                         },
                         new
                         {
-                            Id = new Guid("9bf402b9-070c-4f8a-a2da-678734b68dfe"),
+                            Id = new Guid("46cb70aa-af72-4af8-88ef-66731f15022b"),
                             Code = "ti-ER",
                             EnglishName = "Tigrinya (Eritrea)"
                         },
                         new
                         {
-                            Id = new Guid("af1a62a7-0fef-41ce-9e37-0243ea9713e8"),
+                            Id = new Guid("6773c172-04b2-4027-9228-7904fd6fe7f6"),
                             Code = "ti-ET",
                             EnglishName = "Tigrinya (Ethiopia)"
                         },
                         new
                         {
-                            Id = new Guid("8d5c84b0-e127-49f8-9009-5b84ce9624a2"),
+                            Id = new Guid("c75574d8-851b-41c0-a44b-c7b17d07a830"),
                             Code = "tig",
                             EnglishName = "Tigre"
                         },
                         new
                         {
-                            Id = new Guid("4514a688-c06b-4c51-bd50-b50bbedb100b"),
+                            Id = new Guid("225c2614-a1ba-47bd-a04a-eba297b2723a"),
                             Code = "tig-ER",
                             EnglishName = "Tigre (Eritrea)"
                         },
                         new
                         {
-                            Id = new Guid("f5696b4e-c1fe-43f6-91bf-ba246d0fdedb"),
+                            Id = new Guid("380a9423-ce24-4344-b7ad-9214e64b5921"),
                             Code = "tk",
                             EnglishName = "Turkmen"
                         },
                         new
                         {
-                            Id = new Guid("ecde8331-13d2-412a-993d-c2f965f1bddf"),
+                            Id = new Guid("7619cea6-c85e-4b5f-8d4c-89f1bb731706"),
                             Code = "tk-TM",
                             EnglishName = "Turkmen (Turkmenistan)"
                         },
                         new
                         {
-                            Id = new Guid("fdef2d39-0ef6-43de-860f-4391d4168efc"),
+                            Id = new Guid("b280d341-4fbc-4c00-9e07-c2073e50d551"),
                             Code = "tn",
                             EnglishName = "Setswana"
                         },
                         new
                         {
-                            Id = new Guid("965dde71-ad3c-4057-9ecc-3d0b8799a92c"),
+                            Id = new Guid("e93065c6-71cd-4927-a65e-3243cfe04136"),
                             Code = "tn-BW",
                             EnglishName = "Setswana (Botswana)"
                         },
                         new
                         {
-                            Id = new Guid("0b137f1c-f8fd-4ba0-bdbd-b6762448466f"),
+                            Id = new Guid("fb9c4d7c-d5ef-4b0d-aa3e-b4b31e08a7a4"),
                             Code = "tn-ZA",
                             EnglishName = "Setswana (South Africa)"
                         },
                         new
                         {
-                            Id = new Guid("e8540856-5e47-445a-8ff3-1b624e58c0c4"),
+                            Id = new Guid("ff45c122-47f7-4791-98fb-1a4b7e359ffd"),
                             Code = "to",
                             EnglishName = "Tongan"
                         },
                         new
                         {
-                            Id = new Guid("98508c3c-fba6-49e8-bfa5-acdb7467b94c"),
+                            Id = new Guid("d29ca842-6b46-4a85-9271-77c9eadf3d9c"),
                             Code = "to-TO",
                             EnglishName = "Tongan (Tonga)"
                         },
                         new
                         {
-                            Id = new Guid("17cbd946-1676-419f-b0d6-5e120bd2e213"),
+                            Id = new Guid("472222a4-5a03-4fda-a91d-c8233abd3fd4"),
                             Code = "tr",
                             EnglishName = "Turkish"
                         },
                         new
                         {
-                            Id = new Guid("ef5b0e32-861c-4db4-9be1-17c7ff87db26"),
+                            Id = new Guid("baa458be-d05a-4412-8bab-a130047f319b"),
                             Code = "tr-CY",
                             EnglishName = "Turkish (Cyprus)"
                         },
                         new
                         {
-                            Id = new Guid("0e189886-b839-4863-bd6a-0992760feb5f"),
+                            Id = new Guid("dd66e126-c642-4717-ab52-ff45df2f28bc"),
                             Code = "tr-TR",
                             EnglishName = "Turkish (Turkey)"
                         },
                         new
                         {
-                            Id = new Guid("3c5f29ba-c06f-4702-ba30-4a46549dc0fb"),
+                            Id = new Guid("838aa411-27a4-4b93-b1b0-a2b09949e827"),
                             Code = "ts",
                             EnglishName = "Xitsonga"
                         },
                         new
                         {
-                            Id = new Guid("57aeac35-1679-4dea-87df-86616b9ff077"),
+                            Id = new Guid("dc1a5899-28a6-4c4d-bec9-6b6ec9fe4a37"),
                             Code = "ts-ZA",
                             EnglishName = "Xitsonga (South Africa)"
                         },
                         new
                         {
-                            Id = new Guid("60ff3b45-cad0-40a4-90ea-e03f745a4037"),
+                            Id = new Guid("b81c313d-f98a-459b-9588-62c4265f20dc"),
                             Code = "tt",
                             EnglishName = "Tatar"
                         },
                         new
                         {
-                            Id = new Guid("6a187670-0e7d-41d6-8170-eab34238f45a"),
+                            Id = new Guid("a4236817-b99c-42de-a78d-11b690910355"),
                             Code = "tt-RU",
                             EnglishName = "Tatar (Russia)"
                         },
                         new
                         {
-                            Id = new Guid("b813afa3-2987-453f-ba86-28fc403acccb"),
+                            Id = new Guid("1f7d3639-75c8-455c-9c1c-9f5a66887901"),
                             Code = "twq",
                             EnglishName = "Tasawaq"
                         },
                         new
                         {
-                            Id = new Guid("e3da9b4d-396f-4344-8d02-5ae577f1af6f"),
+                            Id = new Guid("4683d2d9-53a0-430f-afc4-255884f4e5c6"),
                             Code = "twq-NE",
                             EnglishName = "Tasawaq (Niger)"
                         },
                         new
                         {
-                            Id = new Guid("145304cc-ca73-4289-a9b6-67156b13d146"),
+                            Id = new Guid("004d0c7c-5035-4bb5-9856-e4d59098e0bc"),
                             Code = "tzm",
                             EnglishName = "Central Atlas Tamazight"
                         },
                         new
                         {
-                            Id = new Guid("95cce194-8ac2-4a6a-974f-86b3c847923d"),
+                            Id = new Guid("1f92981b-2e98-47e8-8e7b-7044dc32d7f8"),
                             Code = "tzm-MA",
                             EnglishName = "Central Atlas Tamazight (Morocco)"
                         },
                         new
                         {
-                            Id = new Guid("6ccf095d-ea8c-41ec-a29a-e84aba6fab68"),
+                            Id = new Guid("fc6b0f40-5c1b-4eb7-92fc-f69dda8dc5ea"),
                             Code = "ug",
                             EnglishName = "Uyghur"
                         },
                         new
                         {
-                            Id = new Guid("5adc3202-6420-4940-b9a5-62e736c58990"),
+                            Id = new Guid("32d2c935-df11-4249-b1f4-72ce25e0d9d5"),
                             Code = "ug-CN",
                             EnglishName = "Uyghur (China)"
                         },
                         new
                         {
-                            Id = new Guid("6e1aaae2-177a-48f2-85b2-4be8fb545787"),
+                            Id = new Guid("df3fc9d4-409c-477a-912e-6520cb0d21ba"),
                             Code = "uk",
                             EnglishName = "Ukrainian"
                         },
                         new
                         {
-                            Id = new Guid("12489433-79a6-42e8-8fd4-6fbe9a0337d1"),
+                            Id = new Guid("81f7c1d0-0d67-4e9c-bfbf-7c1868d6c840"),
                             Code = "uk-UA",
                             EnglishName = "Ukrainian (Ukraine)"
                         },
                         new
                         {
-                            Id = new Guid("da74c694-5c08-4fb6-9c9c-692231711934"),
+                            Id = new Guid("446a9837-c943-4fc7-9eb2-9b79fd6c23e3"),
                             Code = "ur",
                             EnglishName = "Urdu"
                         },
                         new
                         {
-                            Id = new Guid("2c128fb0-d630-4202-92d2-b70523990b9d"),
+                            Id = new Guid("1a790984-84e6-4868-95f9-b245cd9138bb"),
                             Code = "ur-IN",
                             EnglishName = "Urdu (India)"
                         },
                         new
                         {
-                            Id = new Guid("c8774e99-43d7-4ae9-b4d7-1dee916f0472"),
+                            Id = new Guid("db450bef-abcb-4510-bd10-4f3f2d633c0a"),
                             Code = "ur-PK",
                             EnglishName = "Urdu (Pakistan)"
                         },
                         new
                         {
-                            Id = new Guid("06633745-8613-4a73-91d6-4c389eef9c71"),
+                            Id = new Guid("d622843e-9a8d-4d20-895b-19dc66baadff"),
                             Code = "uz",
                             EnglishName = "Uzbek"
                         },
                         new
                         {
-                            Id = new Guid("0771ef67-1242-4656-9b87-975439e4c91d"),
+                            Id = new Guid("08bebe46-c69f-414f-94aa-b469a4222e51"),
                             Code = "uz-Arab",
                             EnglishName = "Uzbek"
                         },
                         new
                         {
-                            Id = new Guid("b9c340c5-612b-4d45-b785-4d50e65ec9b8"),
+                            Id = new Guid("b891b8aa-6680-47fa-88b3-f6f5fe4ef2ac"),
                             Code = "uz-Arab-AF",
                             EnglishName = "Uzbek (Arabic, Afghanistan)"
                         },
                         new
                         {
-                            Id = new Guid("4b033b27-d79f-4885-96e6-170fba5e2364"),
+                            Id = new Guid("09bbcc65-120f-4066-ac7e-08062b09055f"),
                             Code = "uz-Cyrl",
                             EnglishName = "Uzbek"
                         },
                         new
                         {
-                            Id = new Guid("8e3c54fa-def1-43d3-863e-875044cf1813"),
+                            Id = new Guid("bff13489-07cb-4f59-b1a4-abbdd355b327"),
                             Code = "uz-Cyrl-UZ",
                             EnglishName = "Uzbek (Cyrillic, Uzbekistan)"
                         },
                         new
                         {
-                            Id = new Guid("0511d57a-999a-4fb2-86dc-5e11f5eb8214"),
+                            Id = new Guid("53a4de48-e4ee-4ea8-95a8-aea95814c833"),
                             Code = "uz-Latn",
                             EnglishName = "Uzbek"
                         },
                         new
                         {
-                            Id = new Guid("fd23b9e6-28d3-44bb-be07-8c0c7c5b55ed"),
+                            Id = new Guid("26b6c588-d951-416f-bafc-1888154d45af"),
                             Code = "uz-Latn-UZ",
                             EnglishName = "Uzbek (Latin, Uzbekistan)"
                         },
                         new
                         {
-                            Id = new Guid("0f6090ce-2f1f-4dcd-9e33-478141d8498d"),
+                            Id = new Guid("ba0b7454-fba6-4051-b5eb-a86247403126"),
                             Code = "vai",
                             EnglishName = "Vai"
                         },
                         new
                         {
-                            Id = new Guid("695f6212-1301-4b6a-beb8-b143c58a0a73"),
+                            Id = new Guid("460cf388-f1d4-401d-8775-6ae14ebee409"),
                             Code = "vai-Latn",
                             EnglishName = "Vai"
                         },
                         new
                         {
-                            Id = new Guid("7f370e4d-19a5-4ef9-a3d4-59c5b2481dab"),
+                            Id = new Guid("1945ce3d-0403-426b-901c-7d58573d16e9"),
                             Code = "vai-Latn-LR",
                             EnglishName = "Vai (Latin, Liberia)"
                         },
                         new
                         {
-                            Id = new Guid("89f595ff-a04d-41b2-bbc5-73d39448d4b5"),
+                            Id = new Guid("fc718a0b-980c-463a-b1e0-4e49bfef89d1"),
                             Code = "vai-Vaii",
                             EnglishName = "Vai"
                         },
                         new
                         {
-                            Id = new Guid("d5c984df-9a1c-44d8-9edb-0a4cec47f562"),
+                            Id = new Guid("d670dc89-ec30-41cb-aa48-28752fb79650"),
                             Code = "vai-Vaii-LR",
                             EnglishName = "Vai (Vai, Liberia)"
                         },
                         new
                         {
-                            Id = new Guid("3e7dfff0-7695-4172-ab63-a72f655c35f0"),
+                            Id = new Guid("b379cd46-1662-443c-a197-667c47755af2"),
                             Code = "ve",
                             EnglishName = "Venda"
                         },
                         new
                         {
-                            Id = new Guid("431193a4-a8db-4579-a8ef-d6d8f72abe10"),
+                            Id = new Guid("ef9e4a30-f4ce-4e85-aee9-bf810bbf6cb5"),
                             Code = "ve-ZA",
                             EnglishName = "Venda (South Africa)"
                         },
                         new
                         {
-                            Id = new Guid("6fef685d-55f6-40e8-9c98-b70c53d9b446"),
+                            Id = new Guid("5caf0048-6a47-4636-b81f-edefd5ebce78"),
                             Code = "vi",
                             EnglishName = "Vietnamese"
                         },
                         new
                         {
-                            Id = new Guid("cb4d2830-4f20-4c8e-8541-1fdc072c2b32"),
+                            Id = new Guid("5c538d53-8164-40d4-95d8-07db9dd8e539"),
                             Code = "vi-VN",
                             EnglishName = "Vietnamese (Vietnam)"
                         },
                         new
                         {
-                            Id = new Guid("d0396907-f04a-4a46-bc7c-b2c7bd67ff43"),
+                            Id = new Guid("a7a60d23-efd6-4196-9d75-05a9e5de17c5"),
                             Code = "vo",
                             EnglishName = "Volapük"
                         },
                         new
                         {
-                            Id = new Guid("f8de4e87-2a79-4071-9067-6be38bec25c9"),
+                            Id = new Guid("01c06d79-13d2-492d-ac86-46965b988e43"),
                             Code = "vo-001",
                             EnglishName = "Volapük (World)"
                         },
                         new
                         {
-                            Id = new Guid("5bad93a4-e70f-4c5d-a456-866b1268fdf4"),
+                            Id = new Guid("a50eecf3-629d-4d60-9c0d-ebc6c7ca148a"),
                             Code = "vun",
                             EnglishName = "Vunjo"
                         },
                         new
                         {
-                            Id = new Guid("ad432880-b2d9-4d1f-93e3-60291bced7e0"),
+                            Id = new Guid("1ba93818-7c36-44b9-a117-ad03319bc294"),
                             Code = "vun-TZ",
                             EnglishName = "Vunjo (Tanzania)"
                         },
                         new
                         {
-                            Id = new Guid("264cb056-76ee-49f6-8ea1-ccdb8d7cc78a"),
+                            Id = new Guid("f6a2dd4e-68ee-4e05-ad5f-a61c7f91640d"),
                             Code = "wae",
                             EnglishName = "Walser"
                         },
                         new
                         {
-                            Id = new Guid("843eafdf-21b6-4ebc-8d41-704fda47667c"),
+                            Id = new Guid("7118acf5-88a2-48d6-98dc-ff4f77245be7"),
                             Code = "wae-CH",
                             EnglishName = "Walser (Switzerland)"
                         },
                         new
                         {
-                            Id = new Guid("88389d69-d0f8-4d51-b7d3-9ada0e27b892"),
+                            Id = new Guid("e60cd86b-9ed6-4e25-9707-3a2a9ed85419"),
                             Code = "wal",
                             EnglishName = "Wolaytta"
                         },
                         new
                         {
-                            Id = new Guid("2254b002-e214-4d25-9766-a4f6841a6315"),
+                            Id = new Guid("ef48ab7b-6d0f-4719-877d-99a44b17df83"),
                             Code = "wal-ET",
                             EnglishName = "Wolaytta (Ethiopia)"
                         },
                         new
                         {
-                            Id = new Guid("f58fb8ba-21e0-4946-b089-2e6e62fcdc3f"),
+                            Id = new Guid("74e65ffa-f8d5-47cb-bae6-040452cb4581"),
                             Code = "wo",
                             EnglishName = "Wolof"
                         },
                         new
                         {
-                            Id = new Guid("7e460abc-3c5a-4137-96ad-b0c404418531"),
+                            Id = new Guid("feaf315a-8099-4a0e-bd22-025d12a4d8ec"),
                             Code = "wo-SN",
                             EnglishName = "Wolof (Senegal)"
                         },
                         new
                         {
-                            Id = new Guid("8bc586b8-932e-4702-9798-3a082c119adb"),
+                            Id = new Guid("fccb006d-c4c4-4f7f-bb7d-e4483f037c5a"),
                             Code = "xh",
                             EnglishName = "isiXhosa"
                         },
                         new
                         {
-                            Id = new Guid("7758fbc8-b606-436b-ae5b-fe4a82f6081f"),
+                            Id = new Guid("8e560b51-3274-4a5f-bbbd-5a54e3b1f5c0"),
                             Code = "xh-ZA",
                             EnglishName = "isiXhosa (South Africa)"
                         },
                         new
                         {
-                            Id = new Guid("678d69d6-c2fc-4edf-827f-1258749ea6b9"),
+                            Id = new Guid("fd95f09b-9ae9-49ab-9739-a0fe44379cbe"),
                             Code = "xog",
                             EnglishName = "Soga"
                         },
                         new
                         {
-                            Id = new Guid("5b245cb0-3887-41ea-a621-6b6157a906e0"),
+                            Id = new Guid("e5703e15-a18c-46e0-9f60-9c9313aef76d"),
                             Code = "xog-UG",
                             EnglishName = "Soga (Uganda)"
                         },
                         new
                         {
-                            Id = new Guid("e279fb20-bcdd-4716-ada0-00159d1fa612"),
+                            Id = new Guid("45fe6ab7-40bd-4afd-a6c2-c5c635ac400b"),
                             Code = "yav",
                             EnglishName = "Yangben"
                         },
                         new
                         {
-                            Id = new Guid("b1e04784-8473-4212-b264-775e4e68d320"),
+                            Id = new Guid("30009bb8-92fc-47c7-a143-d494559296b5"),
                             Code = "yav-CM",
                             EnglishName = "Yangben (Cameroon)"
                         },
                         new
                         {
-                            Id = new Guid("77213d56-1398-48dd-a57a-c11667a7d484"),
+                            Id = new Guid("ff81c06e-dab2-4de4-874a-d8a546bb2397"),
                             Code = "yi",
                             EnglishName = "Yiddish"
                         },
                         new
                         {
-                            Id = new Guid("a2d3e500-87da-4ea6-b91d-e4d6a21ce7eb"),
+                            Id = new Guid("a68d1a97-8b5d-4edc-95c1-4814d1fe2916"),
                             Code = "yi-001",
                             EnglishName = "Yiddish (World)"
                         },
                         new
                         {
-                            Id = new Guid("4b166c55-702f-45b2-bd66-a751460ec9b2"),
+                            Id = new Guid("238caa27-2d91-4ca1-9833-231b139f27d3"),
                             Code = "yo",
                             EnglishName = "Yoruba"
                         },
                         new
                         {
-                            Id = new Guid("5dcbe47e-8e35-4ad8-a375-44d437867a6d"),
+                            Id = new Guid("e0581370-1f24-41e9-aa53-29d9c4bbab38"),
                             Code = "yo-BJ",
                             EnglishName = "Yoruba (Benin)"
                         },
                         new
                         {
-                            Id = new Guid("b8508bb0-61da-42b1-8fd7-4e33b85e914f"),
+                            Id = new Guid("d93e0213-0150-44b1-a101-4226b28b1fcf"),
                             Code = "yo-NG",
                             EnglishName = "Yoruba (Nigeria)"
                         },
                         new
                         {
-                            Id = new Guid("c4c64791-27cc-4ccd-a4d9-6f738f4c8a9b"),
+                            Id = new Guid("788a130d-bfe1-441a-9605-d03395f91c6b"),
                             Code = "zgh",
                             EnglishName = "Standard Moroccan Tamazight"
                         },
                         new
                         {
-                            Id = new Guid("aa042d52-9cdd-4d8a-b487-f86f68d8d036"),
+                            Id = new Guid("235a92d2-b237-47dd-802c-c85233d51cc7"),
                             Code = "zgh-MA",
                             EnglishName = "Standard Moroccan Tamazight (Morocco)"
                         },
                         new
                         {
-                            Id = new Guid("41ac7538-8e6c-4c0d-9f4e-0dd1340e477e"),
+                            Id = new Guid("1070acbf-d1d4-4772-92e3-f96720e5e758"),
                             Code = "zh",
                             EnglishName = "Chinese"
                         },
                         new
                         {
-                            Id = new Guid("a961aa6e-1816-4dad-a5df-983189507e69"),
+                            Id = new Guid("b95c8a2e-5907-4bb2-ac2e-d32dd00a4f0a"),
                             Code = "zh-Hans",
                             EnglishName = "Chinese"
                         },
                         new
                         {
-                            Id = new Guid("c14459cf-2498-446f-b0c0-22090a5de6f7"),
+                            Id = new Guid("b5076dda-8c7a-452b-9c37-f218a5668159"),
                             Code = "zh-Hans-CN",
                             EnglishName = "Chinese (Simplified, China)"
                         },
                         new
                         {
-                            Id = new Guid("8d437133-3017-4005-bfbe-7ef81ac3b69d"),
+                            Id = new Guid("b65a224a-9958-4630-b2d4-9c2e53017fee"),
                             Code = "zh-Hans-HK",
                             EnglishName = "Chinese (Simplified, Hong Kong SAR)"
                         },
                         new
                         {
-                            Id = new Guid("31325f61-8377-4181-9ea5-09e4af24ada5"),
+                            Id = new Guid("493efa6b-1939-4048-9e79-478486ae81f2"),
                             Code = "zh-Hans-MO",
                             EnglishName = "Chinese (Simplified, Macao SAR)"
                         },
                         new
                         {
-                            Id = new Guid("2f72b588-1842-40ee-9115-1ccd8f878765"),
+                            Id = new Guid("e8a83524-6a75-4286-acac-bc21b6566c15"),
                             Code = "zh-Hans-SG",
                             EnglishName = "Chinese (Simplified, Singapore)"
                         },
                         new
                         {
-                            Id = new Guid("580cedc0-aaf0-45ac-a13c-3271cfd36ada"),
+                            Id = new Guid("85269bd5-243b-4e9c-8cb7-aa0a9517e84f"),
                             Code = "zh-Hant",
                             EnglishName = "Chinese"
                         },
                         new
                         {
-                            Id = new Guid("140fa580-6317-4d0d-a8f9-7ca21f246400"),
+                            Id = new Guid("44fa6272-50b1-47bc-b23d-c7e25d3eb192"),
                             Code = "zh-Hant-HK",
                             EnglishName = "Chinese (Traditional, Hong Kong SAR)"
                         },
                         new
                         {
-                            Id = new Guid("57298a76-9cbe-4ede-808c-7755a42cf23f"),
+                            Id = new Guid("d59a8049-81f3-434f-8fc1-089f2269fe9b"),
                             Code = "zh-Hant-MO",
                             EnglishName = "Chinese (Traditional, Macao SAR)"
                         },
                         new
                         {
-                            Id = new Guid("e74e67a4-3cc5-42d0-93dc-c2953426ab50"),
+                            Id = new Guid("1759adf8-9a70-4ea3-8182-bfa7077975ad"),
                             Code = "zh-Hant-TW",
                             EnglishName = "Chinese (Traditional, Taiwan)"
                         },
                         new
                         {
-                            Id = new Guid("4a344040-4a7f-464b-b80e-7d47f9f8c146"),
+                            Id = new Guid("1857b97d-bedc-4324-b8f4-7bf1d93b055d"),
                             Code = "zu",
                             EnglishName = "isiZulu"
                         },
                         new
                         {
-                            Id = new Guid("95a7eb8c-6791-49c6-bda2-21fc0e41a945"),
+                            Id = new Guid("777e5048-afa5-491c-9457-069bd6638778"),
                             Code = "zu-ZA",
                             EnglishName = "isiZulu (South Africa)"
                         });

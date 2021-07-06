@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Sleet.Shared.Models
+namespace Sleet.Models
 {
     public class Claim
     {

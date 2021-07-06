@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using Sleet.Shared.Models;
+using Sleet.Models;
 
-namespace Sleet.Server.Data
+namespace Sleet.Data
 {
     public class DbInitializer
     {

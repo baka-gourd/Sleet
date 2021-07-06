@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Identity;
 
-namespace Sleet.Shared.Models
+namespace Sleet.Models
 {
     public class User : IdentityUser<Guid>
     {

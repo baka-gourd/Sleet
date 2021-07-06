@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Sleet.Shared.Models;
+using Sleet.Models;
 
-namespace Sleet.Server.Data
+namespace Sleet.Data
 {
     public class ApplicationDbContext:DbContext
     {

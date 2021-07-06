@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Sleet.Server.Data;
+using Sleet.Data;
 
-namespace Sleet.Server
+namespace Sleet
 {
     public class Startup
     {
