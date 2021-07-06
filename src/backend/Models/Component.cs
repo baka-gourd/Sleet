@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Sleet.Shared.Models
+namespace Sleet.Models
 {
     public class Component {
         

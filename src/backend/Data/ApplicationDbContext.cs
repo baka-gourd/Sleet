@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Sleet.Shared.Models;
+using Sleet.Models;
 
-namespace Sleet.Server.Data
+namespace Sleet.Data
 {
     public class ApplicationDbContext:DbContext
     {
@@ -15,7 +15,10 @@ namespace Sleet.Server.Data
             base.OnConfiguring(optionsBuilder);
         }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder) {
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Language>().HasData(DbInitializer.GenerateLanguages());
             base.OnModelCreating(modelBuilder);
         }
         public DbSet<Translation> Translations { get; set;}
