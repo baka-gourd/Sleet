@@ -1,7 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Sleet.Server.Data;
 using Sleet.Shared.Models;
 
 namespace Sleet.Server.Controllers
@@ -10,16 +12,28 @@ namespace Sleet.Server.Controllers
     [Route("[controller]")]
     public class ComponentController : ControllerBase
     {
-        [HttpGet]
-        public async IAsyncEnumerable<Component> GetAsync()
+        private ApplicationDbContext _dbContext;
+
+        public ComponentController(ApplicationDbContext dbContext)
         {
-            yield return await Task.FromResult(new Component() {Id = new Guid(), Name = "Temp"});
+            _dbContext = dbContext;
+        }
+
+        [HttpGet]
+        public IAsyncEnumerable<Component> GetAsync()
+        { 
+            return _dbContext.Components.AsAsyncEnumerable();
         }
 
         [HttpPost]
         public async Task PostAsync(Component component)
         {
-            throw new NotImplementedException();
+            if (_dbContext.Components.Any(_=>_.Id==component.Id))
+            {
+                throw new Exception();
+            }
+            await _dbContext.Components.AddAsync(component);
+            await _dbContext.SaveChangesAsync();
         }
     }
 }

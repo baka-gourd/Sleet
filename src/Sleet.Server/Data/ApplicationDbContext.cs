@@ -15,7 +15,10 @@ namespace Sleet.Server.Data
             base.OnConfiguring(optionsBuilder);
         }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder) {
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Language>().HasData(DbInitializer.GenerateLanguages());
             base.OnModelCreating(modelBuilder);
         }
         public DbSet<Translation> Translations { get; set;}

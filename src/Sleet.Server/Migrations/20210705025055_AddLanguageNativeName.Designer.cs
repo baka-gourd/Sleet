@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Sleet.Server.Data;
 
 namespace Sleet.Server.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210705025055_AddLanguageNativeName")]
+    partial class AddLanguageNativeName
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -5770,7 +5772,6 @@ namespace Sleet.Server.Migrations
                             Code = "zu-ZA",
                             EnglishName = "isiZulu (South Africa)",
                             NativeName = "isiZulu (iNingizimu Afrika)"
-
                         });
                 });
 

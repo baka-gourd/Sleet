@@ -8,17 +8,11 @@ namespace Sleet.Server.Data
 {
     public class DbInitializer
     {
-        public static void Initialize(ApplicationDbContext context)
+        public static List<Language> GenerateLanguages()
         {
-            context.Database.EnsureCreated();
-            if (context.Languages.Any())
-            {
-                return;
-            }
             var languages = CultureInfo.GetCultures(CultureTypes.AllCultures)
-                .Select(_ => new Language() { Id = Guid.NewGuid(), Code = _.Name, EnglishName = _.EnglishName }).ToList();
-            context.Languages.AddRange(languages);
-            context.SaveChanges();
+                .Select(_ => new Language() { Id = Guid.NewGuid(), Code = _.Name, EnglishName = _.EnglishName,NativeName = _.NativeName}).ToList();
+            return languages;
         }
     }
 }
