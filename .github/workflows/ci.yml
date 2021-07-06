@@ -37,7 +37,9 @@ jobs:
       with:
           node-version: 16.30
     - name: Install yarn
-      run: npm install yarn -g
+      run: |
+        rm ./src/frontend/yarn.lock
+        npm install yarn -g
     - name: Run yarn install
       run: yarn install
     - name: Build
