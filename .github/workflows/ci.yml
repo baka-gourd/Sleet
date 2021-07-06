@@ -36,11 +36,11 @@ jobs:
       uses: actions/setup-node@v2.1.5
       with:
           node-version: 16.30
-    - name: Run npm install
-      run: npm install
-    - name: Install Angular Cli
-      run: npm install @angular/cli -g
+    - name: Install yarn
+      run: npm install yarn -g
+    - name: Run yarn install
+      run: yarn install
     - name: Build
-      run: ng build
+      run: yarn build
     - name: Lint
-      run: ng lint
+      run: yarn lint
