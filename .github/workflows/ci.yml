@@ -38,12 +38,10 @@ jobs:
           node-version: 16.30
     - name: Install yarn
       run: |
-        rm ./yarn.lock
-        npm install --global windows-build-tools
         npm install yarn -g
     - name: Run yarn install
       run: yarn install
     - name: Build
-      run: yarn build
+      run: yarn run build
     - name: Lint
       run: yarn lint
